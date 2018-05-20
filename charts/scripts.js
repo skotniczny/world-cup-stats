@@ -1,22 +1,7 @@
 /* global DATA, Chart */
-var options = {
-  legend: {
-    display: false
-  },
-  layout: {
-    padding: {
-      top: 20
-    }
-  },
-  maintainAspectRatio: true,
-  scales: {
-    yAxes: [{
-      ticks: {
-        beginAtZero: false
-      }
-    }]
-  }
-}
+Chart.defaults.global.legend.display = false
+Chart.defaults.global.maintainAspectRatio = true
+Chart.defaults.global.layout.padding.top = 20
 
 Chart.plugins.register({
   afterDatasetsDraw: function (chart) {
@@ -49,40 +34,35 @@ var ctxBrazil = document.getElementById('brazil').getContext('2d')
 // eslint-disable-next-line no-unused-vars
 var brazilChart = new Chart(ctxBrazil, {
   type: 'bar',
-  data: makeData(DATA.brazil.mostFrequentScores),
-  options: options
+  data: makeData(DATA.brazil.mostFrequentScores)
 })
 
 var ctxSouthAfrica = document.getElementById('south_africa').getContext('2d')
 // eslint-disable-next-line no-unused-vars
 var southAfricaChart = new Chart(ctxSouthAfrica, {
   type: 'bar',
-  data: makeData(DATA.south_africa.mostFrequentScores),
-  options: options
+  data: makeData(DATA.south_africa.mostFrequentScores)
 })
 
 var ctxGermany = document.getElementById('germany').getContext('2d')
 // eslint-disable-next-line no-unused-vars
 var germanyChart = new Chart(ctxGermany, {
   type: 'bar',
-  data: makeData(DATA.germany.mostFrequentScores),
-  options: options
+  data: makeData(DATA.germany.mostFrequentScores)
 })
 
 var ctxKoreaJapan = document.getElementById('korea_japan').getContext('2d')
 // eslint-disable-next-line no-unused-vars
 var koreaJapanChart = new Chart(ctxKoreaJapan, {
   type: 'bar',
-  data: makeData(DATA.korea_japan.mostFrequentScores),
-  options: options
+  data: makeData(DATA.korea_japan.mostFrequentScores)
 })
 
 var ctxFrance = document.getElementById('france').getContext('2d')
 // eslint-disable-next-line no-unused-vars
 var franceChart = new Chart(ctxFrance, {
   type: 'bar',
-  data: makeData(DATA.france.mostFrequentScores),
-  options: options
+  data: makeData(DATA.france.mostFrequentScores)
 })
 
 var ctxLast5 = document.getElementById('last_5').getContext('2d')
@@ -90,23 +70,68 @@ var ctxLast5 = document.getElementById('last_5').getContext('2d')
 var last5Chart = new Chart(ctxLast5, {
   type: 'bar',
   data: makeData(DATA.last_5_world_cups.mostFrequentScores),
-  options: options
+  options: {
+    title: {
+      display: true,
+      text: 'Most Frequent Scores'
+    }
+  }
+})
+
+var ctxLast5Group = document.getElementById('last_5_group').getContext('2d')
+// eslint-disable-next-line no-unused-vars
+var last5GroupChart = new Chart(ctxLast5Group, {
+  type: 'bar',
+  data: makeData(DATA.last_5_world_cups.mostFrequentScoresGroupStage),
+  options: {
+    title: {
+      display: true,
+      text: 'Most Frequent Scores in Group Stage'
+    }
+  }
+})
+
+var ctxLast5PlayOff = document.getElementById('last_5_playoff').getContext('2d')
+// eslint-disable-next-line no-unused-vars
+var last5PlayOffChart = new Chart(ctxLast5PlayOff, {
+  type: 'bar',
+  data: makeData(DATA.last_5_world_cups.mostFrequentScoresPlayOffStage),
+  options: {
+    title: {
+      display: true,
+      text: 'Most Frequent Scores in PlayOff Stage'
+    }
+  }
 })
 
 var ctxDiff = document.getElementById('diff').getContext('2d')
 // eslint-disable-next-line no-unused-vars
 var diffChart = new Chart(ctxDiff, {
   type: 'bar',
-  data: makeData(DATA.last_5_world_cups.goalsDiff),
-  options: options
+  data: makeData(DATA.last_5_world_cups.goalsDiff)
 })
 
 var scoresHeadings = ['Score', 'Number', 'Percent']
+
 makeTable(document.querySelector('#scores-brazil'), scoresHeadings, DATA.brazil.mostFrequentScores)
+makeTable(document.querySelector('#scores-brazil-group'), scoresHeadings, DATA.brazil.mostFrequentScoresGroupStage)
+makeTable(document.querySelector('#scores-brazil-playoff'), scoresHeadings, DATA.brazil.mostFrequentScoresPlayOffStage)
+
 makeTable(document.querySelector('#scores-south_africa'), scoresHeadings, DATA.south_africa.mostFrequentScores)
+makeTable(document.querySelector('#scores-south_africa-group'), scoresHeadings, DATA.south_africa.mostFrequentScoresGroupStage)
+makeTable(document.querySelector('#scores-south_africa-playoff'), scoresHeadings, DATA.south_africa.mostFrequentScoresPlayOffStage)
+
 makeTable(document.querySelector('#scores-germany'), scoresHeadings, DATA.germany.mostFrequentScores)
+makeTable(document.querySelector('#scores-germany-group'), scoresHeadings, DATA.germany.mostFrequentScoresGroupStage)
+makeTable(document.querySelector('#scores-germany-playoff'), scoresHeadings, DATA.germany.mostFrequentScoresPlayOffStage)
+
 makeTable(document.querySelector('#scores-korea_japan'), scoresHeadings, DATA.korea_japan.mostFrequentScores)
+makeTable(document.querySelector('#scores-korea_japan-group'), scoresHeadings, DATA.korea_japan.mostFrequentScoresGroupStage)
+makeTable(document.querySelector('#scores-korea_japan-playoff'), scoresHeadings, DATA.korea_japan.mostFrequentScoresPlayOffStage)
+
 makeTable(document.querySelector('#scores-france'), scoresHeadings, DATA.france.mostFrequentScores)
+makeTable(document.querySelector('#scores-france-group'), scoresHeadings, DATA.france.mostFrequentScoresGroupStage)
+makeTable(document.querySelector('#scores-france-playoff'), scoresHeadings, DATA.france.mostFrequentScoresPlayOffStage)
 
 var diffHeadings = ['Goals Difference', 'Number', 'Percent']
 makeTable(document.querySelector('#diff-brazil'), diffHeadings, DATA.brazil.goalsDiff)

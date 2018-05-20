@@ -169,26 +169,38 @@ console.log(byGoalsDiff(normalizeScores(allResults)))
 const data = {
   brazil: {
     mostFrequentScores: scoresByFreq(normalizeScores(BRAZIL)),
+    mostFrequentScoresGroupStage: scoresByFreq(normalizeScores(BRAZIL), 'group'),
+    mostFrequentScoresPlayOffStage: scoresByFreq(normalizeScores(BRAZIL), 'playoff'),
     goalsDiff: byGoalsDiff(normalizeScores(BRAZIL))
   },
   south_africa: {
     mostFrequentScores: scoresByFreq(normalizeScores(SOUTH_AFRICA)),
+    mostFrequentScoresGroupStage: scoresByFreq(normalizeScores(SOUTH_AFRICA), 'group'),
+    mostFrequentScoresPlayOffStage: scoresByFreq(normalizeScores(SOUTH_AFRICA), 'playoff'),
     goalsDiff: byGoalsDiff(normalizeScores(SOUTH_AFRICA))
   },
   germany: {
     mostFrequentScores: scoresByFreq(normalizeScores(GERMANY)),
+    mostFrequentScoresGroupStage: scoresByFreq(normalizeScores(GERMANY), 'group'),
+    mostFrequentScoresPlayOffStage: scoresByFreq(normalizeScores(GERMANY), 'playoff'),
     goalsDiff: byGoalsDiff(normalizeScores(GERMANY))
   },
   korea_japan: {
     mostFrequentScores: scoresByFreq(normalizeScores(KOREA_JAPAN)),
+    mostFrequentScoresGroupStage: scoresByFreq(normalizeScores(KOREA_JAPAN), 'group'),
+    mostFrequentScoresPlayOffStage: scoresByFreq(normalizeScores(KOREA_JAPAN), 'playoff'),
     goalsDiff: byGoalsDiff(normalizeScores(KOREA_JAPAN))
   },
   france: {
     mostFrequentScores: scoresByFreq(normalizeScores(FRANCE)),
+    mostFrequentScoresGroupStage: scoresByFreq(normalizeScores(FRANCE), 'group'),
+    mostFrequentScoresPlayOffStage: scoresByFreq(normalizeScores(FRANCE), 'playoff'),
     goalsDiff: byGoalsDiff(normalizeScores(FRANCE))
   },
   last_5_world_cups: {
     mostFrequentScores: scoresByFreq(normalizeScores(allResults)),
+    mostFrequentScoresGroupStage: scoresByFreq(normalizeScores(groupStageResults)),
+    mostFrequentScoresPlayOffStage: scoresByFreq(normalizeScores(playOffStageResults)),
     goalsDiff: byGoalsDiff(normalizeScores(allResults))
   }
 }
