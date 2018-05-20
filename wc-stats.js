@@ -35,8 +35,9 @@ function scoresByFreq (scoresArray, opt) {
   Object.keys(scoresFreq)
     .sort((a, b) => { return scoresFreq[b] - scoresFreq[a] })
     .forEach(element => {
-      const percent = scoresFreq[element] / scoresArray.length * 100
-      result.push([element, scoresFreq[element], percent.toFixed(1)])
+      let percent = scoresFreq[element] / scoresArray.length * 100
+      percent = Number(percent.toFixed(1))
+      result.push([element, scoresFreq[element], percent])
     })
   return result
 }
@@ -145,8 +146,9 @@ function byGoalsDiff (resultsArr) {
 
   const out = []
   Object.keys(goalsDiff).forEach((key) => {
-    const percent = goalsDiff[key] / resultsArr.length * 100
-    out.push([key, goalsDiff[key], percent.toFixed(1)])
+    let percent = goalsDiff[key] / resultsArr.length * 100
+    percent = Number(percent.toFixed(1))
+    out.push([key, goalsDiff[key], percent])
   })
   return out
 }
