@@ -1,3 +1,5 @@
+const {writeFile} = require('fs')
+
 const FRANCE = require('./json/France_1998.json')
 const KOREA_JAPAN = require('./json/Korea-Japan_2002.json')
 const GERMANY = require('./json/Germany_2006.json')
@@ -163,3 +165,38 @@ console.log('France 1998')
 console.log(byGoalsDiff(normalizeScores(FRANCE)))
 console.log('Last 5 World Cups')
 console.log(byGoalsDiff(normalizeScores(allResults)))
+
+const data = {
+  brazil: {
+    mostFrequentScores: scoresByFreq(normalizeScores(BRAZIL)),
+    goalsDiff: byGoalsDiff(normalizeScores(BRAZIL))
+  },
+  south_africa: {
+    mostFrequentScores: scoresByFreq(normalizeScores(SOUTH_AFRICA)),
+    goalsDiff: byGoalsDiff(normalizeScores(SOUTH_AFRICA))
+  },
+  germany: {
+    mostFrequentScores: scoresByFreq(normalizeScores(GERMANY)),
+    goalsDiff: byGoalsDiff(normalizeScores(GERMANY))
+  },
+  korea_japan: {
+    mostFrequentScores: scoresByFreq(normalizeScores(KOREA_JAPAN)),
+    goalsDiff: byGoalsDiff(normalizeScores(KOREA_JAPAN))
+  },
+  france: {
+    mostFrequentScores: scoresByFreq(normalizeScores(FRANCE)),
+    goalsDiff: byGoalsDiff(normalizeScores(FRANCE))
+  },
+  last_5_world_cups: {
+    mostFrequentScores: scoresByFreq(normalizeScores(allResults)),
+    goalsDiff: byGoalsDiff(normalizeScores(allResults))
+  }
+}
+
+writeFile('./json/data.json', JSON.stringify(data), err => {
+  if (err) {
+    console.log(`Failed to write file: ${err}`)
+  } else {
+    console.log(`File ./json/data.json written`)
+  }
+})
