@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>World Cup Stats</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>  
+  <script src="./data.js"></script>
+</head>
+<body>
+  <section id="mostFrequentScores">
+    <div class="container">
+      <h1>Most frequent scores</h1>
+      <h2>Brazil 2014</h2>
+      <canvas id="brazil" width="960" height="400"></canvas>
+      <div id="scores-brazil" class="table-container" width="960" height="400"></div>
+      
+      <h2>South Africa 2010</h2>
+      <canvas id="south_africa" width="960" height="400"></canvas>
+      <div id="scores-south_africa" class="table-container" width="960" height="400"></div>
+      
+      <h2>Germany 2006</h2>
+      <canvas id="germany" width="960" height="400"></canvas>
+      <div id="scores-germany" class="table-container" width="960" height="400"></div>
+      
+      <h2>Korea/Japan 2002</h2>
+      <canvas id="korea_japan" width="960" height="400"></canvas>
+      <div id="scores-korea_japan" class="table-container" width="960" height="400"></div>
+      
+      <h2>France 1998</h2>
+      <canvas id="france" width="960" height="400"></canvas>
+      <div id="scores-france" class="table-container" width="960" height="400"></div>
+      
+      <h2>Last 5 World Cups</h2>
+      <canvas id="last_5" width="960" height="400"></canvas>
+    </div>
+  </section>
+  <section id="goalsDiff">
+    <div class="container">
+      <h1>Goals Difference</h1>
+      <h2>Brazil 2014</h2>
+      <div id="diff-brazil" class="table-container" width="960" height="400"></div>
+      
+      <h2>South Africa 2010</h2>
+      <div id="diff-south_africa" class="table-container" width="960" height="400"></div>
+      
+      <h2>Germany 2006</h2>
+      <div id="diff-germany" class="table-container" width="960" height="400"></div>
+      
+      <h2>Korea/Japan 2002</h2>
+      <div id="diff-korea_japan" class="table-container" width="960" height="400"></div>
+      
+      <h2>France 1998</h2>
+      <div id="diff-france" class="table-container" width="960" height="400"></div>
+
+      <h2>Last 5 World Cups</h2>
+      <canvas id="diff" width="960" height="400"></canvas>
+    </div>
+  </section>
+  <script src="./scripts.js"></script>
+</body>
+</html>

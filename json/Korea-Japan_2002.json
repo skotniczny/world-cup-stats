@@ -1,0 +1,322 @@
+[
+  {
+    "home": "France",
+    "away": "Senegal",
+    "score": "0-1"
+  },
+  {
+    "home": "Uruguay",
+    "away": "Denmark",
+    "score": "1-2"
+  },
+  {
+    "home": "Republic of Ireland",
+    "away": "Cameroon",
+    "score": "1-1"
+  },
+  {
+    "home": "Germany",
+    "away": "Saudi Arabia",
+    "score": "8-0"
+  },
+  {
+    "home": "Argentina",
+    "away": "Nigeria",
+    "score": "1-0"
+  },
+  {
+    "home": "Paraguay",
+    "away": "South Africa",
+    "score": "2-2"
+  },
+  {
+    "home": "England",
+    "away": "Sweden",
+    "score": "1-1"
+  },
+  {
+    "home": "Spain",
+    "away": "Slovenia",
+    "score": "3-1"
+  },
+  {
+    "home": "Brazil",
+    "away": "Turkey",
+    "score": "2-1"
+  },
+  {
+    "home": "Italy",
+    "away": "Ecuador",
+    "score": "2-0"
+  },
+  {
+    "home": "Croatia",
+    "away": "Mexico",
+    "score": "0-1"
+  },
+  {
+    "home": "China PR",
+    "away": "Costa Rica",
+    "score": "0-2"
+  },
+  {
+    "home": "Japan",
+    "away": "Belgium",
+    "score": "2-2"
+  },
+  {
+    "home": "Korea Republic",
+    "away": "Poland",
+    "score": "2-0"
+  },
+  {
+    "home": "Russia",
+    "away": "Tunisia",
+    "score": "2-0"
+  },
+  {
+    "home": "USA",
+    "away": "Portugal",
+    "score": "3-2"
+  },
+  {
+    "home": "Germany",
+    "away": "Republic of Ireland",
+    "score": "1-1"
+  },
+  {
+    "home": "Denmark",
+    "away": "Senegal",
+    "score": "1-1"
+  },
+  {
+    "home": "Cameroon",
+    "away": "Saudi Arabia",
+    "score": "1-0"
+  },
+  {
+    "home": "France",
+    "away": "Uruguay",
+    "score": "0-0"
+  },
+  {
+    "home": "Sweden",
+    "away": "Nigeria",
+    "score": "2-1"
+  },
+  {
+    "home": "Argentina",
+    "away": "England",
+    "score": "0-1"
+  },
+  {
+    "home": "Spain",
+    "away": "Paraguay",
+    "score": "3-1"
+  },
+  {
+    "home": "South Africa",
+    "away": "Slovenia",
+    "score": "1-0"
+  },
+  {
+    "home": "Brazil",
+    "away": "China PR",
+    "score": "4-0"
+  },
+  {
+    "home": "Italy",
+    "away": "Croatia",
+    "score": "1-2"
+  },
+  {
+    "home": "Costa Rica",
+    "away": "Turkey",
+    "score": "1-1"
+  },
+  {
+    "home": "Japan",
+    "away": "Russia",
+    "score": "1-0"
+  },
+  {
+    "home": "Mexico",
+    "away": "Ecuador",
+    "score": "2-1"
+  },
+  {
+    "home": "Korea Republic",
+    "away": "USA",
+    "score": "1-1"
+  },
+  {
+    "home": "Portugal",
+    "away": "Poland",
+    "score": "4-0"
+  },
+  {
+    "home": "Tunisia",
+    "away": "Belgium",
+    "score": "1-1"
+  },
+  {
+    "home": "Denmark",
+    "away": "France",
+    "score": "2-0"
+  },
+  {
+    "home": "Senegal",
+    "away": "Uruguay",
+    "score": "3-3"
+  },
+  {
+    "home": "Saudi Arabia",
+    "away": "Republic of Ireland",
+    "score": "0-3"
+  },
+  {
+    "home": "Cameroon",
+    "away": "Germany",
+    "score": "0-2"
+  },
+  {
+    "home": "Sweden",
+    "away": "Argentina",
+    "score": "1-1"
+  },
+  {
+    "home": "Nigeria",
+    "away": "England",
+    "score": "0-0"
+  },
+  {
+    "home": "Slovenia",
+    "away": "Paraguay",
+    "score": "1-3"
+  },
+  {
+    "home": "South Africa",
+    "away": "Spain",
+    "score": "2-3"
+  },
+  {
+    "home": "Costa Rica",
+    "away": "Brazil",
+    "score": "2-5"
+  },
+  {
+    "home": "Turkey",
+    "away": "China PR",
+    "score": "3-0"
+  },
+  {
+    "home": "Ecuador",
+    "away": "Croatia",
+    "score": "1-0"
+  },
+  {
+    "home": "Mexico",
+    "away": "Italy",
+    "score": "1-1"
+  },
+  {
+    "home": "Tunisia",
+    "away": "Japan",
+    "score": "0-2"
+  },
+  {
+    "home": "Portugal",
+    "away": "Korea Republic",
+    "score": "0-1"
+  },
+  {
+    "home": "Poland",
+    "away": "USA",
+    "score": "3-1"
+  },
+  {
+    "home": "Belgium",
+    "away": "Russia",
+    "score": "3-2"
+  },
+  {
+    "home": "Denmark",
+    "away": "England",
+    "score": "0-3"
+  },
+  {
+    "home": "Germany",
+    "away": "Paraguay",
+    "score": "1-0"
+  },
+  {
+    "home": "Spain",
+    "away": "Republic of Ireland",
+    "score": "1-1"
+  },
+  {
+    "home": "Sweden",
+    "away": "Senegal",
+    "score": "1-2"
+  },
+  {
+    "home": "Brazil",
+    "away": "Belgium",
+    "score": "2-0"
+  },
+  {
+    "home": "Mexico",
+    "away": "USA",
+    "score": "0-2"
+  },
+  {
+    "home": "Japan",
+    "away": "Turkey",
+    "score": "0-1"
+  },
+  {
+    "home": "Korea Republic",
+    "away": "Italy",
+    "score": "2-1"
+  },
+  {
+    "home": "England",
+    "away": "Brazil",
+    "score": "1-2"
+  },
+  {
+    "home": "Germany",
+    "away": "USA",
+    "score": "1-0"
+  },
+  {
+    "home": "Senegal",
+    "away": "Turkey",
+    "score": "0-1"
+  },
+  {
+    "home": "Spain",
+    "away": "Korea Republic",
+    "score": "0-0"
+  },
+  {
+    "home": "Germany",
+    "away": "Korea Republic",
+    "score": "1-0"
+  },
+  {
+    "home": "Brazil",
+    "away": "Turkey",
+    "score": "1-0"
+  },
+  {
+    "home": "Korea Republic",
+    "away": "Turkey",
+    "score": "2-3"
+  },
+  {
+    "home": "Germany",
+    "away": "Brazil",
+    "score": "0-2"
+  }
+]
