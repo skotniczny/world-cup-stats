@@ -1,4 +1,4 @@
-const {writeFile} = require('fs')
+const {normalizeScores, scoresByFreq, byGoals, byGoalsDiff} = require('./stats-functions')
 
 const FRANCE = require('./json/France_1998.json')
 const KOREA_JAPAN = require('./json/Korea-Japan_2002.json')
@@ -9,38 +9,6 @@ const BRAZIL = require('./json/Brazil_2014.json')
 const allResults = [...FRANCE, ...KOREA_JAPAN, ...GERMANY, ...SOUTH_AFRICA, ...BRAZIL]
 const groupStageResults = [...FRANCE.slice(0, 48), ...KOREA_JAPAN.slice(0, 48), ...GERMANY.slice(0, 48), ...SOUTH_AFRICA.slice(0, 48), ...BRAZIL.slice(0, 48)]
 const playOffStageResults = [...FRANCE.slice(48), ...KOREA_JAPAN.slice(48), ...GERMANY.slice(48), ...SOUTH_AFRICA.slice(48), ...BRAZIL.slice(48)]
-
-function normalizeScores (results) {
-  return results.map((match) => {
-    const [home, away] = match.score.split('-')
-    if (home < away) {
-      return [away, home].join('-')
-    }
-    return match.score
-  })
-}
-
-function scoresByFreq (scoresArray, opt) {
-  if (opt === 'group') {
-    scoresArray = scoresArray.slice(0, 48)
-  }
-  if (opt === 'playoff') {
-    scoresArray = scoresArray.slice(48)
-  }
-  const scoresFreq = scoresArray.reduce((sums, score) => {
-    sums[score] = (sums[score] || 0) + 1
-    return sums
-  }, {})
-  const result = []
-  Object.keys(scoresFreq)
-    .sort((a, b) => { return scoresFreq[b] - scoresFreq[a] })
-    .forEach(element => {
-      let percent = scoresFreq[element] / scoresArray.length * 100
-      percent = Number(percent.toFixed(1))
-      result.push([element, scoresFreq[element], percent])
-    })
-  return result
-}
 
 console.log('Brazil 2014')
 console.log(scoresByFreq(normalizeScores(BRAZIL)))
@@ -90,7 +58,7 @@ console.log('GOALS SCORED')
 
 const notDraws = scoresByFreq(normalizeScores(allResults)).filter(result => {
   const [home, away] = result[0].split('-')
-  return home !== away[1]
+  return home !== away
 })
 
 // eslint-disable-next-line no-unused-vars
@@ -107,51 +75,11 @@ const loosersGoals = [...new Set(notDraws.map(([score, no, precent]) => {
   return score.split('-')[1]
 }))]
 
-function byGoals (flag, uniq, results) {
-  const out = []
-  for (let score of uniq) {
-    const sum = results.filter(result => {
-      const [winner, looser] = result[0].split('-')
-      if (flag === 'winners') {
-        return winner === score
-      }
-      if (flag === 'loosers') {
-        return looser === score
-      }
-    }).reduce((sum, arr) => {
-      sum += arr[1]
-      return sum
-    }, 0)
-    out.push({[score]: sum})
-  }
-  return out
-}
-
 console.log('WINNERS GOALS')
 console.log(byGoals('winners', winnerGoals, notDraws))
 
 console.log('LOOSERS GOALS')
 console.log(byGoals('loosers', loosersGoals, notDraws))
-
-function byGoalsDiff (resultsArr) {
-  const diffArr = resultsArr.map(result => {
-    const [home, away] = result.split('-')
-    return home - away
-  }).sort((a, b) => Number(a) - Number(b))
-
-  const goalsDiff = diffArr.reduce((sums, diff) => {
-    sums[diff] = (sums[diff] || 0) + 1
-    return sums
-  }, {})
-
-  const out = []
-  Object.keys(goalsDiff).forEach((key) => {
-    let percent = goalsDiff[key] / resultsArr.length * 100
-    percent = Number(percent.toFixed(1))
-    out.push([key, goalsDiff[key], percent])
-  })
-  return out
-}
 
 console.log('\n')
 console.log('GOALS DIFF')
@@ -167,115 +95,3 @@ console.log('France 1998')
 console.log(byGoalsDiff(normalizeScores(FRANCE)))
 console.log('Last 5 World Cups')
 console.log(byGoalsDiff(normalizeScores(allResults)))
-
-function calculatePoints (type, results) {
-  let sum = 0
-  const [typeHome, typeAway] = type.split('-')
-  for (let result of results) {
-    const [resultHome, resultAway] = result.split('-')
-    if ((typeHome > typeAway && resultHome > resultAway) || (typeHome === typeAway && resultHome === resultAway) || (typeHome < typeAway && resultHome < resultAway)) {
-      sum += 1
-    }
-    if (typeHome - typeAway === resultHome - resultAway) {
-      sum += 1
-    }
-    if (typeHome === resultHome) {
-      sum += 1
-    }
-    if (typeAway === resultAway) {
-      sum += 1
-    }
-    if (typeHome === resultHome && typeAway === resultAway) {
-      sum += 1
-    }
-  }
-  return sum
-}
-
-const filter = (result) => {
-  const bool = (result === '2-1' || result === '1-0')
-  return !bool
-}
-
-console.log('Brazylia 2016')
-console.log('Typ 1:0')
-console.log('wynik', calculatePoints('1-0', normalizeScores(BRAZIL).filter(filter)))
-console.log('Typ 2:1')
-console.log('wynik', calculatePoints('2-1', normalizeScores(BRAZIL).filter(filter)))
-
-console.log('RPA 2010')
-console.log('Typ 1:0')
-console.log('wynik', calculatePoints('1-0', normalizeScores(SOUTH_AFRICA).filter(filter)))
-console.log('Typ 2:1')
-console.log('wynik', calculatePoints('2-1', normalizeScores(SOUTH_AFRICA).filter(filter)))
-
-console.log('Niemcy 2006')
-console.log('Typ 1:0')
-console.log('wynik', calculatePoints('1-0', normalizeScores(GERMANY).filter(filter)))
-console.log('Typ 2:1')
-console.log('wynik', calculatePoints('2-1', normalizeScores(GERMANY).filter(filter)))
-
-console.log('Korea/Japonia 2002')
-console.log('Typ 1:0')
-console.log('wynik', calculatePoints('1-0', normalizeScores(KOREA_JAPAN).filter(filter)))
-console.log('Typ 2:1')
-console.log('wynik', calculatePoints('2-1', normalizeScores(KOREA_JAPAN).filter(filter)))
-
-console.log('Francja 1988')
-console.log('Typ 1:0')
-console.log('wynik', calculatePoints('1-0', normalizeScores(FRANCE).filter(filter)))
-console.log('Typ 2:1')
-console.log('wynik', calculatePoints('2-1', normalizeScores(FRANCE).filter(filter)))
-
-console.log('Pięć ostatnich mistrzostw')
-console.log('Typ 1:0')
-console.log('wynik', calculatePoints('1-0', normalizeScores(allResults).filter(filter)))
-console.log('Typ 2:1')
-console.log('wynik', calculatePoints('2-1', normalizeScores(allResults).filter(filter)))
-
-const data = {
-  brazil: {
-    mostFrequentScores: scoresByFreq(normalizeScores(BRAZIL)),
-    mostFrequentScoresGroupStage: scoresByFreq(normalizeScores(BRAZIL), 'group'),
-    mostFrequentScoresPlayOffStage: scoresByFreq(normalizeScores(BRAZIL), 'playoff'),
-    goalsDiff: byGoalsDiff(normalizeScores(BRAZIL))
-  },
-  south_africa: {
-    mostFrequentScores: scoresByFreq(normalizeScores(SOUTH_AFRICA)),
-    mostFrequentScoresGroupStage: scoresByFreq(normalizeScores(SOUTH_AFRICA), 'group'),
-    mostFrequentScoresPlayOffStage: scoresByFreq(normalizeScores(SOUTH_AFRICA), 'playoff'),
-    goalsDiff: byGoalsDiff(normalizeScores(SOUTH_AFRICA))
-  },
-  germany: {
-    mostFrequentScores: scoresByFreq(normalizeScores(GERMANY)),
-    mostFrequentScoresGroupStage: scoresByFreq(normalizeScores(GERMANY), 'group'),
-    mostFrequentScoresPlayOffStage: scoresByFreq(normalizeScores(GERMANY), 'playoff'),
-    goalsDiff: byGoalsDiff(normalizeScores(GERMANY))
-  },
-  korea_japan: {
-    mostFrequentScores: scoresByFreq(normalizeScores(KOREA_JAPAN)),
-    mostFrequentScoresGroupStage: scoresByFreq(normalizeScores(KOREA_JAPAN), 'group'),
-    mostFrequentScoresPlayOffStage: scoresByFreq(normalizeScores(KOREA_JAPAN), 'playoff'),
-    goalsDiff: byGoalsDiff(normalizeScores(KOREA_JAPAN))
-  },
-  france: {
-    mostFrequentScores: scoresByFreq(normalizeScores(FRANCE)),
-    mostFrequentScoresGroupStage: scoresByFreq(normalizeScores(FRANCE), 'group'),
-    mostFrequentScoresPlayOffStage: scoresByFreq(normalizeScores(FRANCE), 'playoff'),
-    goalsDiff: byGoalsDiff(normalizeScores(FRANCE))
-  },
-  last_5_world_cups: {
-    mostFrequentScores: scoresByFreq(normalizeScores(allResults)),
-    mostFrequentScoresGroupStage: scoresByFreq(normalizeScores(groupStageResults)),
-    mostFrequentScoresPlayOffStage: scoresByFreq(normalizeScores(playOffStageResults)),
-    goalsDiff: byGoalsDiff(normalizeScores(allResults))
-  }
-}
-
-writeFile('./json/data.json', JSON.stringify(data), err => {
-  if (err) {
-    console.log(`Failed to write file: ${err}`)
-  } else {
-    console.log(`File ./json/data.json written`)
-  }
-})
