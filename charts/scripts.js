@@ -2,6 +2,20 @@
 Chart.defaults.global.legend.display = false
 Chart.defaults.global.maintainAspectRatio = true
 Chart.defaults.global.layout.padding.top = 20
+Chart.defaults.global.tooltips.callbacks.label = (tooltipItem, data) => {
+  // get the concerned dataset
+  const dataset = data.datasets[tooltipItem.datasetIndex]
+  // calculate the total of this data set
+  const total = dataset.data.reduce((sum, currentValue) => {
+    return sum + currentValue
+  })
+  // get the current items value
+  const currentValue = dataset.data[tooltipItem.index]
+  // calculate the precentage based on the total and current item, also this does a rough rounding to give a whole number
+  const precentage = ((currentValue / total) * 100).toFixed(1) + '%'
+
+  return precentage
+}
 
 Chart.plugins.register({
   afterDatasetsDraw: (chart) => {
