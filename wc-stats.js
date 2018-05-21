@@ -168,6 +168,71 @@ console.log(byGoalsDiff(normalizeScores(FRANCE)))
 console.log('Last 5 World Cups')
 console.log(byGoalsDiff(normalizeScores(allResults)))
 
+function calculatePoints (type, results) {
+  let sum = 0
+  const [typeHome, typeAway] = type.split('-')
+  for (let result of results) {
+    const [resultHome, resultAway] = result.split('-')
+    if ((typeHome > typeAway && resultHome > resultAway) || (typeHome === typeAway && resultHome === resultAway) || (typeHome < typeAway && resultHome < resultAway)) {
+      sum += 1
+    }
+    if (typeHome - typeAway === resultHome - resultAway) {
+      sum += 1
+    }
+    if (typeHome === resultHome) {
+      sum += 1
+    }
+    if (typeAway === resultAway) {
+      sum += 1
+    }
+    if (typeHome === resultHome && typeAway === resultAway) {
+      sum += 1
+    }
+  }
+  return sum
+}
+
+const filter = (result) => {
+  const bool = (result === '2-1' || result === '1-0')
+  return !bool
+}
+
+console.log('Brazylia 2016')
+console.log('Typ 1:0')
+console.log('wynik', calculatePoints('1-0', normalizeScores(BRAZIL).filter(filter)))
+console.log('Typ 2:1')
+console.log('wynik', calculatePoints('2-1', normalizeScores(BRAZIL).filter(filter)))
+
+console.log('RPA 2010')
+console.log('Typ 1:0')
+console.log('wynik', calculatePoints('1-0', normalizeScores(SOUTH_AFRICA).filter(filter)))
+console.log('Typ 2:1')
+console.log('wynik', calculatePoints('2-1', normalizeScores(SOUTH_AFRICA).filter(filter)))
+
+console.log('Niemcy 2006')
+console.log('Typ 1:0')
+console.log('wynik', calculatePoints('1-0', normalizeScores(GERMANY).filter(filter)))
+console.log('Typ 2:1')
+console.log('wynik', calculatePoints('2-1', normalizeScores(GERMANY).filter(filter)))
+
+console.log('Korea/Japonia 2002')
+console.log('Typ 1:0')
+console.log('wynik', calculatePoints('1-0', normalizeScores(KOREA_JAPAN).filter(filter)))
+console.log('Typ 2:1')
+console.log('wynik', calculatePoints('2-1', normalizeScores(KOREA_JAPAN).filter(filter)))
+
+console.log('Francja 1988')
+console.log('Typ 1:0')
+console.log('wynik', calculatePoints('1-0', normalizeScores(FRANCE).filter(filter)))
+console.log('Typ 2:1')
+console.log('wynik', calculatePoints('2-1', normalizeScores(FRANCE).filter(filter)))
+
+console.log('Pięć ostatnich mistrzostw')
+console.log('Typ 1:0')
+console.log('wynik', calculatePoints('1-0', normalizeScores(allResults).filter(filter)))
+console.log('Typ 2:1')
+console.log('wynik', calculatePoints('2-1', normalizeScores(allResults).filter(filter)))
+
 const data = {
   brazil: {
     mostFrequentScores: scoresByFreq(normalizeScores(BRAZIL)),
