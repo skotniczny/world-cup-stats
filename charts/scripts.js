@@ -48,35 +48,65 @@ const ctxBrazil = document.getElementById('brazil').getContext('2d')
 // eslint-disable-next-line no-unused-vars
 const brazilChart = new Chart(ctxBrazil, {
   type: 'bar',
-  data: makeData(DATA.brazil.mostFrequentScores)
+  data: makeData(DATA.brazil.mostFrequentScores),
+  options: {
+    title: {
+      display: true,
+      text: 'Most Frequent Scores'
+    }
+  }
 })
 
 const ctxSouthAfrica = document.getElementById('south_africa').getContext('2d')
 // eslint-disable-next-line no-unused-vars
 const southAfricaChart = new Chart(ctxSouthAfrica, {
   type: 'bar',
-  data: makeData(DATA.south_africa.mostFrequentScores)
+  data: makeData(DATA.south_africa.mostFrequentScores),
+  options: {
+    title: {
+      display: true,
+      text: 'Most Frequent Scores'
+    }
+  }
 })
 
 const ctxGermany = document.getElementById('germany').getContext('2d')
 // eslint-disable-next-line no-unused-vars
 const germanyChart = new Chart(ctxGermany, {
   type: 'bar',
-  data: makeData(DATA.germany.mostFrequentScores)
+  data: makeData(DATA.germany.mostFrequentScores),
+  options: {
+    title: {
+      display: true,
+      text: 'Most Frequent Scores'
+    }
+  }
 })
 
 const ctxKoreaJapan = document.getElementById('korea_japan').getContext('2d')
 // eslint-disable-next-line no-unused-vars
 const koreaJapanChart = new Chart(ctxKoreaJapan, {
   type: 'bar',
-  data: makeData(DATA.korea_japan.mostFrequentScores)
+  data: makeData(DATA.korea_japan.mostFrequentScores),
+  options: {
+    title: {
+      display: true,
+      text: 'Most Frequent Scores'
+    }
+  }
 })
 
 const ctxFrance = document.getElementById('france').getContext('2d')
 // eslint-disable-next-line no-unused-vars
 const franceChart = new Chart(ctxFrance, {
   type: 'bar',
-  data: makeData(DATA.france.mostFrequentScores)
+  data: makeData(DATA.france.mostFrequentScores),
+  options: {
+    title: {
+      display: true,
+      text: 'Most Frequent Scores'
+    }
+  }
 })
 
 const ctxLast5 = document.getElementById('last_5').getContext('2d')
@@ -122,7 +152,13 @@ const ctxDiff = document.getElementById('diff').getContext('2d')
 // eslint-disable-next-line no-unused-vars
 const diffChart = new Chart(ctxDiff, {
   type: 'bar',
-  data: makeData(DATA.last_5_world_cups.goalsDiff)
+  data: makeData(DATA.last_5_world_cups.goalsDiff),
+  options: {
+    title: {
+      display: true,
+      text: 'Goals Difference'
+    }
+  }
 })
 
 const scoresHeadings = ['Score', 'Number', 'Percent']
