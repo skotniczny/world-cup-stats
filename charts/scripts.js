@@ -52,7 +52,7 @@ const brazilChart = new Chart(ctxBrazil, {
   options: {
     title: {
       display: true,
-      text: 'Most Frequent Scores'
+      text: 'Most Common Scores'
     }
   }
 })
@@ -65,7 +65,7 @@ const southAfricaChart = new Chart(ctxSouthAfrica, {
   options: {
     title: {
       display: true,
-      text: 'Most Frequent Scores'
+      text: 'Most Common Scores'
     }
   }
 })
@@ -78,7 +78,7 @@ const germanyChart = new Chart(ctxGermany, {
   options: {
     title: {
       display: true,
-      text: 'Most Frequent Scores'
+      text: 'Most Common Scores'
     }
   }
 })
@@ -91,7 +91,7 @@ const koreaJapanChart = new Chart(ctxKoreaJapan, {
   options: {
     title: {
       display: true,
-      text: 'Most Frequent Scores'
+      text: 'Most Common Scores'
     }
   }
 })
@@ -104,7 +104,7 @@ const franceChart = new Chart(ctxFrance, {
   options: {
     title: {
       display: true,
-      text: 'Most Frequent Scores'
+      text: 'Most Common Scores'
     }
   }
 })
@@ -117,7 +117,7 @@ const last5Chart = new Chart(ctxLast5, {
   options: {
     title: {
       display: true,
-      text: 'Most Frequent Scores'
+      text: 'Most Common Scores'
     }
   }
 })
@@ -130,7 +130,7 @@ const last5GroupChart = new Chart(ctxLast5Group, {
   options: {
     title: {
       display: true,
-      text: 'Most Frequent Scores in Group Stage'
+      text: 'Most Common Scores in Group Stage'
     }
   }
 })
@@ -143,7 +143,7 @@ const last5PlayOffChart = new Chart(ctxLast5PlayOff, {
   options: {
     title: {
       display: true,
-      text: 'Most Frequent Scores in PlayOff Stage'
+      text: 'Most Common Scores in PlayOff Stage'
     }
   }
 })
@@ -229,20 +229,65 @@ function makeData (arr) {
 }
 
 function makeTable (node, headings, data) {
-  let html = "<table class='table'><thead>"
-  html += '<tr>'
+  const thead = elt('thead', {})
+  const tr = elt('tr', {})
   for (let i = 0; i < headings.length; i++) {
-    html += '<th>' + headings[i] + '</th>'
+    const th = elt('th', {})
+    th.textContent = headings[i]
+    tr.appendChild(th)
   }
-  html += '<tr></thead><tbody>'
+  thead.appendChild(tr)
+  const tbody = elt('tbody', {})
   for (let i = 0; i < data.length; i++) {
+    const tr = elt('tr', {})
     const row = data[i]
-    html += '<tr>'
     for (let j = 0; j < row.length; j++) {
-      html += '<td>' + row[j] + '</td>'
+      const td = elt('td', {})
+      td.textContent = row[j]
+      tr.appendChild(td)
     }
-    html += '</tr>'
+    tbody.appendChild(tr)
   }
-  html += '</tbody></table>'
-  node.innerHTML = html
+  console.log(tbody, thead)
+  const table = elt('table', {class: 'table'}, thead, tbody)
+  node.appendChild(table)
+}
+
+function makeTabs (nodeList) {
+  for (let node of nodeList) {
+    let tabs = Array.from(node.children).map(node => {
+      let button = elt('button', {class: 'nav-item'})
+      button.textContent = node.getAttribute('data-tabname')
+      let tab = {node, button}
+      button.addEventListener('click', () => selectTab(tab, tabs))
+      return tab
+    })
+
+    let tabList = elt('div', {class: 'nav'})
+    for (let {button} of tabs) tabList.appendChild(button)
+    node.insertBefore(tabList, node.firstChild)
+    selectTab(tabs[0], tabs)
+  }
+
+  function selectTab (selectedTab, tabs) {
+    console.log(tabs)
+    for (let tab of tabs) {
+      let selected = tab === selectedTab
+      tab.node.style.display = selected ? '' : 'none'
+      tab.button.style.color = selected ? 'red' : ''
+    }
+  }
+}
+
+makeTabs(document.querySelectorAll('.tab-panel'))
+
+function elt (name, attrs, ...children) {
+  let dom = document.createElement(name)
+  for (let attr of Object.keys(attrs)) {
+    dom.setAttribute(attr, attrs[attr])
+  }
+  for (let child of children) {
+    dom.appendChild(child)
+  }
+  return dom
 }
