@@ -53,3 +53,46 @@ function makeData (obj) {
 urls.forEach((item) => {
   makeData(item)
 })
+
+const russia = [
+  {
+    name: 'Russia 2014',
+    url: 'http://www.fifa.com/worldcup/matches/'
+  }
+]
+
+function makeDataRussia (obj) {
+  const filename = obj.name.replace(/ /g, '_')
+  const url = obj.url
+  request(url, (err, response, body) => {
+    if (err) {
+      console.log(err)
+    }
+    const $ = cheerio.load(body)
+    const results = []
+    $('[data-tab=groupphase] .fixture').each((i, el) => {
+      console.log($(el).text())
+      const group = $(el).find('.fi__info__group').text()
+      const datetime = $(el).find('.fi-mu__info__datetime').data('utcdate')
+      const location = $(el).find('.fi__info__location .fi__info__venue').text()
+      const home = $(el).find('.home .fi-t__nText').text()
+      const away = $(el).find('.away .fi-t__nText').text()
+      results.push({
+        'home': home,
+        'away': away,
+        'group': group,
+        'date': datetime,
+        'location:': location
+      })
+    })
+    writeFile('./json/' + filename + '.json', JSON.stringify(results), err => {
+      if (err) {
+        console.log(`Failed to write file: ${err}`)
+      } else {
+        console.log(`File ${filename}.json written`)
+      }
+    })
+  })
+}
+
+makeDataRussia(russia[0])
