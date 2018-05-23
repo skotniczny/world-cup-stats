@@ -274,7 +274,11 @@ function makeTabs (nodeList) {
     for (let tab of tabs) {
       let selected = tab === selectedTab
       tab.node.style.display = selected ? '' : 'none'
-      tab.button.style.color = selected ? 'red' : ''
+      if (selected) {
+        tab.button.classList.add('active')
+      } else {
+        tab.button.classList.remove('active')
+      }
     }
   }
 }
