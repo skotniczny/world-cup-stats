@@ -248,7 +248,6 @@ function makeTable (node, headings, data) {
     }
     tbody.appendChild(tr)
   }
-  console.log(tbody, thead)
   const table = elt('table', {class: 'table'}, thead, tbody)
   node.appendChild(table)
 }
@@ -270,7 +269,6 @@ function makeTabs (nodeList) {
   }
 
   function selectTab (selectedTab, tabs) {
-    console.log(tabs)
     for (let tab of tabs) {
       let selected = tab === selectedTab
       tab.node.style.display = selected ? '' : 'none'

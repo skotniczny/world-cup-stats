@@ -71,7 +71,6 @@ function makeDataRussia (obj) {
     const $ = cheerio.load(body)
     const results = []
     $('[data-tab=groupphase] .fixture').each((i, el) => {
-      console.log($(el).text())
       const group = $(el).find('.fi__info__group').text()
       const datetime = $(el).find('.fi-mu__info__datetime').data('utcdate')
       const location = $(el).find('.fi__info__location .fi__info__venue').text()
