@@ -1,5 +1,18 @@
 // eslint-disable-next-line no-unused-vars
 const DATA = {
+  'russia': {
+    'mostFrequentScores': [
+      [ '5-0', 1, 100 ]
+    ],
+    'mostFrequentScoresGroupStage': [
+      [
+        '5-0', 1, 100 ]
+    ],
+    'mostFrequentScoresPlayOffStage': [],
+    'goalsDiff': [
+      [ '5', 1, 100 ]
+    ]
+  },
   'brazil': {
     'mostFrequentScores': [
       [ '2-1', 15, 23.4 ],

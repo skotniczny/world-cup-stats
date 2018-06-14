@@ -1,12 +1,14 @@
 module.exports = {
   normalizeScores: function (results) {
-    return results.map((match) => {
-      const [home, away] = match.score.split('-')
-      if (home < away) {
-        return [away, home].join('-')
-      }
-      return match.score
-    })
+    return results
+      .filter(match => match.hasOwnProperty('score'))
+      .map((match) => {
+        const [home, away] = match.score.split('-')
+        if (home < away) {
+          return [away, home].join('-')
+        }
+        return match.score
+      })
   },
   scoresByFreq: function (scoresArray, opt) {
     if (opt === 'group') {

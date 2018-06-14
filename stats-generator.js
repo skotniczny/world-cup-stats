@@ -6,12 +6,19 @@ const KOREA_JAPAN = require('./json/Korea-Japan_2002.json')
 const GERMANY = require('./json/Germany_2006.json')
 const SOUTH_AFRICA = require('./json/South_Africa_2010.json')
 const BRAZIL = require('./json/Brazil_2014.json')
+const RUSSIA = require('./json/Russia_2018.json')
 
 const allResults = [...FRANCE, ...KOREA_JAPAN, ...GERMANY, ...SOUTH_AFRICA, ...BRAZIL]
 const groupStageResults = [...FRANCE.slice(0, 48), ...KOREA_JAPAN.slice(0, 48), ...GERMANY.slice(0, 48), ...SOUTH_AFRICA.slice(0, 48), ...BRAZIL.slice(0, 48)]
 const playOffStageResults = [...FRANCE.slice(48), ...KOREA_JAPAN.slice(48), ...GERMANY.slice(48), ...SOUTH_AFRICA.slice(48), ...BRAZIL.slice(48)]
 
 const data = {
+  russia: {
+    mostFrequentScores: scoresByFreq(normalizeScores(RUSSIA)),
+    mostFrequentScoresGroupStage: scoresByFreq(normalizeScores(RUSSIA), 'group'),
+    mostFrequentScoresPlayOffStage: scoresByFreq(normalizeScores(RUSSIA), 'playoff'),
+    goalsDiff: byGoalsDiff(normalizeScores(RUSSIA))
+  },
   brazil: {
     mostFrequentScores: scoresByFreq(normalizeScores(BRAZIL)),
     mostFrequentScoresGroupStage: scoresByFreq(normalizeScores(BRAZIL), 'group'),

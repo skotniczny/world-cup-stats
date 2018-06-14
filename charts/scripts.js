@@ -44,6 +44,19 @@ Chart.plugins.register({
   }
 })
 
+const ctxRussia = document.getElementById('russia').getContext('2d')
+// eslint-disable-next-line no-unused-vars
+const russiaChart = new Chart(ctxRussia, {
+  type: 'bar',
+  data: makeData(DATA.russia.mostFrequentScores),
+  options: {
+    title: {
+      display: true,
+      text: 'Most Common Scores'
+    }
+  }
+})
+
 const ctxBrazil = document.getElementById('brazil').getContext('2d')
 // eslint-disable-next-line no-unused-vars
 const brazilChart = new Chart(ctxBrazil, {
@@ -163,6 +176,10 @@ const diffChart = new Chart(ctxDiff, {
 
 const scoresHeadings = ['Scoreline', 'Number Of Games', 'Percent']
 
+makeTable(document.querySelector('#scores-russia'), scoresHeadings, DATA.russia.mostFrequentScores)
+makeTable(document.querySelector('#scores-russia-group'), scoresHeadings, DATA.russia.mostFrequentScoresGroupStage)
+// makeTable(document.querySelector('#scores-russia-playoff'), scoresHeadings, DATA.russia.mostFrequentScoresPlayOffStage)
+
 makeTable(document.querySelector('#scores-brazil'), scoresHeadings, DATA.brazil.mostFrequentScores)
 makeTable(document.querySelector('#scores-brazil-group'), scoresHeadings, DATA.brazil.mostFrequentScoresGroupStage)
 makeTable(document.querySelector('#scores-brazil-playoff'), scoresHeadings, DATA.brazil.mostFrequentScoresPlayOffStage)
@@ -184,6 +201,7 @@ makeTable(document.querySelector('#scores-france-group'), scoresHeadings, DATA.f
 makeTable(document.querySelector('#scores-france-playoff'), scoresHeadings, DATA.france.mostFrequentScoresPlayOffStage)
 
 const diffHeadings = ['Goals Difference', 'Number', 'Percent']
+makeTable(document.querySelector('#diff-russia'), diffHeadings, DATA.russia.goalsDiff)
 makeTable(document.querySelector('#diff-brazil'), diffHeadings, DATA.brazil.goalsDiff)
 makeTable(document.querySelector('#diff-south_africa'), diffHeadings, DATA.south_africa.goalsDiff)
 makeTable(document.querySelector('#diff-germany'), diffHeadings, DATA.germany.goalsDiff)
