@@ -2,337 +2,338 @@
   {
     "home": "Russia",
     "away": "Saudi Arabia",
+    "score": "5-0",
     "group": "Group A",
     "date": "2018-06-14T03:00:00.000Z",
-    "location:": "Moscow"
+    "location": "Moscow"
   },
   {
     "home": "Egypt",
     "away": "Uruguay",
     "group": "Group A",
     "date": "2018-06-15T12:00:00.000Z",
-    "location:": "Ekaterinburg"
+    "location": "Ekaterinburg"
   },
   {
     "home": "Morocco",
     "away": "IR Iran",
     "group": "Group B",
     "date": "2018-06-15T03:00:00.000Z",
-    "location:": "St. Petersburg"
+    "location": "St. Petersburg"
   },
   {
     "home": "Portugal",
     "away": "Spain",
     "group": "Group B",
     "date": "2018-06-15T06:00:00.000Z",
-    "location:": "Sochi"
+    "location": "Sochi"
   },
   {
     "home": "France",
     "away": "Australia",
     "group": "Group C",
     "date": "2018-06-16T10:00:00.000Z",
-    "location:": "Kazan"
+    "location": "Kazan"
   },
   {
     "home": "Argentina",
     "away": "Iceland",
     "group": "Group D",
     "date": "2018-06-16T01:00:00.000Z",
-    "location:": "Moscow"
+    "location": "Moscow"
   },
   {
     "home": "Peru",
     "away": "Denmark",
     "group": "Group C",
     "date": "2018-06-16T04:00:00.000Z",
-    "location:": "Saransk"
+    "location": "Saransk"
   },
   {
     "home": "Croatia",
     "away": "Nigeria",
     "group": "Group D",
     "date": "2018-06-16T07:00:00.000Z",
-    "location:": "Kaliningrad"
+    "location": "Kaliningrad"
   },
   {
     "home": "Costa Rica",
     "away": "Serbia",
     "group": "Group E",
     "date": "2018-06-17T12:00:00.000Z",
-    "location:": "Samara"
+    "location": "Samara"
   },
   {
     "home": "Germany",
     "away": "Mexico",
     "group": "Group F",
     "date": "2018-06-17T03:00:00.000Z",
-    "location:": "Moscow"
+    "location": "Moscow"
   },
   {
     "home": "Brazil",
     "away": "Switzerland",
     "group": "Group E",
     "date": "2018-06-17T06:00:00.000Z",
-    "location:": "Rostov-On-Don"
+    "location": "Rostov-On-Don"
   },
   {
     "home": "Sweden",
     "away": "Korea Republic",
     "group": "Group F",
     "date": "2018-06-18T12:00:00.000Z",
-    "location:": "Nizhny Novgorod"
+    "location": "Nizhny Novgorod"
   },
   {
     "home": "Belgium",
     "away": "Panama",
     "group": "Group G",
     "date": "2018-06-18T03:00:00.000Z",
-    "location:": "Sochi"
+    "location": "Sochi"
   },
   {
     "home": "Tunisia",
     "away": "England",
     "group": "Group G",
     "date": "2018-06-18T06:00:00.000Z",
-    "location:": "Volgograd"
+    "location": "Volgograd"
   },
   {
     "home": "Colombia",
     "away": "Japan",
     "group": "Group H",
     "date": "2018-06-19T12:00:00.000Z",
-    "location:": "Saransk"
+    "location": "Saransk"
   },
   {
     "home": "Poland",
     "away": "Senegal",
     "group": "Group H",
     "date": "2018-06-19T03:00:00.000Z",
-    "location:": "Moscow"
+    "location": "Moscow"
   },
   {
     "home": "Russia",
     "away": "Egypt",
     "group": "Group A",
     "date": "2018-06-19T06:00:00.000Z",
-    "location:": "St. Petersburg"
+    "location": "St. Petersburg"
   },
   {
     "home": "Portugal",
     "away": "Morocco",
     "group": "Group B",
     "date": "2018-06-20T12:00:00.000Z",
-    "location:": "Moscow"
+    "location": "Moscow"
   },
   {
     "home": "Uruguay",
     "away": "Saudi Arabia",
     "group": "Group A",
     "date": "2018-06-20T03:00:00.000Z",
-    "location:": "Rostov-On-Don"
+    "location": "Rostov-On-Don"
   },
   {
     "home": "IR Iran",
     "away": "Spain",
     "group": "Group B",
     "date": "2018-06-20T06:00:00.000Z",
-    "location:": "Kazan"
+    "location": "Kazan"
   },
   {
     "home": "Denmark",
     "away": "Australia",
     "group": "Group C",
     "date": "2018-06-21T12:00:00.000Z",
-    "location:": "Samara"
+    "location": "Samara"
   },
   {
     "home": "France",
     "away": "Peru",
     "group": "Group C",
     "date": "2018-06-21T03:00:00.000Z",
-    "location:": "Ekaterinburg"
+    "location": "Ekaterinburg"
   },
   {
     "home": "Argentina",
     "away": "Croatia",
     "group": "Group D",
     "date": "2018-06-21T06:00:00.000Z",
-    "location:": "Nizhny Novgorod"
+    "location": "Nizhny Novgorod"
   },
   {
     "home": "Brazil",
     "away": "Costa Rica",
     "group": "Group E",
     "date": "2018-06-22T12:00:00.000Z",
-    "location:": "St. Petersburg"
+    "location": "St. Petersburg"
   },
   {
     "home": "Nigeria",
     "away": "Iceland",
     "group": "Group D",
     "date": "2018-06-22T03:00:00.000Z",
-    "location:": "Volgograd"
+    "location": "Volgograd"
   },
   {
     "home": "Serbia",
     "away": "Switzerland",
     "group": "Group E",
     "date": "2018-06-22T06:00:00.000Z",
-    "location:": "Kaliningrad"
+    "location": "Kaliningrad"
   },
   {
     "home": "Belgium",
     "away": "Tunisia",
     "group": "Group G",
     "date": "2018-06-23T12:00:00.000Z",
-    "location:": "Moscow"
+    "location": "Moscow"
   },
   {
     "home": "Korea Republic",
     "away": "Mexico",
     "group": "Group F",
     "date": "2018-06-23T03:00:00.000Z",
-    "location:": "Rostov-On-Don"
+    "location": "Rostov-On-Don"
   },
   {
     "home": "Germany",
     "away": "Sweden",
     "group": "Group F",
     "date": "2018-06-23T06:00:00.000Z",
-    "location:": "Sochi"
+    "location": "Sochi"
   },
   {
     "home": "England",
     "away": "Panama",
     "group": "Group G",
     "date": "2018-06-24T12:00:00.000Z",
-    "location:": "Nizhny Novgorod"
+    "location": "Nizhny Novgorod"
   },
   {
     "home": "Japan",
     "away": "Senegal",
     "group": "Group H",
     "date": "2018-06-24T03:00:00.000Z",
-    "location:": "Ekaterinburg"
+    "location": "Ekaterinburg"
   },
   {
     "home": "Poland",
     "away": "Colombia",
     "group": "Group H",
     "date": "2018-06-24T06:00:00.000Z",
-    "location:": "Kazan"
+    "location": "Kazan"
   },
   {
     "home": "Uruguay",
     "away": "Russia",
     "group": "Group A",
     "date": "2018-06-25T02:00:00.000Z",
-    "location:": "Samara"
+    "location": "Samara"
   },
   {
     "home": "Saudi Arabia",
     "away": "Egypt",
     "group": "Group A",
     "date": "2018-06-25T02:00:00.000Z",
-    "location:": "Volgograd"
+    "location": "Volgograd"
   },
   {
     "home": "Spain",
     "away": "Morocco",
     "group": "Group B",
     "date": "2018-06-25T06:00:00.000Z",
-    "location:": "Kaliningrad"
+    "location": "Kaliningrad"
   },
   {
     "home": "IR Iran",
     "away": "Portugal",
     "group": "Group B",
     "date": "2018-06-25T06:00:00.000Z",
-    "location:": "Saransk"
+    "location": "Saransk"
   },
   {
     "home": "Australia",
     "away": "Peru",
     "group": "Group C",
     "date": "2018-06-26T02:00:00.000Z",
-    "location:": "Sochi"
+    "location": "Sochi"
   },
   {
     "home": "Denmark",
     "away": "France",
     "group": "Group C",
     "date": "2018-06-26T02:00:00.000Z",
-    "location:": "Moscow"
+    "location": "Moscow"
   },
   {
     "home": "Nigeria",
     "away": "Argentina",
     "group": "Group D",
     "date": "2018-06-26T06:00:00.000Z",
-    "location:": "St. Petersburg"
+    "location": "St. Petersburg"
   },
   {
     "home": "Iceland",
     "away": "Croatia",
     "group": "Group D",
     "date": "2018-06-26T06:00:00.000Z",
-    "location:": "Rostov-On-Don"
+    "location": "Rostov-On-Don"
   },
   {
     "home": "Korea Republic",
     "away": "Germany",
     "group": "Group F",
     "date": "2018-06-27T02:00:00.000Z",
-    "location:": "Kazan"
+    "location": "Kazan"
   },
   {
     "home": "Mexico",
     "away": "Sweden",
     "group": "Group F",
     "date": "2018-06-27T02:00:00.000Z",
-    "location:": "Ekaterinburg"
+    "location": "Ekaterinburg"
   },
   {
     "home": "Serbia",
     "away": "Brazil",
     "group": "Group E",
     "date": "2018-06-27T06:00:00.000Z",
-    "location:": "Moscow"
+    "location": "Moscow"
   },
   {
     "home": "Switzerland",
     "away": "Costa Rica",
     "group": "Group E",
     "date": "2018-06-27T06:00:00.000Z",
-    "location:": "Nizhny Novgorod"
+    "location": "Nizhny Novgorod"
   },
   {
     "home": "Japan",
     "away": "Poland",
     "group": "Group H",
     "date": "2018-06-28T02:00:00.000Z",
-    "location:": "Volgograd"
+    "location": "Volgograd"
   },
   {
     "home": "Senegal",
     "away": "Colombia",
     "group": "Group H",
     "date": "2018-06-28T02:00:00.000Z",
-    "location:": "Samara"
+    "location": "Samara"
   },
   {
     "home": "Panama",
     "away": "Tunisia",
     "group": "Group G",
     "date": "2018-06-28T06:00:00.000Z",
-    "location:": "Saransk"
+    "location": "Saransk"
   },
   {
     "home": "England",
     "away": "Belgium",
     "group": "Group G",
     "date": "2018-06-28T06:00:00.000Z",
-    "location:": "Kaliningrad"
+    "location": "Kaliningrad"
   }
 ]

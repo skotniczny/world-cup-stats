@@ -56,7 +56,7 @@ urls.forEach((item) => {
 
 const russia = [
   {
-    name: 'Russia 2014',
+    name: 'Russia 2018',
     url: 'http://www.fifa.com/worldcup/matches/'
   }
 ]
@@ -81,7 +81,7 @@ function makeDataRussia (obj) {
         'away': away,
         'group': group,
         'date': datetime,
-        'location:': location
+        'location': location
       })
     })
     writeFile('./json/' + filename + '.json', JSON.stringify(results), err => {
