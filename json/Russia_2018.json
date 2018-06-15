@@ -10,6 +10,7 @@
   {
     "home": "Egypt",
     "away": "Uruguay",
+    "score": "0-1",
     "group": "Group A",
     "date": "2018-06-15T12:00:00.000Z",
     "location": "Ekaterinburg"
@@ -17,6 +18,7 @@
   {
     "home": "Morocco",
     "away": "IR Iran",
+    "score": "0-1",
     "group": "Group B",
     "date": "2018-06-15T03:00:00.000Z",
     "location": "St. Petersburg"
@@ -24,6 +26,7 @@
   {
     "home": "Portugal",
     "away": "Spain",
+    "score": "3-3",
     "group": "Group B",
     "date": "2018-06-15T06:00:00.000Z",
     "location": "Sochi"

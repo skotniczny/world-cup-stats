@@ -2,6 +2,7 @@
 Chart.defaults.global.legend.display = false
 Chart.defaults.global.maintainAspectRatio = true
 Chart.defaults.global.layout.padding.top = 20
+Chart.defaults.scale.ticks.beginAtZero = true
 Chart.defaults.global.tooltips.callbacks.label = (tooltipItem, data) => {
   // get the concerned dataset
   const dataset = data.datasets[tooltipItem.datasetIndex]
@@ -53,6 +54,14 @@ const russiaChart = new Chart(ctxRussia, {
     title: {
       display: true,
       text: 'Most Common Scores'
+    },
+    scales: {
+      yAxes: [{
+        ticks: {
+          beginAtZero: true,
+          callback: (value) => { if (value % 1 === 0) { return value } }
+        }
+      }]
     }
   }
 })
