@@ -34,6 +34,7 @@
   {
     "home": "France",
     "away": "Australia",
+    "score": "2-1",
     "group": "Group C",
     "date": "2018-06-16T10:00:00.000Z",
     "location": "Kazan"
@@ -41,6 +42,7 @@
   {
     "home": "Argentina",
     "away": "Iceland",
+    "score": "1-1",
     "group": "Group D",
     "date": "2018-06-16T01:00:00.000Z",
     "location": "Moscow"
@@ -48,6 +50,7 @@
   {
     "home": "Peru",
     "away": "Denmark",
+    "score": "0-1",
     "group": "Group C",
     "date": "2018-06-16T04:00:00.000Z",
     "location": "Saransk"
@@ -55,6 +58,7 @@
   {
     "home": "Croatia",
     "away": "Nigeria",
+    "score": "2-0",
     "group": "Group D",
     "date": "2018-06-16T07:00:00.000Z",
     "location": "Kaliningrad"
