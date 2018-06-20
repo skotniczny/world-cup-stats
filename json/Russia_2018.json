@@ -130,6 +130,7 @@
   {
     "home": "Russia",
     "away": "Egypt",
+    "score": "3-1",
     "group": "Group A",
     "date": "2018-06-19T06:00:00.000Z",
     "location": "St. Petersburg"
@@ -137,6 +138,7 @@
   {
     "home": "Portugal",
     "away": "Morocco",
+    "score": "1-0",
     "group": "Group B",
     "date": "2018-06-20T12:00:00.000Z",
     "location": "Moscow"
@@ -144,6 +146,7 @@
   {
     "home": "Uruguay",
     "away": "Saudi Arabia",
+    "score": "1-0",
     "group": "Group A",
     "date": "2018-06-20T03:00:00.000Z",
     "location": "Rostov-On-Don"
@@ -151,6 +154,7 @@
   {
     "home": "IR Iran",
     "away": "Spain",
+    "score": "0-1",
     "group": "Group B",
     "date": "2018-06-20T06:00:00.000Z",
     "location": "Kazan"
