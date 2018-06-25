@@ -69,6 +69,24 @@ module.exports = {
     })
     return out
   },
+  goalsScored: function (resultsArr) {
+    const sum = resultsArr.reduce((sum, result) => {
+      const [home, away] = result.split('-')
+      sum += Number(home) + Number(away)
+      return sum
+    }, 0)
+    return sum
+  },
+  goalsAvg: function (resultsArr) {
+    const sum = resultsArr.reduce((sum, result) => {
+      const [home, away] = result.split('-')
+      sum += Number(home) + Number(away)
+      return sum
+    }, 0)
+    let avg = sum / resultsArr.length
+    avg = Number(avg.toFixed(2))
+    return avg
+  },
   calculatePoints: function (type, results) {
     let sum = 0
     const [typeHome, typeAway] = type.split('-')

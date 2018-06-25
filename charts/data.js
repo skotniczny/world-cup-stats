@@ -34,7 +34,9 @@ const DATA = {
       [ '2', 4, 11.1 ],
       [ '3', 5, 13.9 ],
       [ '5', 2, 5.6 ]
-    ]
+    ],
+    'goalsScored': 97,
+    'goalsAvg': 2.69
   },
   'brazil': {
     'mostFrequentScores': [
@@ -86,7 +88,9 @@ const DATA = {
       [ '3', 8, 12.5 ],
       [ '4', 3, 4.7 ],
       [ '6', 1, 1.6 ]
-    ]
+    ],
+    'goalsScored': 171,
+    'goalsAvg': 2.67
   },
   'south_africa': {
     'mostFrequentScores': [
@@ -135,7 +139,9 @@ const DATA = {
       [ '3', 5, 7.8 ],
       [ '4', 2, 3.1 ],
       [ '7', 1, 1.6 ]
-    ]
+    ],
+    'goalsScored': 145,
+    'goalsAvg': 2.27
   },
   'germany': {
     'mostFrequentScores': [
@@ -184,7 +190,9 @@ const DATA = {
       [ '3', 6, 9.4 ],
       [ '4', 2, 3.1 ],
       [ '6', 1, 1.6 ]
-    ]
+    ],
+    'goalsScored': 147,
+    'goalsAvg': 2.3
   },
   'korea_japan': {
     'mostFrequentScores': [
@@ -233,7 +241,9 @@ const DATA = {
       [ '3', 4, 6.3 ],
       [ '4', 2, 3.1 ],
       [ '8', 1, 1.6 ]
-    ]
+    ],
+    'goalsScored': 161,
+    'goalsAvg': 2.52
   },
   'france': {
     'mostFrequentScores': [
@@ -282,7 +292,9 @@ const DATA = {
       [ '3', 8, 12.5 ],
       [ '4', 1, 1.6 ],
       [ '5', 3, 4.7 ]
-    ]
+    ],
+    'goalsScored': 171,
+    'goalsAvg': 2.67
   },
   'last_5_world_cups': {
     'mostFrequentScores': [
@@ -354,6 +366,8 @@ const DATA = {
       [ '6', 2, 0.6 ],
       [ '7', 1, 0.3 ],
       [ '8', 1, 0.3 ]
-    ]
+    ],
+    'goalsScored': 795,
+    'goalsAvg': 2.48
   }
 }
