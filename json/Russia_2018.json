@@ -322,6 +322,7 @@
   {
     "home": "Korea Republic",
     "away": "Germany",
+    "score": "2-0",
     "group": "Group F",
     "date": "2018-06-27T02:00:00.000Z",
     "location": "Kazan"
@@ -329,6 +330,7 @@
   {
     "home": "Mexico",
     "away": "Sweden",
+    "score": "0-3",
     "group": "Group F",
     "date": "2018-06-27T02:00:00.000Z",
     "location": "Ekaterinburg"
@@ -336,6 +338,7 @@
   {
     "home": "Serbia",
     "away": "Brazil",
+    "score": "0-2",
     "group": "Group E",
     "date": "2018-06-27T06:00:00.000Z",
     "location": "Moscow"
@@ -343,6 +346,7 @@
   {
     "home": "Switzerland",
     "away": "Costa Rica",
+    "score": "2-2",
     "group": "Group E",
     "date": "2018-06-27T06:00:00.000Z",
     "location": "Nizhny Novgorod"
@@ -350,6 +354,7 @@
   {
     "home": "Japan",
     "away": "Poland",
+    "score": "0-1",
     "group": "Group H",
     "date": "2018-06-28T02:00:00.000Z",
     "location": "Volgograd"
@@ -357,6 +362,7 @@
   {
     "home": "Senegal",
     "away": "Colombia",
+    "score": "0-1",
     "group": "Group H",
     "date": "2018-06-28T02:00:00.000Z",
     "location": "Samara"
