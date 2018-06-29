@@ -370,6 +370,7 @@
   {
     "home": "Panama",
     "away": "Tunisia",
+    "score": "1-2",
     "group": "Group G",
     "date": "2018-06-28T06:00:00.000Z",
     "location": "Saransk"
@@ -377,6 +378,7 @@
   {
     "home": "England",
     "away": "Belgium",
+    "score": "0-1",
     "group": "Group G",
     "date": "2018-06-28T06:00:00.000Z",
     "location": "Kaliningrad"
