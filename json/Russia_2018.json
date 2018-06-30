@@ -382,5 +382,23 @@
     "group": "Group G",
     "date": "2018-06-28T06:00:00.000Z",
     "location": "Kaliningrad"
+  },
+  {
+    "home": "France",
+    "away": "Argentina",
+    "score": "4-3"
+  },
+  {
+    "home": "Uruguay",
+    "away": "Portugal",
+    "score": "2-1"
+  },
+  {
+    "home": "Spain",
+    "away": "Russia"
+  },
+  {
+    "home": "Croatia",
+    "away": "Denmark"
   }
 ]
