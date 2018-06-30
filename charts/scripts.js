@@ -187,7 +187,7 @@ const scoresHeadings = ['Scoreline', 'Number Of Games', 'Percent']
 
 makeTable(document.querySelector('#scores-russia'), scoresHeadings, DATA.russia.mostFrequentScores)
 makeTable(document.querySelector('#scores-russia-group'), scoresHeadings, DATA.russia.mostFrequentScoresGroupStage)
-// makeTable(document.querySelector('#scores-russia-playoff'), scoresHeadings, DATA.russia.mostFrequentScoresPlayOffStage)
+makeTable(document.querySelector('#scores-russia-playoff'), scoresHeadings, DATA.russia.mostFrequentScoresPlayOffStage)
 
 makeTable(document.querySelector('#scores-brazil'), scoresHeadings, DATA.brazil.mostFrequentScores)
 makeTable(document.querySelector('#scores-brazil-group'), scoresHeadings, DATA.brazil.mostFrequentScoresGroupStage)
