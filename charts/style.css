@@ -35,6 +35,7 @@ h3 {
 .subsection {
   background: #fff;
   border-radius: 4px;
+  box-shadow: 0 1px 5px rgba(155, 152, 129, 0.2);
   padding: 1rem 2rem;
   border: 1px solid #ede9be;
   margin-bottom: 1.5rem;
