@@ -455,10 +455,12 @@
   },
   {
     "home": "Belgium",
-    "away": "England"
+    "away": "England",
+    "score": "2-0"
   },
   {
     "home": "France",
-    "away": "Croatia"
+    "away": "Croatia",
+    "score": "4-2"
   }
 ]
