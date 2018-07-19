@@ -21,9 +21,19 @@ const urls = [
   },
   {
     name: 'France 1998',
-    url: 'http://www.fifa.com/worldcup/archive/france1998/matches/index.html '
+    url: 'http://www.fifa.com/worldcup/archive/france1998/matches/index.html'
   }
 ]
+
+function formatDateTime (str) {
+  const [date, timeAndZone] = str.split(' - ')
+  const [day, month, year] = date.split(' ')
+  const [time] = timeAndZone.split(' ')
+  const [hours, minutes] = time.split(':')
+  const dateTimeString = `${month}, ${day} ${year} ${hours}:${minutes}:00`
+  const eventTime = new Date(dateTimeString)
+  return eventTime.toISOString()
+}
 
 function makeData (obj) {
   const filename = obj.name.replace(/ /g, '_')
@@ -35,10 +45,28 @@ function makeData (obj) {
     const $ = cheerio.load(body)
     const results = []
     $('.matches > .match-list-date .result').each((i, el) => {
-      const home = $(el).find('.home .t-nText').text()
-      const away = $(el).find('.away .t-nText').text()
-      const score = $(el).find('.s-scoreText').text()
-      results.push({'home': home, 'away': away, 'score': score})
+      const $el = $(el)
+      const home = $el.find('.home .t-nText').text()
+      const away = $el.find('.away .t-nText').text()
+      const score = $el.find('.s-scoreText').text()
+      const stage = $el.find('.mu-i-group').text()
+      const location = $el.find('.mu-i-location .mu-i-venue').text().trim()
+      const stadium = $el.find('.mu-i-stadium').text()
+      const date = formatDateTime($el.find('.mu-i-datetime').text())
+      const reasonwin = $el.find('.mu-reasonwin .text-reasonwin').text().trim()
+      const isReasononwin = !!reasonwin
+      results.push(
+        {
+          'home': home,
+          'away': away,
+          'score': score,
+          ...(isReasononwin) && { 'reasononwin': reasonwin },
+          'stage': stage,
+          'location': location,
+          'stadium': stadium,
+          'date': date
+        }
+      )
     })
     writeFile('./json/' + filename + '.json', JSON.stringify(results), err => {
       if (err) {

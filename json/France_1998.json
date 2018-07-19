@@ -2,321 +2,581 @@
   {
     "home": "Brazil",
     "away": "Scotland",
-    "score": "2-1"
+    "score": "2-1",
+    "stage": "Group A",
+    "location": "Saint-Denis",
+    "stadium": "Stade de France",
+    "date": "1998-06-10T15:30:00.000Z"
   },
   {
     "home": "Morocco",
     "away": "Norway",
-    "score": "2-2"
+    "score": "2-2",
+    "stage": "Group A",
+    "location": "Montpellier",
+    "stadium": "La Mosson",
+    "date": "1998-06-10T19:00:00.000Z"
   },
   {
     "home": "Italy",
     "away": "Chile",
-    "score": "2-2"
+    "score": "2-2",
+    "stage": "Group B",
+    "location": "Bordeaux",
+    "stadium": "Stade du Parc Lescure",
+    "date": "1998-06-11T15:30:00.000Z"
   },
   {
     "home": "Cameroon",
     "away": "Austria",
-    "score": "1-1"
+    "score": "1-1",
+    "stage": "Group B",
+    "location": "Toulouse",
+    "stadium": "Stade Municipal",
+    "date": "1998-06-11T19:00:00.000Z"
   },
   {
     "home": "Paraguay",
     "away": "Bulgaria",
-    "score": "0-0"
+    "score": "0-0",
+    "stage": "Group D",
+    "location": "Montpellier",
+    "stadium": "La Mosson",
+    "date": "1998-06-12T12:30:00.000Z"
   },
   {
     "home": "Saudi Arabia",
     "away": "Denmark",
-    "score": "0-1"
+    "score": "0-1",
+    "stage": "Group C",
+    "location": "Lens",
+    "stadium": "Stade Felix Bollaert",
+    "date": "1998-06-12T15:30:00.000Z"
   },
   {
     "home": "France",
     "away": "South Africa",
-    "score": "3-0"
+    "score": "3-0",
+    "stage": "Group C",
+    "location": "Marseilles",
+    "stadium": "Stade Vélodrome",
+    "date": "1998-06-12T19:00:00.000Z"
   },
   {
     "home": "Spain",
     "away": "Nigeria",
-    "score": "2-3"
+    "score": "2-3",
+    "stage": "Group D",
+    "location": "Nantes",
+    "stadium": "La Beaujoire",
+    "date": "1998-06-13T12:30:00.000Z"
   },
   {
     "home": "Korea Republic",
     "away": "Mexico",
-    "score": "1-3"
+    "score": "1-3",
+    "stage": "Group E",
+    "location": "Lyon",
+    "stadium": "Stade de Gerland",
+    "date": "1998-06-13T15:30:00.000Z"
   },
   {
     "home": "Netherlands",
     "away": "Belgium",
-    "score": "0-0"
+    "score": "0-0",
+    "stage": "Group E",
+    "location": "Saint-Denis",
+    "stadium": "Stade de France",
+    "date": "1998-06-13T19:00:00.000Z"
   },
   {
     "home": "Argentina",
     "away": "Japan",
-    "score": "1-0"
+    "score": "1-0",
+    "stage": "Group H",
+    "location": "Toulouse",
+    "stadium": "Stade Municipal",
+    "date": "1998-06-14T12:30:00.000Z"
   },
   {
     "home": "Yugoslavia",
     "away": "Iran",
-    "score": "1-0"
+    "score": "1-0",
+    "stage": "Group F",
+    "location": "Saint-Etienne",
+    "stadium": "Stade Geoffroy Guichard",
+    "date": "1998-06-14T15:30:00.000Z"
   },
   {
     "home": "Jamaica",
     "away": "Croatia",
-    "score": "1-3"
+    "score": "1-3",
+    "stage": "Group H",
+    "location": "Lens",
+    "stadium": "Stade Felix Bollaert",
+    "date": "1998-06-14T19:00:00.000Z"
   },
   {
     "home": "England",
     "away": "Tunisia",
-    "score": "2-0"
+    "score": "2-0",
+    "stage": "Group G",
+    "location": "Marseilles",
+    "stadium": "Stade Vélodrome",
+    "date": "1998-06-15T12:30:00.000Z"
   },
   {
     "home": "Romania",
     "away": "Colombia",
-    "score": "1-0"
+    "score": "1-0",
+    "stage": "Group G",
+    "location": "Lyon",
+    "stadium": "Stade de Gerland",
+    "date": "1998-06-15T15:30:00.000Z"
   },
   {
     "home": "Germany",
     "away": "USA",
-    "score": "2-0"
+    "score": "2-0",
+    "stage": "Group F",
+    "location": "Paris",
+    "stadium": "Parc des Princes",
+    "date": "1998-06-15T19:00:00.000Z"
   },
   {
     "home": "Scotland",
     "away": "Norway",
-    "score": "1-1"
+    "score": "1-1",
+    "stage": "Group A",
+    "location": "Bordeaux",
+    "stadium": "Stade du Parc Lescure",
+    "date": "1998-06-16T15:30:00.000Z"
   },
   {
     "home": "Brazil",
     "away": "Morocco",
-    "score": "3-0"
+    "score": "3-0",
+    "stage": "Group A",
+    "location": "Nantes",
+    "stadium": "La Beaujoire",
+    "date": "1998-06-16T19:00:00.000Z"
   },
   {
     "home": "Chile",
     "away": "Austria",
-    "score": "1-1"
+    "score": "1-1",
+    "stage": "Group B",
+    "location": "Saint-Etienne",
+    "stadium": "Stade Geoffroy Guichard",
+    "date": "1998-06-17T15:30:00.000Z"
   },
   {
     "home": "Italy",
     "away": "Cameroon",
-    "score": "3-0"
+    "score": "3-0",
+    "stage": "Group B",
+    "location": "Montpellier",
+    "stadium": "La Mosson",
+    "date": "1998-06-17T19:00:00.000Z"
   },
   {
     "home": "South Africa",
     "away": "Denmark",
-    "score": "1-1"
+    "score": "1-1",
+    "stage": "Group C",
+    "location": "Toulouse",
+    "stadium": "Stade Municipal",
+    "date": "1998-06-18T15:30:00.000Z"
   },
   {
     "home": "France",
     "away": "Saudi Arabia",
-    "score": "4-0"
+    "score": "4-0",
+    "stage": "Group C",
+    "location": "Saint-Denis",
+    "stadium": "Stade de France",
+    "date": "1998-06-18T19:00:00.000Z"
   },
   {
     "home": "Nigeria",
     "away": "Bulgaria",
-    "score": "1-0"
+    "score": "1-0",
+    "stage": "Group D",
+    "location": "Paris",
+    "stadium": "Parc des Princes",
+    "date": "1998-06-19T15:30:00.000Z"
   },
   {
     "home": "Spain",
     "away": "Paraguay",
-    "score": "0-0"
+    "score": "0-0",
+    "stage": "Group D",
+    "location": "Saint-Etienne",
+    "stadium": "Stade Geoffroy Guichard",
+    "date": "1998-06-19T19:00:00.000Z"
   },
   {
     "home": "Japan",
     "away": "Croatia",
-    "score": "0-1"
+    "score": "0-1",
+    "stage": "Group H",
+    "location": "Nantes",
+    "stadium": "La Beaujoire",
+    "date": "1998-06-20T12:30:00.000Z"
   },
   {
     "home": "Belgium",
     "away": "Mexico",
-    "score": "2-2"
+    "score": "2-2",
+    "stage": "Group E",
+    "location": "Bordeaux",
+    "stadium": "Stade du Parc Lescure",
+    "date": "1998-06-20T15:30:00.000Z"
   },
   {
     "home": "Netherlands",
     "away": "Korea Republic",
-    "score": "5-0"
+    "score": "5-0",
+    "stage": "Group E",
+    "location": "Marseilles",
+    "stadium": "Stade Vélodrome",
+    "date": "1998-06-20T19:00:00.000Z"
   },
   {
     "home": "Germany",
     "away": "Yugoslavia",
-    "score": "2-2"
+    "score": "2-2",
+    "stage": "Group F",
+    "location": "Lens",
+    "stadium": "Stade Felix Bollaert",
+    "date": "1998-06-21T12:30:00.000Z"
   },
   {
     "home": "Argentina",
     "away": "Jamaica",
-    "score": "5-0"
+    "score": "5-0",
+    "stage": "Group H",
+    "location": "Paris",
+    "stadium": "Parc des Princes",
+    "date": "1998-06-21T15:30:00.000Z"
   },
   {
     "home": "USA",
     "away": "Iran",
-    "score": "1-2"
+    "score": "1-2",
+    "stage": "Group F",
+    "location": "Lyon",
+    "stadium": "Stade de Gerland",
+    "date": "1998-06-21T19:00:00.000Z"
   },
   {
     "home": "Colombia",
     "away": "Tunisia",
-    "score": "1-0"
+    "score": "1-0",
+    "stage": "Group G",
+    "location": "Montpellier",
+    "stadium": "La Mosson",
+    "date": "1998-06-22T15:30:00.000Z"
   },
   {
     "home": "Romania",
     "away": "England",
-    "score": "2-1"
+    "score": "2-1",
+    "stage": "Group G",
+    "location": "Toulouse",
+    "stadium": "Stade Municipal",
+    "date": "1998-06-22T19:00:00.000Z"
   },
   {
     "home": "Italy",
     "away": "Austria",
-    "score": "2-1"
+    "score": "2-1",
+    "stage": "Group B",
+    "location": "Saint-Denis",
+    "stadium": "Stade de France",
+    "date": "1998-06-23T14:00:00.000Z"
   },
   {
     "home": "Chile",
     "away": "Cameroon",
-    "score": "1-1"
+    "score": "1-1",
+    "stage": "Group B",
+    "location": "Nantes",
+    "stadium": "La Beaujoire",
+    "date": "1998-06-23T14:00:00.000Z"
   },
   {
     "home": "Scotland",
     "away": "Morocco",
-    "score": "0-3"
+    "score": "0-3",
+    "stage": "Group A",
+    "location": "Saint-Etienne",
+    "stadium": "Stade Geoffroy Guichard",
+    "date": "1998-06-23T19:00:00.000Z"
   },
   {
     "home": "Brazil",
     "away": "Norway",
-    "score": "1-2"
+    "score": "1-2",
+    "stage": "Group A",
+    "location": "Marseilles",
+    "stadium": "Stade Vélodrome",
+    "date": "1998-06-23T19:00:00.000Z"
   },
   {
     "home": "France",
     "away": "Denmark",
-    "score": "2-1"
+    "score": "2-1",
+    "stage": "Group C",
+    "location": "Lyon",
+    "stadium": "Stade de Gerland",
+    "date": "1998-06-24T14:00:00.000Z"
   },
   {
     "home": "South Africa",
     "away": "Saudi Arabia",
-    "score": "2-2"
+    "score": "2-2",
+    "stage": "Group C",
+    "location": "Bordeaux",
+    "stadium": "Stade du Parc Lescure",
+    "date": "1998-06-24T14:00:00.000Z"
   },
   {
     "home": "Spain",
     "away": "Bulgaria",
-    "score": "6-1"
+    "score": "6-1",
+    "stage": "Group D",
+    "location": "Lens",
+    "stadium": "Stade Felix Bollaert",
+    "date": "1998-06-24T19:00:00.000Z"
   },
   {
     "home": "Nigeria",
     "away": "Paraguay",
-    "score": "1-3"
+    "score": "1-3",
+    "stage": "Group D",
+    "location": "Toulouse",
+    "stadium": "Stade Municipal",
+    "date": "1998-06-24T19:00:00.000Z"
   },
   {
     "home": "Belgium",
     "away": "Korea Republic",
-    "score": "1-1"
+    "score": "1-1",
+    "stage": "Group E",
+    "location": "Paris",
+    "stadium": "Parc des Princes",
+    "date": "1998-06-25T14:00:00.000Z"
   },
   {
     "home": "Netherlands",
     "away": "Mexico",
-    "score": "2-2"
+    "score": "2-2",
+    "stage": "Group E",
+    "location": "Saint-Etienne",
+    "stadium": "Stade Geoffroy Guichard",
+    "date": "1998-06-25T14:00:00.000Z"
   },
   {
     "home": "Germany",
     "away": "Iran",
-    "score": "2-0"
+    "score": "2-0",
+    "stage": "Group F",
+    "location": "Montpellier",
+    "stadium": "La Mosson",
+    "date": "1998-06-25T19:00:00.000Z"
   },
   {
     "home": "USA",
     "away": "Yugoslavia",
-    "score": "0-1"
+    "score": "0-1",
+    "stage": "Group F",
+    "location": "Nantes",
+    "stadium": "La Beaujoire",
+    "date": "1998-06-25T19:00:00.000Z"
   },
   {
     "home": "Japan",
     "away": "Jamaica",
-    "score": "1-2"
+    "score": "1-2",
+    "stage": "Group H",
+    "location": "Lyon",
+    "stadium": "Stade de Gerland",
+    "date": "1998-06-26T14:00:00.000Z"
   },
   {
     "home": "Argentina",
     "away": "Croatia",
-    "score": "1-0"
+    "score": "1-0",
+    "stage": "Group H",
+    "location": "Bordeaux",
+    "stadium": "Stade du Parc Lescure",
+    "date": "1998-06-26T14:00:00.000Z"
   },
   {
     "home": "Romania",
     "away": "Tunisia",
-    "score": "1-1"
+    "score": "1-1",
+    "stage": "Group G",
+    "location": "Saint-Denis",
+    "stadium": "Stade de France",
+    "date": "1998-06-26T19:00:00.000Z"
   },
   {
     "home": "Colombia",
     "away": "England",
-    "score": "0-2"
+    "score": "0-2",
+    "stage": "Group G",
+    "location": "Lens",
+    "stadium": "Stade Felix Bollaert",
+    "date": "1998-06-26T19:00:00.000Z"
   },
   {
     "home": "Italy",
     "away": "Norway",
-    "score": "1-0"
+    "score": "1-0",
+    "stage": "Round of 16",
+    "location": "Marseilles",
+    "stadium": "Stade Vélodrome",
+    "date": "1998-06-27T14:30:00.000Z"
   },
   {
     "home": "Brazil",
     "away": "Chile",
-    "score": "4-1"
+    "score": "4-1",
+    "stage": "Round of 16",
+    "location": "Paris",
+    "stadium": "Parc des Princes",
+    "date": "1998-06-27T19:00:00.000Z"
   },
   {
     "home": "France",
     "away": "Paraguay",
-    "score": "1-0"
+    "score": "1-0",
+    "reasononwin": "France win after extra time",
+    "stage": "Round of 16",
+    "location": "Lens",
+    "stadium": "Stade Felix Bollaert",
+    "date": "1998-06-28T14:30:00.000Z"
   },
   {
     "home": "Nigeria",
     "away": "Denmark",
-    "score": "1-4"
+    "score": "1-4",
+    "stage": "Round of 16",
+    "location": "Saint-Denis",
+    "stadium": "Stade de France",
+    "date": "1998-06-28T19:00:00.000Z"
   },
   {
     "home": "Germany",
     "away": "Mexico",
-    "score": "2-1"
+    "score": "2-1",
+    "stage": "Round of 16",
+    "location": "Montpellier",
+    "stadium": "La Mosson",
+    "date": "1998-06-29T14:30:00.000Z"
   },
   {
     "home": "Netherlands",
     "away": "Yugoslavia",
-    "score": "2-1"
+    "score": "2-1",
+    "stage": "Round of 16",
+    "location": "Toulouse",
+    "stadium": "Stade Municipal",
+    "date": "1998-06-29T19:00:00.000Z"
   },
   {
     "home": "Romania",
     "away": "Croatia",
-    "score": "0-1"
+    "score": "0-1",
+    "stage": "Round of 16",
+    "location": "Bordeaux",
+    "stadium": "Stade du Parc Lescure",
+    "date": "1998-06-30T14:30:00.000Z"
   },
   {
     "home": "Argentina",
     "away": "England",
-    "score": "2-2"
+    "score": "2-2",
+    "reasononwin": "Argentina win on penalties (4 - 3)",
+    "stage": "Round of 16",
+    "location": "Saint-Etienne",
+    "stadium": "Stade Geoffroy Guichard",
+    "date": "1998-06-30T19:00:00.000Z"
   },
   {
     "home": "Italy",
     "away": "France",
-    "score": "0-0"
+    "score": "0-0",
+    "reasononwin": "France win on penalties (3 - 4)",
+    "stage": "Quarter-finals",
+    "location": "Saint-Denis",
+    "stadium": "Stade de France",
+    "date": "1998-07-03T14:30:00.000Z"
   },
   {
     "home": "Brazil",
     "away": "Denmark",
-    "score": "3-2"
+    "score": "3-2",
+    "stage": "Quarter-finals",
+    "location": "Nantes",
+    "stadium": "La Beaujoire",
+    "date": "1998-07-03T19:00:00.000Z"
   },
   {
     "home": "Netherlands",
     "away": "Argentina",
-    "score": "2-1"
+    "score": "2-1",
+    "stage": "Quarter-finals",
+    "location": "Marseilles",
+    "stadium": "Stade Vélodrome",
+    "date": "1998-07-04T14:30:00.000Z"
   },
   {
     "home": "Germany",
     "away": "Croatia",
-    "score": "0-3"
+    "score": "0-3",
+    "stage": "Quarter-finals",
+    "location": "Lyon",
+    "stadium": "Stade de Gerland",
+    "date": "1998-07-04T19:00:00.000Z"
   },
   {
     "home": "Brazil",
     "away": "Netherlands",
-    "score": "1-1"
+    "score": "1-1",
+    "reasononwin": "Brazil win on penalties (4 - 2)",
+    "stage": "Semi-finals",
+    "location": "Marseilles",
+    "stadium": "Stade Vélodrome",
+    "date": "1998-07-07T19:00:00.000Z"
   },
   {
     "home": "France",
     "away": "Croatia",
-    "score": "2-1"
+    "score": "2-1",
+    "stage": "Semi-finals",
+    "location": "Saint-Denis",
+    "stadium": "Stade de France",
+    "date": "1998-07-08T19:00:00.000Z"
   },
   {
     "home": "Netherlands",
     "away": "Croatia",
-    "score": "1-2"
+    "score": "1-2",
+    "stage": "Match for third place",
+    "location": "Paris",
+    "stadium": "Parc des Princes",
+    "date": "1998-07-11T19:00:00.000Z"
   },
   {
     "home": "Brazil",
     "away": "France",
-    "score": "0-3"
+    "score": "0-3",
+    "stage": "Final",
+    "location": "Saint-Denis",
+    "stadium": "Stade de France",
+    "date": "1998-07-12T19:00:00.000Z"
   }
 ]
