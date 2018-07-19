@@ -82,12 +82,10 @@ urls.forEach((item) => {
   makeData(item)
 })
 
-const russia = [
-  {
-    name: 'Russia 2018',
-    url: 'http://www.fifa.com/worldcup/matches/'
-  }
-]
+const russia = {
+  name: 'Russia 2018',
+  url: 'http://www.fifa.com/worldcup/matches/'
+}
 
 function makeDataRussia (obj) {
   const filename = obj.name.replace(/ /g, '_')
@@ -98,18 +96,26 @@ function makeDataRussia (obj) {
     }
     const $ = cheerio.load(body)
     const results = []
-    $('[data-tab=groupphase] .fixture').each((i, el) => {
-      const group = $(el).find('.fi__info__group').text()
-      const datetime = $(el).find('.fi-mu__info__datetime').data('utcdate')
-      const location = $(el).find('.fi__info__location .fi__info__venue').text()
-      const home = $(el).find('.home .fi-t__nText').text()
-      const away = $(el).find('.away .fi-t__nText').text()
+    $('.fi-matchlist .result').each((i, el) => {
+      const $el = $(el)
+      const stage = $el.find('.fi__info__group').text()
+      const datetime = $el.find('.fi-mu__info__datetime').data('utcdate')
+      const location = $el.find('.fi__info__location .fi__info__venue').text()
+      const stadium = $el.find('.fi__info__stadium').text()
+      const home = $el.find('.home .fi-t__nText').text()
+      const away = $el.find('.away .fi-t__nText').text()
+      const score = $el.find('.fi-s__scoreText').text().trim()
+      const reasonwin = $el.find('.fi-mu__reasonwin-wrap > .fi-mu__reasonwin > .fi-mu__reasonwin-text').text().trim()
+      const isReasononwin = !!reasonwin
       results.push({
         'home': home,
         'away': away,
-        'group': group,
+        'score': score,
+        ...(isReasononwin) && { 'reasononwin': reasonwin },
+        'stage': stage,
         'date': datetime,
-        'location': location
+        'location': location,
+        'stadium': stadium
       })
     })
     writeFile('./json/' + filename + '.json', JSON.stringify(results), err => {
@@ -122,4 +128,4 @@ function makeDataRussia (obj) {
   })
 }
 
-makeDataRussia(russia[0])
+makeDataRussia(russia)
