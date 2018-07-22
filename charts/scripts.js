@@ -134,11 +134,11 @@ const franceChart = new Chart(ctxFrance, {
   }
 })
 
-const ctxLast5 = document.getElementById('last_5').getContext('2d')
+const ctxLast6 = document.getElementById('last_6').getContext('2d')
 // eslint-disable-next-line no-unused-vars
-const last5Chart = new Chart(ctxLast5, {
+const last6Chart = new Chart(ctxLast6, {
   type: 'bar',
-  data: makeData(DATA.last_5_world_cups.mostFrequentScores),
+  data: makeData(DATA.last_6_world_cups.mostFrequentScores),
   options: {
     title: {
       display: true,
@@ -147,11 +147,11 @@ const last5Chart = new Chart(ctxLast5, {
   }
 })
 
-const ctxLast5Group = document.getElementById('last_5_group').getContext('2d')
+const ctxLast6Group = document.getElementById('last_6_group').getContext('2d')
 // eslint-disable-next-line no-unused-vars
-const last5GroupChart = new Chart(ctxLast5Group, {
+const last6GroupChart = new Chart(ctxLast6Group, {
   type: 'bar',
-  data: makeData(DATA.last_5_world_cups.mostFrequentScoresGroupStage),
+  data: makeData(DATA.last_6_world_cups.mostFrequentScoresGroupStage),
   options: {
     title: {
       display: true,
@@ -160,11 +160,11 @@ const last5GroupChart = new Chart(ctxLast5Group, {
   }
 })
 
-const ctxLast5PlayOff = document.getElementById('last_5_playoff').getContext('2d')
+const ctxLast6PlayOff = document.getElementById('last_6_playoff').getContext('2d')
 // eslint-disable-next-line no-unused-vars
-const last5PlayOffChart = new Chart(ctxLast5PlayOff, {
+const last6PlayOffChart = new Chart(ctxLast6PlayOff, {
   type: 'bar',
-  data: makeData(DATA.last_5_world_cups.mostFrequentScoresPlayOffStage),
+  data: makeData(DATA.last_6_world_cups.mostFrequentScoresPlayOffStage),
   options: {
     title: {
       display: true,
@@ -177,7 +177,7 @@ const ctxDiff = document.getElementById('diff').getContext('2d')
 // eslint-disable-next-line no-unused-vars
 const diffChart = new Chart(ctxDiff, {
   type: 'bar',
-  data: makeData(DATA.last_5_world_cups.goalsDiff),
+  data: makeData(DATA.last_6_world_cups.goalsDiff),
   options: {
     title: {
       display: true,
@@ -227,7 +227,7 @@ const avgData = [
   [ 'Germany 2006', DATA.germany.goalsScored, DATA.germany.goalsAvg ],
   [ 'Korea/Japan 2002', DATA.korea_japan.goalsScored, DATA.korea_japan.goalsAvg ],
   [ 'France 1998', DATA.france.goalsScored, DATA.france.goalsAvg ],
-  [ 'Last 5 World Cups', DATA.last_5_world_cups.goalsScored, DATA.last_5_world_cups.goalsAvg ]
+  [ 'Last 6 World Cups', DATA.last_6_world_cups.goalsScored, DATA.last_6_world_cups.goalsAvg ]
 ]
 makeTable(document.querySelector('#scored-goals'), ['World Cup', 'Goals Scored', 'Goals Per Match'], avgData)
 
@@ -238,7 +238,7 @@ makeTable(document.querySelector('#goals-by-winner-south_africa'), goalsByHeadin
 makeTable(document.querySelector('#goals-by-winner-germany'), goalsByHeadings, DATA.germany.goalsScoredByWinners)
 makeTable(document.querySelector('#goals-by-winner-korea_japan'), goalsByHeadings, DATA.korea_japan.goalsScoredByWinners)
 makeTable(document.querySelector('#goals-by-winner-france'), goalsByHeadings, DATA.france.goalsScoredByWinners)
-makeTable(document.querySelector('#goals-by-winner-last_5'), goalsByHeadings, DATA.last_5_world_cups.goalsScoredByWinners)
+makeTable(document.querySelector('#goals-by-winner-last_6'), goalsByHeadings, DATA.last_6_world_cups.goalsScoredByWinners)
 
 makeTable(document.querySelector('#goals-by-losers-russia'), goalsByHeadings, DATA.russia.goalsScoredByLosers)
 makeTable(document.querySelector('#goals-by-losers-brazil'), goalsByHeadings, DATA.brazil.goalsScoredByLosers)
@@ -246,6 +246,6 @@ makeTable(document.querySelector('#goals-by-losers-south_africa'), goalsByHeadin
 makeTable(document.querySelector('#goals-by-losers-germany'), goalsByHeadings, DATA.germany.goalsScoredByLosers)
 makeTable(document.querySelector('#goals-by-losers-korea_japan'), goalsByHeadings, DATA.korea_japan.goalsScoredByLosers)
 makeTable(document.querySelector('#goals-by-losers-france'), goalsByHeadings, DATA.france.goalsScoredByLosers)
-makeTable(document.querySelector('#goals-by-losers-last_5'), goalsByHeadings, DATA.last_5_world_cups.goalsScoredByLosers)
+makeTable(document.querySelector('#goals-by-losers-last_6'), goalsByHeadings, DATA.last_6_world_cups.goalsScoredByLosers)
 
 makeTabs(document.querySelectorAll('.tab-panel'))
