@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel charts/index.html --no-hmr",
     "prebuild": "rm -rf dist",
-    "build": "parcel build charts/index.html",
+    "build": "parcel build charts/index.html --public-url=\".\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
