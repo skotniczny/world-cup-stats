@@ -1,5 +1,5 @@
 const {writeFile} = require('fs')
-const {normalizeScores, scoresByFreq, byGoalsDiff, goalsScored, goalsAvg} = require('./stats-functions')
+const {normalizeScores, scoresByFreq, byGoalsDiff, goalsScored, goalsAvg, goalsScoredBy} = require('./stats-functions')
 
 const FRANCE = require('./json/France_1998.json')
 const KOREA_JAPAN = require('./json/Korea-Japan_2002.json')
@@ -13,61 +13,34 @@ const groupStageResults = [...FRANCE.slice(0, 48), ...KOREA_JAPAN.slice(0, 48), 
 const playOffStageResults = [...FRANCE.slice(48), ...KOREA_JAPAN.slice(48), ...GERMANY.slice(48), ...SOUTH_AFRICA.slice(48), ...BRAZIL.slice(48)]
 
 const data = {
-  russia: {
-    mostFrequentScores: scoresByFreq(normalizeScores(RUSSIA)),
-    mostFrequentScoresGroupStage: scoresByFreq(normalizeScores(RUSSIA), 'group'),
-    mostFrequentScoresPlayOffStage: scoresByFreq(normalizeScores(RUSSIA), 'playoff'),
-    goalsDiff: byGoalsDiff(normalizeScores(RUSSIA)),
-    goalsScored: goalsScored(normalizeScores(RUSSIA)),
-    goalsAvg: goalsAvg(normalizeScores(RUSSIA))
-  },
-  brazil: {
-    mostFrequentScores: scoresByFreq(normalizeScores(BRAZIL)),
-    mostFrequentScoresGroupStage: scoresByFreq(normalizeScores(BRAZIL), 'group'),
-    mostFrequentScoresPlayOffStage: scoresByFreq(normalizeScores(BRAZIL), 'playoff'),
-    goalsDiff: byGoalsDiff(normalizeScores(BRAZIL)),
-    goalsScored: goalsScored(normalizeScores(BRAZIL)),
-    goalsAvg: goalsAvg(normalizeScores(BRAZIL))
-  },
-  south_africa: {
-    mostFrequentScores: scoresByFreq(normalizeScores(SOUTH_AFRICA)),
-    mostFrequentScoresGroupStage: scoresByFreq(normalizeScores(SOUTH_AFRICA), 'group'),
-    mostFrequentScoresPlayOffStage: scoresByFreq(normalizeScores(SOUTH_AFRICA), 'playoff'),
-    goalsDiff: byGoalsDiff(normalizeScores(SOUTH_AFRICA)),
-    goalsScored: goalsScored(normalizeScores(SOUTH_AFRICA)),
-    goalsAvg: goalsAvg(normalizeScores(SOUTH_AFRICA))
-  },
-  germany: {
-    mostFrequentScores: scoresByFreq(normalizeScores(GERMANY)),
-    mostFrequentScoresGroupStage: scoresByFreq(normalizeScores(GERMANY), 'group'),
-    mostFrequentScoresPlayOffStage: scoresByFreq(normalizeScores(GERMANY), 'playoff'),
-    goalsDiff: byGoalsDiff(normalizeScores(GERMANY)),
-    goalsScored: goalsScored(normalizeScores(GERMANY)),
-    goalsAvg: goalsAvg(normalizeScores(GERMANY))
-  },
-  korea_japan: {
-    mostFrequentScores: scoresByFreq(normalizeScores(KOREA_JAPAN)),
-    mostFrequentScoresGroupStage: scoresByFreq(normalizeScores(KOREA_JAPAN), 'group'),
-    mostFrequentScoresPlayOffStage: scoresByFreq(normalizeScores(KOREA_JAPAN), 'playoff'),
-    goalsDiff: byGoalsDiff(normalizeScores(KOREA_JAPAN)),
-    goalsScored: goalsScored(normalizeScores(KOREA_JAPAN)),
-    goalsAvg: goalsAvg(normalizeScores(KOREA_JAPAN))
-  },
-  france: {
-    mostFrequentScores: scoresByFreq(normalizeScores(FRANCE)),
-    mostFrequentScoresGroupStage: scoresByFreq(normalizeScores(FRANCE), 'group'),
-    mostFrequentScoresPlayOffStage: scoresByFreq(normalizeScores(FRANCE), 'playoff'),
-    goalsDiff: byGoalsDiff(normalizeScores(FRANCE)),
-    goalsScored: goalsScored(normalizeScores(FRANCE)),
-    goalsAvg: goalsAvg(normalizeScores(FRANCE))
-  },
+  russia: statsGenerator(RUSSIA),
+  brazil: statsGenerator(BRAZIL),
+  south_africa: statsGenerator(SOUTH_AFRICA),
+  germany: statsGenerator(GERMANY),
+  korea_japan: statsGenerator(KOREA_JAPAN),
+  france: statsGenerator(FRANCE),
   last_5_world_cups: {
     mostFrequentScores: scoresByFreq(normalizeScores(allResults)),
     mostFrequentScoresGroupStage: scoresByFreq(normalizeScores(groupStageResults)),
     mostFrequentScoresPlayOffStage: scoresByFreq(normalizeScores(playOffStageResults)),
     goalsDiff: byGoalsDiff(normalizeScores(allResults)),
     goalsScored: goalsScored(normalizeScores(allResults)),
-    goalsAvg: goalsAvg(normalizeScores(allResults))
+    goalsAvg: goalsAvg(normalizeScores(allResults)),
+    goalsScoredByWinners: goalsScoredBy('winners', scoresByFreq(normalizeScores(allResults))),
+    goalsScoredByLosers: goalsScoredBy('losers', scoresByFreq(normalizeScores(allResults)))
+  }
+}
+
+function statsGenerator (data) {
+  return {
+    mostFrequentScores: scoresByFreq(normalizeScores(data)),
+    mostFrequentScoresGroupStage: scoresByFreq(normalizeScores(data), 'group'),
+    mostFrequentScoresPlayOffStage: scoresByFreq(normalizeScores(data), 'playoff'),
+    goalsDiff: byGoalsDiff(normalizeScores(data)),
+    goalsScored: goalsScored(normalizeScores(data)),
+    goalsAvg: goalsAvg(normalizeScores(data)),
+    goalsScoredByWinners: goalsScoredBy('winners', scoresByFreq(normalizeScores(data))),
+    goalsScoredByLosers: goalsScoredBy('losers', scoresByFreq(normalizeScores(data)))
   }
 }
 

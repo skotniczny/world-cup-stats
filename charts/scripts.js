@@ -231,4 +231,21 @@ const avgData = [
 ]
 makeTable(document.querySelector('#scored-goals'), ['World Cup', 'Goals Scored', 'Goals Per Match'], avgData)
 
+const goalsByHeadings = ['Goals Scored', 'Occurrences', 'Percent']
+makeTable(document.querySelector('#goals-by-winner-russia'), goalsByHeadings, DATA.russia.goalsScoredByWinners)
+makeTable(document.querySelector('#goals-by-winner-brazil'), goalsByHeadings, DATA.brazil.goalsScoredByWinners)
+makeTable(document.querySelector('#goals-by-winner-south_africa'), goalsByHeadings, DATA.south_africa.goalsScoredByWinners)
+makeTable(document.querySelector('#goals-by-winner-germany'), goalsByHeadings, DATA.germany.goalsScoredByWinners)
+makeTable(document.querySelector('#goals-by-winner-korea_japan'), goalsByHeadings, DATA.korea_japan.goalsScoredByWinners)
+makeTable(document.querySelector('#goals-by-winner-france'), goalsByHeadings, DATA.france.goalsScoredByWinners)
+makeTable(document.querySelector('#goals-by-winner-last_5'), goalsByHeadings, DATA.last_5_world_cups.goalsScoredByWinners)
+
+makeTable(document.querySelector('#goals-by-losers-russia'), goalsByHeadings, DATA.russia.goalsScoredByLosers)
+makeTable(document.querySelector('#goals-by-losers-brazil'), goalsByHeadings, DATA.brazil.goalsScoredByLosers)
+makeTable(document.querySelector('#goals-by-losers-south_africa'), goalsByHeadings, DATA.south_africa.goalsScoredByLosers)
+makeTable(document.querySelector('#goals-by-losers-germany'), goalsByHeadings, DATA.germany.goalsScoredByLosers)
+makeTable(document.querySelector('#goals-by-losers-korea_japan'), goalsByHeadings, DATA.korea_japan.goalsScoredByLosers)
+makeTable(document.querySelector('#goals-by-losers-france'), goalsByHeadings, DATA.france.goalsScoredByLosers)
+makeTable(document.querySelector('#goals-by-losers-last_5'), goalsByHeadings, DATA.last_5_world_cups.goalsScoredByLosers)
+
 makeTabs(document.querySelectorAll('.tab-panel'))

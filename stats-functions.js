@@ -25,30 +25,9 @@ module.exports = {
     Object.keys(scoresFreq)
       .sort((a, b) => { return scoresFreq[b] - scoresFreq[a] })
       .forEach(element => {
-        let percent = scoresFreq[element] / scoresArray.length * 100
-        percent = Number(percent.toFixed(1))
-        result.push([element, scoresFreq[element], percent])
+        result.push([element, scoresFreq[element], percentage(scoresFreq[element], scoresArray.length)])
       })
     return result
-  },
-  byGoals: function (flag, uniq, results) {
-    const out = []
-    for (let score of uniq) {
-      const sum = results.filter(result => {
-        const [winner, looser] = result[0].split('-')
-        if (flag === 'winners') {
-          return winner === score
-        }
-        if (flag === 'loosers') {
-          return looser === score
-        }
-      }).reduce((sum, arr) => {
-        sum += arr[1]
-        return sum
-      }, 0)
-      out.push([score, sum])
-    }
-    return out
   },
   byGoalsDiff: function (resultsArr) {
     const diffArr = resultsArr.map(result => {
@@ -63,9 +42,7 @@ module.exports = {
 
     const out = []
     Object.keys(goalsDiff).forEach((key) => {
-      let percent = goalsDiff[key] / resultsArr.length * 100
-      percent = Number(percent.toFixed(1))
-      out.push([key, goalsDiff[key], percent])
+      out.push([key, goalsDiff[key], percentage(goalsDiff[key], resultsArr.length)])
     })
     return out
   },
@@ -86,6 +63,46 @@ module.exports = {
     let avg = sum / resultsArr.length
     avg = Number(avg.toFixed(2))
     return avg
+  },
+  goalsScoredBy: function (type, resultsArr) {
+    const out = []
+    const gamesWithoutDraws = resultsArr.filter(result => {
+      const [home, away] = result[0].split('-')
+      return home !== away
+    })
+    const uniqScores = [...new Set(gamesWithoutDraws
+      .map(([score]) => {
+        if (type === 'winners') {
+          return score.split('-')[0]
+        }
+        if (type === 'losers') {
+          return score.split('-')[1]
+        }
+      })
+    )]
+    for (let score of uniqScores) {
+      const sum = gamesWithoutDraws.filter(result => {
+        const [winner, looser] = result[0].split('-')
+        if (type === 'winners') {
+          return winner === score
+        }
+        if (type === 'losers') {
+          return looser === score
+        }
+      }).reduce((sum, arr) => {
+        sum += arr[1]
+        return sum
+      }, 0)
+      out.push([score, sum])
+    }
+    out.sort(byColumn(1))
+    const totalOccurences = out.reduce((sum, arr) => {
+      sum += arr[1]
+      return sum
+    }, 0)
+    return out.map(([score, occurences]) => {
+      return [score, occurences, percentage(occurences, totalOccurences)]
+    })
   },
   calculatePoints: function (type, results) {
     let sum = 0
@@ -110,4 +127,15 @@ module.exports = {
     }
     return sum
   }
+}
+
+function byColumn (colNo) {
+  return function (a, b) {
+    return b[colNo] - a[colNo]
+  }
+}
+
+function percentage (part, whole) {
+  let percent = part / whole * 100
+  return Number(percent.toFixed(1))
 }
