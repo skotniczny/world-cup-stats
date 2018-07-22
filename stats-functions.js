@@ -103,29 +103,6 @@ module.exports = {
     return out.map(([score, occurences]) => {
       return [score, occurences, percentage(occurences, totalOccurences)]
     })
-  },
-  calculatePoints: function (type, results) {
-    let sum = 0
-    const [typeHome, typeAway] = type.split('-')
-    for (let result of results) {
-      const [resultHome, resultAway] = result.split('-')
-      if ((typeHome > typeAway && resultHome > resultAway) || (typeHome === typeAway && resultHome === resultAway) || (typeHome < typeAway && resultHome < resultAway)) {
-        sum += 1
-      }
-      if (typeHome - typeAway === resultHome - resultAway) {
-        sum += 1
-      }
-      if (typeHome === resultHome) {
-        sum += 1
-      }
-      if (typeAway === resultAway) {
-        sum += 1
-      }
-      if (typeHome === resultHome && typeAway === resultAway) {
-        sum += 1
-      }
-    }
-    return sum
   }
 }
 
