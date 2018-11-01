@@ -14,7 +14,7 @@
   "dependencies": {
     "chart.js": "^2.7.2",
     "cheerio": "^1.0.0-rc.2",
-    "request": "^2.86.0"
+    "request": "^2.88.0"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
