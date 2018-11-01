@@ -72,22 +72,23 @@ module.exports = {
     })
     const uniqScores = [...new Set(gamesWithoutDraws
       .map(([score]) => {
+        const [winner, loser] = score.split('-')
         if (type === 'winners') {
-          return score.split('-')[0]
+          return winner
         }
         if (type === 'losers') {
-          return score.split('-')[1]
+          return loser
         }
       })
     )]
     for (let score of uniqScores) {
       const sum = gamesWithoutDraws.filter(result => {
-        const [winner, looser] = result[0].split('-')
+        const [winner, loser] = result[0].split('-')
         if (type === 'winners') {
           return winner === score
         }
         if (type === 'losers') {
-          return looser === score
+          return loser === score
         }
       }).reduce((sum, arr) => {
         sum += arr[1]
