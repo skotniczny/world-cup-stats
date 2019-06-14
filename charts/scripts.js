@@ -1,6 +1,6 @@
 import DATA from '../json/data.json'
 import Chart from 'chart.js'
-import {makeData, makeTable, makeTabs} from './utils.js'
+import { makeData, makeTable, makeTabs } from './utils.js'
 
 Chart.defaults.global.legend.display = false
 Chart.defaults.global.maintainAspectRatio = true

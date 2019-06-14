@@ -1,6 +1,6 @@
 const cheerio = require('cheerio')
 const request = require('request')
-const {writeFile} = require('fs')
+const { writeFile } = require('fs')
 
 const urls = [
   {

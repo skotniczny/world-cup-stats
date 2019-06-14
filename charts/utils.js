@@ -56,22 +56,22 @@ function makeTable (node, headings, data) {
     }
     tbody.appendChild(tr)
   }
-  const table = elt('table', {class: 'table'}, thead, tbody)
+  const table = elt('table', { class: 'table' }, thead, tbody)
   node.appendChild(table)
 }
 
 function makeTabs (nodeList) {
   for (let node of nodeList) {
     let tabs = Array.from(node.children).map(node => {
-      let button = elt('button', {class: 'nav-item'})
+      let button = elt('button', { class: 'nav-item' })
       button.textContent = node.getAttribute('data-tabname')
-      let tab = {node, button}
+      let tab = { node, button }
       button.addEventListener('click', () => selectTab(tab, tabs))
       return tab
     })
 
-    let tabList = elt('div', {class: 'nav'})
-    for (let {button} of tabs) tabList.appendChild(button)
+    let tabList = elt('div', { class: 'nav' })
+    for (let { button } of tabs) tabList.appendChild(button)
     node.insertBefore(tabList, node.firstChild)
     selectTab(tabs[0], tabs)
   }

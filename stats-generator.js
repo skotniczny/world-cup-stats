@@ -1,5 +1,5 @@
-const {writeFile} = require('fs')
-const {normalizeScores, scoresByFreq, byGoalsDiff, goalsScored, goalsAvg, goalsScoredBy} = require('./stats-functions')
+const { writeFile } = require('fs')
+const { normalizeScores, scoresByFreq, byGoalsDiff, goalsScored, goalsAvg, goalsScoredBy } = require('./stats-functions')
 
 const FRANCE = require('./json/France_1998.json')
 const KOREA_JAPAN = require('./json/Korea-Japan_2002.json')
