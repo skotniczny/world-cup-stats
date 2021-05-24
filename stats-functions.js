@@ -1,7 +1,7 @@
 module.exports = {
   normalizeScores: function (results) {
     return results
-      .filter(match => match.hasOwnProperty('score'))
+      .filter(match => match.score)
       .map((match) => {
         const [home, away] = match.score.split('-')
         if (home < away) {
@@ -81,7 +81,7 @@ module.exports = {
         }
       })
     )]
-    for (let score of uniqScores) {
+    for (const score of uniqScores) {
       const sum = gamesWithoutDraws.filter(result => {
         const [winner, loser] = result[0].split('-')
         if (type === 'winners') {
@@ -114,6 +114,6 @@ function byColumn (colNo) {
 }
 
 function percentage (part, whole) {
-  let percent = part / whole * 100
+  const percent = part / whole * 100
   return Number(percent.toFixed(1))
 }

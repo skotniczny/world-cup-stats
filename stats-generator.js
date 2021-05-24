@@ -48,6 +48,6 @@ writeFile('./json/data.json', JSON.stringify(data), err => {
   if (err) {
     console.log(`Failed to write file: ${err}`)
   } else {
-    console.log(`File ./json/data.json written`)
+    console.log('File ./json/data.json written')
   }
 })

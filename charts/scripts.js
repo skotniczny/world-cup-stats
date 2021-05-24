@@ -221,13 +221,13 @@ makeTable(document.querySelector('#diff-korea_japan'), diffHeadings, DATA.korea_
 makeTable(document.querySelector('#diff-france'), diffHeadings, DATA.france.goalsDiff)
 
 const avgData = [
-  [ 'Russia 2018', DATA.russia.goalsScored, DATA.russia.goalsAvg ],
-  [ 'Brazil 2014', DATA.brazil.goalsScored, DATA.brazil.goalsAvg ],
-  [ 'South Africa 2010', DATA.south_africa.goalsScored, DATA.south_africa.goalsAvg ],
-  [ 'Germany 2006', DATA.germany.goalsScored, DATA.germany.goalsAvg ],
-  [ 'Korea/Japan 2002', DATA.korea_japan.goalsScored, DATA.korea_japan.goalsAvg ],
-  [ 'France 1998', DATA.france.goalsScored, DATA.france.goalsAvg ],
-  [ 'Last 6 World Cups', DATA.last_6_world_cups.goalsScored, DATA.last_6_world_cups.goalsAvg ]
+  ['Russia 2018', DATA.russia.goalsScored, DATA.russia.goalsAvg],
+  ['Brazil 2014', DATA.brazil.goalsScored, DATA.brazil.goalsAvg],
+  ['South Africa 2010', DATA.south_africa.goalsScored, DATA.south_africa.goalsAvg],
+  ['Germany 2006', DATA.germany.goalsScored, DATA.germany.goalsAvg],
+  ['Korea/Japan 2002', DATA.korea_japan.goalsScored, DATA.korea_japan.goalsAvg],
+  ['France 1998', DATA.france.goalsScored, DATA.france.goalsAvg],
+  ['Last 6 World Cups', DATA.last_6_world_cups.goalsScored, DATA.last_6_world_cups.goalsAvg]
 ]
 makeTable(document.querySelector('#scored-goals'), ['World Cup', 'Goals Scored', 'Goals Per Match'], avgData)
 

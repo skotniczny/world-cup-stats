@@ -28,7 +28,7 @@ function makeData (arr) {
     }
     ]
   }
-  for (let item of arr) {
+  for (const item of arr) {
     const [label, data] = item
     out.labels.push(label)
     out.datasets[0].data.push(data)
@@ -61,24 +61,24 @@ function makeTable (node, headings, data) {
 }
 
 function makeTabs (nodeList) {
-  for (let node of nodeList) {
-    let tabs = Array.from(node.children).map(node => {
-      let button = elt('button', { class: 'nav-item' })
+  for (const node of nodeList) {
+    const tabs = Array.from(node.children).map(node => {
+      const button = elt('button', { class: 'nav-item' })
       button.textContent = node.getAttribute('data-tabname')
-      let tab = { node, button }
+      const tab = { node, button }
       button.addEventListener('click', () => selectTab(tab, tabs))
       return tab
     })
 
-    let tabList = elt('div', { class: 'nav' })
-    for (let { button } of tabs) tabList.appendChild(button)
+    const tabList = elt('div', { class: 'nav' })
+    for (const { button } of tabs) tabList.appendChild(button)
     node.insertBefore(tabList, node.firstChild)
     selectTab(tabs[0], tabs)
   }
 
   function selectTab (selectedTab, tabs) {
-    for (let tab of tabs) {
-      let selected = tab === selectedTab
+    for (const tab of tabs) {
+      const selected = tab === selectedTab
       tab.node.style.display = selected ? '' : 'none'
       if (selected) {
         tab.button.classList.add('active')
@@ -90,11 +90,11 @@ function makeTabs (nodeList) {
 }
 
 function elt (name, attrs, ...children) {
-  let dom = document.createElement(name)
-  for (let attr of Object.keys(attrs)) {
+  const dom = document.createElement(name)
+  for (const attr of Object.keys(attrs)) {
     dom.setAttribute(attr, attrs[attr])
   }
-  for (let child of children) {
+  for (const child of children) {
     dom.appendChild(child)
   }
   return dom
