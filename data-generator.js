@@ -57,14 +57,14 @@ function makeData (obj) {
       const isReasononwin = !!reasonwin
       results.push(
         {
-          home: home,
-          away: away,
-          score: score,
+          home,
+          away,
+          score,
           ...(isReasononwin) && { reasononwin: reasonwin },
-          stage: stage,
-          location: location,
-          stadium: stadium,
-          date: date
+          stage,
+          location,
+          stadium,
+          date
         }
       )
     })
@@ -108,14 +108,14 @@ function makeDataRussia (obj) {
       const reasonwin = $el.find('.fi-mu__reasonwin-wrap > .fi-mu__reasonwin > .fi-mu__reasonwin-text').text().trim()
       const isReasononwin = !!reasonwin
       results.push({
-        home: home,
-        away: away,
-        score: score,
+        home,
+        away,
+        score,
         ...(isReasononwin) && { reasononwin: reasonwin },
-        stage: stage,
+        stage,
         date: datetime,
-        location: location,
-        stadium: stadium
+        location,
+        stadium
       })
     })
     writeFile('./json/' + filename + '.json', JSON.stringify(results), err => {

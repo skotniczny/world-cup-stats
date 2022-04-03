@@ -79,6 +79,7 @@ module.exports = {
         if (type === 'losers') {
           return loser
         }
+        return ''
       })
     )]
     for (const score of uniqScores) {
@@ -90,6 +91,7 @@ module.exports = {
         if (type === 'losers') {
           return loser === score
         }
+        return ''
       }).reduce((sum, arr) => {
         sum += arr[1]
         return sum
