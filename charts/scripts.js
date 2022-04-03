@@ -1,27 +1,19 @@
 import DATA from '../json/data.json'
-import Chart from 'chart.js'
+import {
+  Chart,
+  BarController,
+  BarElement,
+  CategoryScale,
+  LinearScale,
+  Legend,
+  Tooltip
+} from 'chart.js'
+import { fontString } from 'chart.js/helpers'
 import { makeData, makeTable, makeTabs } from './utils.js'
 
-Chart.defaults.global.legend.display = false
-Chart.defaults.global.maintainAspectRatio = true
-Chart.defaults.global.layout.padding.top = 20
-Chart.defaults.scale.ticks.beginAtZero = true
-Chart.defaults.global.tooltips.callbacks.label = (tooltipItem, data) => {
-  // get the concerned dataset
-  const dataset = data.datasets[tooltipItem.datasetIndex]
-  // calculate the total of this data set
-  const total = dataset.data.reduce((sum, currentValue) => {
-    return sum + currentValue
-  })
-  // get the current items value
-  const currentValue = dataset.data[tooltipItem.index]
-  // calculate the precentage based on the total and current item, also this does a rough rounding to give a whole number
-  const precentage = ((currentValue / total) * 100).toFixed(1) + '%'
+const BarChartLabels = {
 
-  return precentage
-}
-
-Chart.plugins.register({
+  id: 'barChartLabels',
   afterDatasetsDraw: (chart) => {
     const ctx = chart.ctx
     chart.data.datasets.forEach((dataset, i) => {
@@ -33,7 +25,7 @@ Chart.plugins.register({
           const fontSize = 16
           const fontStyle = 'normal'
           const fontFamily = 'Segoe UI, Helvetica Neue, Arial, sans-serif'
-          ctx.font = Chart.helpers.fontString(fontSize, fontStyle, fontFamily)
+          ctx.font = fontString(fontSize, fontStyle, fontFamily)
           // Just naively convert to string for now
           const dataString = dataset.data[index].toString()
           // Make sure alignment settings are correct
@@ -46,7 +38,35 @@ Chart.plugins.register({
       }
     })
   }
+}
+
+Chart.register({
+  BarController,
+  BarElement,
+  CategoryScale,
+  LinearScale,
+  Legend,
+  Tooltip,
+  BarChartLabels
 })
+
+Chart.defaults.plugins.legend.display = false
+Chart.defaults.maintainAspectRatio = true
+Chart.defaults.layout.padding.top = 20
+Chart.defaults.scale.ticks.beginAtZero = true
+Chart.defaults.plugins.tooltip.callbacks.label = (tooltipItem) => {
+  // get the concerned dataset
+  const dataset = tooltipItem.dataset
+  // calculate the total of this data set
+  const total = dataset.data.reduce((sum, currentValue) => {
+    return sum + currentValue
+  })
+  // get the current items value
+  const currentValue = dataset.data[tooltipItem.dataIndex]
+  // calculate the precentage based on the total and current item, also this does a rough rounding to give a whole number
+  const precentage = ((currentValue / total) * 100).toFixed(1) + '%'
+  return precentage
+}
 
 const ctxRussia = document.getElementById('russia').getContext('2d')
 // eslint-disable-next-line no-unused-vars
@@ -59,12 +79,12 @@ const russiaChart = new Chart(ctxRussia, {
       text: 'Most Common Scores'
     },
     scales: {
-      yAxes: [{
+      y: {
         ticks: {
           beginAtZero: true,
           callback: (value) => { if (value % 1 === 0) { return value } }
         }
-      }]
+      }
     }
   }
 })
