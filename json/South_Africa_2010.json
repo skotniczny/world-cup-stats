@@ -6,7 +6,7 @@
     "stage": "Group A",
     "location": "Johannesburg",
     "stadium": "Soccer City Stadium",
-    "date": "2010-06-11T14:00:00.000Z"
+    "date": "2010-06-11T14:00:00Z"
   },
   {
     "home": "Uruguay",
@@ -15,16 +15,16 @@
     "stage": "Group A",
     "location": "Cape Town",
     "stadium": "Cape Town Stadium",
-    "date": "2010-06-11T18:30:00.000Z"
+    "date": "2010-06-11T18:30:00Z"
   },
   {
     "home": "Korea Republic",
     "away": "Greece",
     "score": "2-0",
     "stage": "Group B",
-    "location": "Nelson Mandela Bay/Port Elizabeth",
+    "location": "Gqeberha",
     "stadium": "Port Elizabeth Stadium",
-    "date": "2010-06-12T11:30:00.000Z"
+    "date": "2010-06-12T11:30:00Z"
   },
   {
     "home": "Argentina",
@@ -33,16 +33,16 @@
     "stage": "Group B",
     "location": "Johannesburg",
     "stadium": "Ellis Park Stadium",
-    "date": "2010-06-12T14:00:00.000Z"
+    "date": "2010-06-12T14:00:00Z"
   },
   {
     "home": "England",
-    "away": "USA",
+    "away": "United States",
     "score": "1-1",
     "stage": "Group C",
     "location": "Phokeng",
     "stadium": "Royal Bafokeng Sports Palace",
-    "date": "2010-06-12T18:30:00.000Z"
+    "date": "2010-06-12T18:30:00Z"
   },
   {
     "home": "Algeria",
@@ -51,16 +51,16 @@
     "stage": "Group C",
     "location": "Polokwane",
     "stadium": "Peter Mokaba Stadium",
-    "date": "2010-06-13T11:30:00.000Z"
+    "date": "2010-06-13T11:30:00Z"
   },
   {
     "home": "Serbia",
     "away": "Ghana",
     "score": "0-1",
     "stage": "Group D",
-    "location": "Tshwane/Pretoria",
+    "location": "Pretoria",
     "stadium": "Loftus Versfeld Stadium",
-    "date": "2010-06-13T14:00:00.000Z"
+    "date": "2010-06-13T14:00:00Z"
   },
   {
     "home": "Germany",
@@ -69,7 +69,7 @@
     "stage": "Group D",
     "location": "Durban",
     "stadium": "Durban Stadium",
-    "date": "2010-06-13T18:30:00.000Z"
+    "date": "2010-06-13T18:30:00Z"
   },
   {
     "home": "Netherlands",
@@ -78,16 +78,16 @@
     "stage": "Group E",
     "location": "Johannesburg",
     "stadium": "Soccer City Stadium",
-    "date": "2010-06-14T11:30:00.000Z"
+    "date": "2010-06-14T11:30:00Z"
   },
   {
     "home": "Japan",
     "away": "Cameroon",
     "score": "1-0",
     "stage": "Group E",
-    "location": "Mangaung/Bloemfontein",
+    "location": "Mangaung",
     "stadium": "Free State Stadium",
-    "date": "2010-06-14T14:00:00.000Z"
+    "date": "2010-06-14T14:00:00Z"
   },
   {
     "home": "Italy",
@@ -96,7 +96,7 @@
     "stage": "Group F",
     "location": "Cape Town",
     "stadium": "Cape Town Stadium",
-    "date": "2010-06-14T18:30:00.000Z"
+    "date": "2010-06-14T18:30:00Z"
   },
   {
     "home": "New Zealand",
@@ -105,16 +105,16 @@
     "stage": "Group F",
     "location": "Phokeng",
     "stadium": "Royal Bafokeng Sports Palace",
-    "date": "2010-06-15T11:30:00.000Z"
+    "date": "2010-06-15T11:30:00Z"
   },
   {
     "home": "Côte d'Ivoire",
     "away": "Portugal",
     "score": "0-0",
     "stage": "Group G",
-    "location": "Nelson Mandela Bay/Port Elizabeth",
+    "location": "Gqeberha",
     "stadium": "Port Elizabeth Stadium",
-    "date": "2010-06-15T14:00:00.000Z"
+    "date": "2010-06-15T14:00:00Z"
   },
   {
     "home": "Brazil",
@@ -123,16 +123,16 @@
     "stage": "Group G",
     "location": "Johannesburg",
     "stadium": "Ellis Park Stadium",
-    "date": "2010-06-15T18:30:00.000Z"
+    "date": "2010-06-15T18:30:00Z"
   },
   {
     "home": "Honduras",
     "away": "Chile",
     "score": "0-1",
     "stage": "Group H",
-    "location": "Nelspruit",
+    "location": "Mbombela",
     "stadium": "Mbombela Stadium",
-    "date": "2010-06-16T11:30:00.000Z"
+    "date": "2010-06-16T11:30:00Z"
   },
   {
     "home": "Spain",
@@ -141,16 +141,16 @@
     "stage": "Group H",
     "location": "Durban",
     "stadium": "Durban Stadium",
-    "date": "2010-06-16T14:00:00.000Z"
+    "date": "2010-06-16T14:00:00Z"
   },
   {
     "home": "South Africa",
     "away": "Uruguay",
     "score": "0-3",
     "stage": "Group A",
-    "location": "Tshwane/Pretoria",
+    "location": "Pretoria",
     "stadium": "Loftus Versfeld Stadium",
-    "date": "2010-06-16T18:30:00.000Z"
+    "date": "2010-06-16T18:30:00Z"
   },
   {
     "home": "Argentina",
@@ -159,16 +159,16 @@
     "stage": "Group B",
     "location": "Johannesburg",
     "stadium": "Soccer City Stadium",
-    "date": "2010-06-17T11:30:00.000Z"
+    "date": "2010-06-17T11:30:00Z"
   },
   {
     "home": "Greece",
     "away": "Nigeria",
     "score": "2-1",
     "stage": "Group B",
-    "location": "Mangaung/Bloemfontein",
+    "location": "Mangaung",
     "stadium": "Free State Stadium",
-    "date": "2010-06-17T14:00:00.000Z"
+    "date": "2010-06-17T14:00:00Z"
   },
   {
     "home": "France",
@@ -177,25 +177,25 @@
     "stage": "Group A",
     "location": "Polokwane",
     "stadium": "Peter Mokaba Stadium",
-    "date": "2010-06-17T18:30:00.000Z"
+    "date": "2010-06-17T18:30:00Z"
   },
   {
     "home": "Germany",
     "away": "Serbia",
     "score": "0-1",
     "stage": "Group D",
-    "location": "Nelson Mandela Bay/Port Elizabeth",
+    "location": "Gqeberha",
     "stadium": "Port Elizabeth Stadium",
-    "date": "2010-06-18T11:30:00.000Z"
+    "date": "2010-06-18T11:30:00Z"
   },
   {
     "home": "Slovenia",
-    "away": "USA",
+    "away": "United States",
     "score": "2-2",
     "stage": "Group C",
     "location": "Johannesburg",
     "stadium": "Ellis Park Stadium",
-    "date": "2010-06-18T14:00:00.000Z"
+    "date": "2010-06-18T14:00:00Z"
   },
   {
     "home": "England",
@@ -204,7 +204,7 @@
     "stage": "Group C",
     "location": "Cape Town",
     "stadium": "Cape Town Stadium",
-    "date": "2010-06-18T18:30:00.000Z"
+    "date": "2010-06-18T18:30:00Z"
   },
   {
     "home": "Netherlands",
@@ -213,7 +213,7 @@
     "stage": "Group E",
     "location": "Durban",
     "stadium": "Durban Stadium",
-    "date": "2010-06-19T11:30:00.000Z"
+    "date": "2010-06-19T11:30:00Z"
   },
   {
     "home": "Ghana",
@@ -222,34 +222,34 @@
     "stage": "Group D",
     "location": "Phokeng",
     "stadium": "Royal Bafokeng Sports Palace",
-    "date": "2010-06-19T14:00:00.000Z"
+    "date": "2010-06-19T14:00:00Z"
   },
   {
     "home": "Cameroon",
     "away": "Denmark",
     "score": "1-2",
     "stage": "Group E",
-    "location": "Tshwane/Pretoria",
+    "location": "Pretoria",
     "stadium": "Loftus Versfeld Stadium",
-    "date": "2010-06-19T18:30:00.000Z"
+    "date": "2010-06-19T18:30:00Z"
   },
   {
     "home": "Slovakia",
     "away": "Paraguay",
     "score": "0-2",
     "stage": "Group F",
-    "location": "Mangaung/Bloemfontein",
+    "location": "Mangaung",
     "stadium": "Free State Stadium",
-    "date": "2010-06-20T11:30:00.000Z"
+    "date": "2010-06-20T11:30:00Z"
   },
   {
     "home": "Italy",
     "away": "New Zealand",
     "score": "1-1",
     "stage": "Group F",
-    "location": "Nelspruit",
+    "location": "Mbombela",
     "stadium": "Mbombela Stadium",
-    "date": "2010-06-20T14:00:00.000Z"
+    "date": "2010-06-20T14:00:00Z"
   },
   {
     "home": "Brazil",
@@ -258,7 +258,7 @@
     "stage": "Group G",
     "location": "Johannesburg",
     "stadium": "Soccer City Stadium",
-    "date": "2010-06-20T18:30:00.000Z"
+    "date": "2010-06-20T18:30:00Z"
   },
   {
     "home": "Portugal",
@@ -267,16 +267,16 @@
     "stage": "Group G",
     "location": "Cape Town",
     "stadium": "Cape Town Stadium",
-    "date": "2010-06-21T11:30:00.000Z"
+    "date": "2010-06-21T11:30:00Z"
   },
   {
     "home": "Chile",
     "away": "Switzerland",
     "score": "1-0",
     "stage": "Group H",
-    "location": "Nelson Mandela Bay/Port Elizabeth",
+    "location": "Gqeberha",
     "stadium": "Port Elizabeth Stadium",
-    "date": "2010-06-21T14:00:00.000Z"
+    "date": "2010-06-21T14:00:00Z"
   },
   {
     "home": "Spain",
@@ -285,7 +285,7 @@
     "stage": "Group H",
     "location": "Johannesburg",
     "stadium": "Ellis Park Stadium",
-    "date": "2010-06-21T18:30:00.000Z"
+    "date": "2010-06-21T18:30:00Z"
   },
   {
     "home": "Mexico",
@@ -294,16 +294,16 @@
     "stage": "Group A",
     "location": "Phokeng",
     "stadium": "Royal Bafokeng Sports Palace",
-    "date": "2010-06-22T14:00:00.000Z"
+    "date": "2010-06-22T14:00:00Z"
   },
   {
     "home": "France",
     "away": "South Africa",
     "score": "1-2",
     "stage": "Group A",
-    "location": "Mangaung/Bloemfontein",
+    "location": "Mangaung",
     "stadium": "Free State Stadium",
-    "date": "2010-06-22T14:00:00.000Z"
+    "date": "2010-06-22T14:00:00Z"
   },
   {
     "home": "Nigeria",
@@ -312,7 +312,7 @@
     "stage": "Group B",
     "location": "Durban",
     "stadium": "Durban Stadium",
-    "date": "2010-06-22T18:30:00.000Z"
+    "date": "2010-06-22T18:30:00Z"
   },
   {
     "home": "Greece",
@@ -321,25 +321,34 @@
     "stage": "Group B",
     "location": "Polokwane",
     "stadium": "Peter Mokaba Stadium",
-    "date": "2010-06-22T18:30:00.000Z"
+    "date": "2010-06-22T18:30:00Z"
+  },
+  {
+    "home": "United States",
+    "away": "Algeria",
+    "score": "1-0",
+    "stage": "Group C",
+    "location": "Pretoria",
+    "stadium": "Loftus Versfeld Stadium",
+    "date": "2010-06-23T14:00:00Z"
   },
   {
     "home": "Slovenia",
     "away": "England",
     "score": "0-1",
     "stage": "Group C",
-    "location": "Nelson Mandela Bay/Port Elizabeth",
+    "location": "Gqeberha",
     "stadium": "Port Elizabeth Stadium",
-    "date": "2010-06-23T14:00:00.000Z"
+    "date": "2010-06-23T14:00:00Z"
   },
   {
-    "home": "USA",
-    "away": "Algeria",
-    "score": "1-0",
-    "stage": "Group C",
-    "location": "Tshwane/Pretoria",
-    "stadium": "Loftus Versfeld Stadium",
-    "date": "2010-06-23T14:00:00.000Z"
+    "home": "Australia",
+    "away": "Serbia",
+    "score": "2-1",
+    "stage": "Group D",
+    "location": "Mbombela",
+    "stadium": "Mbombela Stadium",
+    "date": "2010-06-23T18:30:00Z"
   },
   {
     "home": "Ghana",
@@ -348,25 +357,7 @@
     "stage": "Group D",
     "location": "Johannesburg",
     "stadium": "Soccer City Stadium",
-    "date": "2010-06-23T18:30:00.000Z"
-  },
-  {
-    "home": "Australia",
-    "away": "Serbia",
-    "score": "2-1",
-    "stage": "Group D",
-    "location": "Nelspruit",
-    "stadium": "Mbombela Stadium",
-    "date": "2010-06-23T18:30:00.000Z"
-  },
-  {
-    "home": "Slovakia",
-    "away": "Italy",
-    "score": "3-2",
-    "stage": "Group F",
-    "location": "Johannesburg",
-    "stadium": "Ellis Park Stadium",
-    "date": "2010-06-24T14:00:00.000Z"
+    "date": "2010-06-23T18:30:00Z"
   },
   {
     "home": "Paraguay",
@@ -375,16 +366,16 @@
     "stage": "Group F",
     "location": "Polokwane",
     "stadium": "Peter Mokaba Stadium",
-    "date": "2010-06-24T14:00:00.000Z"
+    "date": "2010-06-24T14:00:00Z"
   },
   {
-    "home": "Denmark",
-    "away": "Japan",
-    "score": "1-3",
-    "stage": "Group E",
-    "location": "Phokeng",
-    "stadium": "Royal Bafokeng Sports Palace",
-    "date": "2010-06-24T18:30:00.000Z"
+    "home": "Slovakia",
+    "away": "Italy",
+    "score": "3-2",
+    "stage": "Group F",
+    "location": "Johannesburg",
+    "stadium": "Ellis Park Stadium",
+    "date": "2010-06-24T14:00:00Z"
   },
   {
     "home": "Cameroon",
@@ -393,7 +384,25 @@
     "stage": "Group E",
     "location": "Cape Town",
     "stadium": "Cape Town Stadium",
-    "date": "2010-06-24T18:30:00.000Z"
+    "date": "2010-06-24T18:30:00Z"
+  },
+  {
+    "home": "Denmark",
+    "away": "Japan",
+    "score": "1-3",
+    "stage": "Group E",
+    "location": "Phokeng",
+    "stadium": "Royal Bafokeng Sports Palace",
+    "date": "2010-06-24T18:30:00Z"
+  },
+  {
+    "home": "Korea DPR",
+    "away": "Côte d'Ivoire",
+    "score": "0-3",
+    "stage": "Group G",
+    "location": "Mbombela",
+    "stadium": "Mbombela Stadium",
+    "date": "2010-06-25T14:00:00Z"
   },
   {
     "home": "Portugal",
@@ -402,62 +411,53 @@
     "stage": "Group G",
     "location": "Durban",
     "stadium": "Durban Stadium",
-    "date": "2010-06-25T14:00:00.000Z"
-  },
-  {
-    "home": "Korea DPR",
-    "away": "Côte d'Ivoire",
-    "score": "0-3",
-    "stage": "Group G",
-    "location": "Nelspruit",
-    "stadium": "Mbombela Stadium",
-    "date": "2010-06-25T14:00:00.000Z"
+    "date": "2010-06-25T14:00:00Z"
   },
   {
     "home": "Chile",
     "away": "Spain",
     "score": "1-2",
     "stage": "Group H",
-    "location": "Tshwane/Pretoria",
+    "location": "Pretoria",
     "stadium": "Loftus Versfeld Stadium",
-    "date": "2010-06-25T18:30:00.000Z"
+    "date": "2010-06-25T18:30:00Z"
   },
   {
     "home": "Switzerland",
     "away": "Honduras",
     "score": "0-0",
     "stage": "Group H",
-    "location": "Mangaung/Bloemfontein",
+    "location": "Mangaung",
     "stadium": "Free State Stadium",
-    "date": "2010-06-25T18:30:00.000Z"
+    "date": "2010-06-25T18:30:00Z"
   },
   {
     "home": "Uruguay",
     "away": "Korea Republic",
     "score": "2-1",
     "stage": "Round of 16",
-    "location": "Nelson Mandela Bay/Port Elizabeth",
+    "location": "Gqeberha",
     "stadium": "Port Elizabeth Stadium",
-    "date": "2010-06-26T14:00:00.000Z"
+    "date": "2010-06-26T14:00:00Z"
   },
   {
-    "home": "USA",
+    "home": "United States",
     "away": "Ghana",
     "score": "1-2",
-    "reasononwin": "Ghana win after extra time",
     "stage": "Round of 16",
     "location": "Phokeng",
     "stadium": "Royal Bafokeng Sports Palace",
-    "date": "2010-06-26T18:30:00.000Z"
+    "date": "2010-06-26T18:30:00Z",
+    "reasononwin": "Ghana win after extra time"
   },
   {
     "home": "Germany",
     "away": "England",
     "score": "4-1",
     "stage": "Round of 16",
-    "location": "Mangaung/Bloemfontein",
+    "location": "Mangaung",
     "stadium": "Free State Stadium",
-    "date": "2010-06-27T14:00:00.000Z"
+    "date": "2010-06-27T14:00:00Z"
   },
   {
     "home": "Argentina",
@@ -466,7 +466,7 @@
     "stage": "Round of 16",
     "location": "Johannesburg",
     "stadium": "Soccer City Stadium",
-    "date": "2010-06-27T18:30:00.000Z"
+    "date": "2010-06-27T18:30:00Z"
   },
   {
     "home": "Netherlands",
@@ -475,7 +475,7 @@
     "stage": "Round of 16",
     "location": "Durban",
     "stadium": "Durban Stadium",
-    "date": "2010-06-28T14:00:00.000Z"
+    "date": "2010-06-28T14:00:00Z"
   },
   {
     "home": "Brazil",
@@ -484,17 +484,17 @@
     "stage": "Round of 16",
     "location": "Johannesburg",
     "stadium": "Ellis Park Stadium",
-    "date": "2010-06-28T18:30:00.000Z"
+    "date": "2010-06-28T18:30:00Z"
   },
   {
     "home": "Paraguay",
     "away": "Japan",
     "score": "0-0",
-    "reasononwin": "Paraguay win on penalties (5 - 3)",
     "stage": "Round of 16",
-    "location": "Tshwane/Pretoria",
+    "location": "Pretoria",
     "stadium": "Loftus Versfeld Stadium",
-    "date": "2010-06-29T14:00:00.000Z"
+    "date": "2010-06-29T14:00:00Z",
+    "reasononwin": "Paraguay win 5-3 on penalties"
   },
   {
     "home": "Spain",
@@ -503,80 +503,80 @@
     "stage": "Round of 16",
     "location": "Cape Town",
     "stadium": "Cape Town Stadium",
-    "date": "2010-06-29T18:30:00.000Z"
+    "date": "2010-06-29T18:30:00Z"
   },
   {
     "home": "Netherlands",
     "away": "Brazil",
     "score": "2-1",
-    "stage": "Quarter-finals",
-    "location": "Nelson Mandela Bay/Port Elizabeth",
+    "stage": "Quarter-final",
+    "location": "Gqeberha",
     "stadium": "Port Elizabeth Stadium",
-    "date": "2010-07-02T14:00:00.000Z"
+    "date": "2010-07-02T14:00:00Z"
   },
   {
     "home": "Uruguay",
     "away": "Ghana",
     "score": "1-1",
-    "reasononwin": "Uruguay win on penalties (4 - 2)",
-    "stage": "Quarter-finals",
+    "stage": "Quarter-final",
     "location": "Johannesburg",
     "stadium": "Soccer City Stadium",
-    "date": "2010-07-02T18:30:00.000Z"
+    "date": "2010-07-02T18:30:00Z",
+    "reasononwin": "Uruguay win 4-2 on penalties"
   },
   {
     "home": "Argentina",
     "away": "Germany",
     "score": "0-4",
-    "stage": "Quarter-finals",
+    "stage": "Quarter-final",
     "location": "Cape Town",
     "stadium": "Cape Town Stadium",
-    "date": "2010-07-03T14:00:00.000Z"
+    "date": "2010-07-03T14:00:00Z"
   },
   {
     "home": "Paraguay",
     "away": "Spain",
     "score": "0-1",
-    "stage": "Quarter-finals",
+    "stage": "Quarter-final",
     "location": "Johannesburg",
     "stadium": "Ellis Park Stadium",
-    "date": "2010-07-03T18:30:00.000Z"
+    "date": "2010-07-03T18:30:00Z"
   },
   {
     "home": "Uruguay",
     "away": "Netherlands",
     "score": "2-3",
-    "stage": "Semi-finals",
+    "stage": "Semi-final",
     "location": "Cape Town",
     "stadium": "Cape Town Stadium",
-    "date": "2010-07-06T18:30:00.000Z"
+    "date": "2010-07-06T18:30:00Z"
   },
   {
     "home": "Germany",
     "away": "Spain",
     "score": "0-1",
-    "stage": "Semi-finals",
+    "stage": "Semi-final",
     "location": "Durban",
     "stadium": "Durban Stadium",
-    "date": "2010-07-07T18:30:00.000Z"
+    "date": "2010-07-07T18:30:00Z"
   },
   {
     "home": "Uruguay",
     "away": "Germany",
     "score": "2-3",
     "stage": "Match for third place",
-    "location": "Nelson Mandela Bay/Port Elizabeth",
+    "location": "Gqeberha",
     "stadium": "Port Elizabeth Stadium",
-    "date": "2010-07-10T18:30:00.000Z"
+    "date": "2010-07-10T18:30:00Z"
   },
   {
     "home": "Netherlands",
     "away": "Spain",
     "score": "0-1",
-    "reasononwin": "Spain win after extra time",
     "stage": "Final",
     "location": "Johannesburg",
     "stadium": "Soccer City Stadium",
-    "date": "2010-07-11T18:30:00.000Z"
+    "date": "2010-07-11T18:30:00Z",
+    "reasononwin": "Spain win after extra time"
   }
 ]

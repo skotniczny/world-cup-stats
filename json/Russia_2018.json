@@ -4,580 +4,580 @@
     "away": "Saudi Arabia",
     "score": "5-0",
     "stage": "Group A",
-    "date": "2018-06-14T03:00:00.000Z",
     "location": "Moscow",
-    "stadium": "Luzhniki Stadium"
+    "stadium": "Lenin",
+    "date": "2018-06-14T15:00:00Z"
   },
   {
     "home": "Egypt",
     "away": "Uruguay",
     "score": "0-1",
     "stage": "Group A",
-    "date": "2018-06-15T12:00:00.000Z",
-    "location": "Ekaterinburg",
-    "stadium": "Ekaterinburg Arena"
+    "location": "Yekaterinburg",
+    "stadium": "Ekaterinburg Arena",
+    "date": "2018-06-15T12:00:00Z"
   },
   {
     "home": "Morocco",
-    "away": "IR Iran",
+    "away": "Iran",
     "score": "0-1",
     "stage": "Group B",
-    "date": "2018-06-15T03:00:00.000Z",
-    "location": "St. Petersburg",
-    "stadium": "Saint Petersburg Stadium"
+    "location": "Saint Petersburg",
+    "stadium": "Krestovsky Stadium",
+    "date": "2018-06-15T15:00:00Z"
   },
   {
     "home": "Portugal",
     "away": "Spain",
     "score": "3-3",
     "stage": "Group B",
-    "date": "2018-06-15T06:00:00.000Z",
     "location": "Sochi",
-    "stadium": "Fisht Stadium"
+    "stadium": "Fisht Olympic Stadium",
+    "date": "2018-06-15T18:00:00Z"
   },
   {
     "home": "France",
     "away": "Australia",
     "score": "2-1",
     "stage": "Group C",
-    "date": "2018-06-16T10:00:00.000Z",
     "location": "Kazan",
-    "stadium": "Kazan Arena"
+    "stadium": "Ak Bars Arena",
+    "date": "2018-06-16T10:00:00Z"
   },
   {
     "home": "Argentina",
     "away": "Iceland",
     "score": "1-1",
     "stage": "Group D",
-    "date": "2018-06-16T01:00:00.000Z",
     "location": "Moscow",
-    "stadium": "Spartak Stadium"
+    "stadium": "Otkrytiye Arena",
+    "date": "2018-06-16T13:00:00Z"
   },
   {
     "home": "Peru",
     "away": "Denmark",
     "score": "0-1",
     "stage": "Group C",
-    "date": "2018-06-16T04:00:00.000Z",
     "location": "Saransk",
-    "stadium": "Mordovia Arena"
+    "stadium": "Mordovia Arena",
+    "date": "2018-06-16T16:00:00Z"
   },
   {
     "home": "Croatia",
     "away": "Nigeria",
     "score": "2-0",
     "stage": "Group D",
-    "date": "2018-06-16T07:00:00.000Z",
     "location": "Kaliningrad",
-    "stadium": "Kaliningrad Stadium"
+    "stadium": "Kaliningrad Stadium",
+    "date": "2018-06-16T19:00:00Z"
   },
   {
     "home": "Costa Rica",
     "away": "Serbia",
     "score": "0-1",
     "stage": "Group E",
-    "date": "2018-06-17T12:00:00.000Z",
     "location": "Samara",
-    "stadium": "Samara Arena"
+    "stadium": "Samara Arena",
+    "date": "2018-06-17T12:00:00Z"
   },
   {
     "home": "Germany",
     "away": "Mexico",
     "score": "0-1",
     "stage": "Group F",
-    "date": "2018-06-17T03:00:00.000Z",
     "location": "Moscow",
-    "stadium": "Luzhniki Stadium"
+    "stadium": "Lenin",
+    "date": "2018-06-17T15:00:00Z"
   },
   {
     "home": "Brazil",
     "away": "Switzerland",
     "score": "1-1",
     "stage": "Group E",
-    "date": "2018-06-17T06:00:00.000Z",
-    "location": "Rostov-On-Don",
-    "stadium": "Rostov Arena"
+    "location": "Rostov-on-Don",
+    "stadium": "Rostov Arena",
+    "date": "2018-06-17T18:00:00Z"
   },
   {
     "home": "Sweden",
     "away": "Korea Republic",
     "score": "1-0",
     "stage": "Group F",
-    "date": "2018-06-18T12:00:00.000Z",
     "location": "Nizhny Novgorod",
-    "stadium": "Nizhny Novgorod Stadium"
+    "stadium": "Nizhny Novgorod Stadium",
+    "date": "2018-06-18T12:00:00Z"
   },
   {
     "home": "Belgium",
     "away": "Panama",
     "score": "3-0",
     "stage": "Group G",
-    "date": "2018-06-18T03:00:00.000Z",
     "location": "Sochi",
-    "stadium": "Fisht Stadium"
+    "stadium": "Fisht Olympic Stadium",
+    "date": "2018-06-18T15:00:00Z"
   },
   {
     "home": "Tunisia",
     "away": "England",
     "score": "1-2",
     "stage": "Group G",
-    "date": "2018-06-18T06:00:00.000Z",
     "location": "Volgograd",
-    "stadium": "Volgograd Arena"
+    "stadium": "Central Stadium",
+    "date": "2018-06-18T18:00:00Z"
   },
   {
     "home": "Colombia",
     "away": "Japan",
     "score": "1-2",
     "stage": "Group H",
-    "date": "2018-06-19T12:00:00.000Z",
     "location": "Saransk",
-    "stadium": "Mordovia Arena"
+    "stadium": "Mordovia Arena",
+    "date": "2018-06-19T12:00:00Z"
   },
   {
     "home": "Poland",
     "away": "Senegal",
     "score": "1-2",
     "stage": "Group H",
-    "date": "2018-06-19T03:00:00.000Z",
     "location": "Moscow",
-    "stadium": "Spartak Stadium"
+    "stadium": "Otkrytiye Arena",
+    "date": "2018-06-19T15:00:00Z"
   },
   {
     "home": "Russia",
     "away": "Egypt",
     "score": "3-1",
     "stage": "Group A",
-    "date": "2018-06-19T06:00:00.000Z",
-    "location": "St. Petersburg",
-    "stadium": "Saint Petersburg Stadium"
+    "location": "Saint Petersburg",
+    "stadium": "Krestovsky Stadium",
+    "date": "2018-06-19T18:00:00Z"
   },
   {
     "home": "Portugal",
     "away": "Morocco",
     "score": "1-0",
     "stage": "Group B",
-    "date": "2018-06-20T12:00:00.000Z",
     "location": "Moscow",
-    "stadium": "Luzhniki Stadium"
+    "stadium": "Lenin",
+    "date": "2018-06-20T12:00:00Z"
   },
   {
     "home": "Uruguay",
     "away": "Saudi Arabia",
     "score": "1-0",
     "stage": "Group A",
-    "date": "2018-06-20T03:00:00.000Z",
-    "location": "Rostov-On-Don",
-    "stadium": "Rostov Arena"
+    "location": "Rostov-on-Don",
+    "stadium": "Rostov Arena",
+    "date": "2018-06-20T15:00:00Z"
   },
   {
-    "home": "IR Iran",
+    "home": "Iran",
     "away": "Spain",
     "score": "0-1",
     "stage": "Group B",
-    "date": "2018-06-20T06:00:00.000Z",
     "location": "Kazan",
-    "stadium": "Kazan Arena"
+    "stadium": "Ak Bars Arena",
+    "date": "2018-06-20T18:00:00Z"
   },
   {
     "home": "Denmark",
     "away": "Australia",
     "score": "1-1",
     "stage": "Group C",
-    "date": "2018-06-21T12:00:00.000Z",
     "location": "Samara",
-    "stadium": "Samara Arena"
+    "stadium": "Samara Arena",
+    "date": "2018-06-21T12:00:00Z"
   },
   {
     "home": "France",
     "away": "Peru",
     "score": "1-0",
     "stage": "Group C",
-    "date": "2018-06-21T03:00:00.000Z",
-    "location": "Ekaterinburg",
-    "stadium": "Ekaterinburg Arena"
+    "location": "Yekaterinburg",
+    "stadium": "Ekaterinburg Arena",
+    "date": "2018-06-21T15:00:00Z"
   },
   {
     "home": "Argentina",
     "away": "Croatia",
     "score": "0-3",
     "stage": "Group D",
-    "date": "2018-06-21T06:00:00.000Z",
     "location": "Nizhny Novgorod",
-    "stadium": "Nizhny Novgorod Stadium"
+    "stadium": "Nizhny Novgorod Stadium",
+    "date": "2018-06-21T18:00:00Z"
   },
   {
     "home": "Brazil",
     "away": "Costa Rica",
     "score": "2-0",
     "stage": "Group E",
-    "date": "2018-06-22T12:00:00.000Z",
-    "location": "St. Petersburg",
-    "stadium": "Saint Petersburg Stadium"
+    "location": "Saint Petersburg",
+    "stadium": "Krestovsky Stadium",
+    "date": "2018-06-22T12:00:00Z"
   },
   {
     "home": "Nigeria",
     "away": "Iceland",
     "score": "2-0",
     "stage": "Group D",
-    "date": "2018-06-22T03:00:00.000Z",
     "location": "Volgograd",
-    "stadium": "Volgograd Arena"
+    "stadium": "Central Stadium",
+    "date": "2018-06-22T15:00:00Z"
   },
   {
     "home": "Serbia",
     "away": "Switzerland",
     "score": "1-2",
     "stage": "Group E",
-    "date": "2018-06-22T06:00:00.000Z",
     "location": "Kaliningrad",
-    "stadium": "Kaliningrad Stadium"
+    "stadium": "Kaliningrad Stadium",
+    "date": "2018-06-22T18:00:00Z"
   },
   {
     "home": "Belgium",
     "away": "Tunisia",
     "score": "5-2",
     "stage": "Group G",
-    "date": "2018-06-23T12:00:00.000Z",
     "location": "Moscow",
-    "stadium": "Spartak Stadium"
+    "stadium": "Otkrytiye Arena",
+    "date": "2018-06-23T12:00:00Z"
   },
   {
     "home": "Korea Republic",
     "away": "Mexico",
     "score": "1-2",
     "stage": "Group F",
-    "date": "2018-06-23T03:00:00.000Z",
-    "location": "Rostov-On-Don",
-    "stadium": "Rostov Arena"
+    "location": "Rostov-on-Don",
+    "stadium": "Rostov Arena",
+    "date": "2018-06-23T15:00:00Z"
   },
   {
     "home": "Germany",
     "away": "Sweden",
     "score": "2-1",
     "stage": "Group F",
-    "date": "2018-06-23T06:00:00.000Z",
     "location": "Sochi",
-    "stadium": "Fisht Stadium"
+    "stadium": "Fisht Olympic Stadium",
+    "date": "2018-06-23T18:00:00Z"
   },
   {
     "home": "England",
     "away": "Panama",
     "score": "6-1",
     "stage": "Group G",
-    "date": "2018-06-24T12:00:00.000Z",
     "location": "Nizhny Novgorod",
-    "stadium": "Nizhny Novgorod Stadium"
+    "stadium": "Nizhny Novgorod Stadium",
+    "date": "2018-06-24T12:00:00Z"
   },
   {
     "home": "Japan",
     "away": "Senegal",
     "score": "2-2",
     "stage": "Group H",
-    "date": "2018-06-24T03:00:00.000Z",
-    "location": "Ekaterinburg",
-    "stadium": "Ekaterinburg Arena"
+    "location": "Yekaterinburg",
+    "stadium": "Ekaterinburg Arena",
+    "date": "2018-06-24T15:00:00Z"
   },
   {
     "home": "Poland",
     "away": "Colombia",
     "score": "0-3",
     "stage": "Group H",
-    "date": "2018-06-24T06:00:00.000Z",
     "location": "Kazan",
-    "stadium": "Kazan Arena"
-  },
-  {
-    "home": "Uruguay",
-    "away": "Russia",
-    "score": "3-0",
-    "stage": "Group A",
-    "date": "2018-06-25T02:00:00.000Z",
-    "location": "Samara",
-    "stadium": "Samara Arena"
+    "stadium": "Ak Bars Arena",
+    "date": "2018-06-24T18:00:00Z"
   },
   {
     "home": "Saudi Arabia",
     "away": "Egypt",
     "score": "2-1",
     "stage": "Group A",
-    "date": "2018-06-25T02:00:00.000Z",
     "location": "Volgograd",
-    "stadium": "Volgograd Arena"
+    "stadium": "Central Stadium",
+    "date": "2018-06-25T14:00:00Z"
+  },
+  {
+    "home": "Uruguay",
+    "away": "Russia",
+    "score": "3-0",
+    "stage": "Group A",
+    "location": "Samara",
+    "stadium": "Samara Arena",
+    "date": "2018-06-25T14:00:00Z"
+  },
+  {
+    "home": "Iran",
+    "away": "Portugal",
+    "score": "1-1",
+    "stage": "Group B",
+    "location": "Saransk",
+    "stadium": "Mordovia Arena",
+    "date": "2018-06-25T18:00:00Z"
   },
   {
     "home": "Spain",
     "away": "Morocco",
     "score": "2-2",
     "stage": "Group B",
-    "date": "2018-06-25T06:00:00.000Z",
     "location": "Kaliningrad",
-    "stadium": "Kaliningrad Stadium"
-  },
-  {
-    "home": "IR Iran",
-    "away": "Portugal",
-    "score": "1-1",
-    "stage": "Group B",
-    "date": "2018-06-25T06:00:00.000Z",
-    "location": "Saransk",
-    "stadium": "Mordovia Arena"
-  },
-  {
-    "home": "Australia",
-    "away": "Peru",
-    "score": "0-2",
-    "stage": "Group C",
-    "date": "2018-06-26T02:00:00.000Z",
-    "location": "Sochi",
-    "stadium": "Fisht Stadium"
+    "stadium": "Kaliningrad Stadium",
+    "date": "2018-06-25T18:00:00Z"
   },
   {
     "home": "Denmark",
     "away": "France",
     "score": "0-0",
     "stage": "Group C",
-    "date": "2018-06-26T02:00:00.000Z",
     "location": "Moscow",
-    "stadium": "Luzhniki Stadium"
+    "stadium": "Lenin",
+    "date": "2018-06-26T14:00:00Z"
+  },
+  {
+    "home": "Australia",
+    "away": "Peru",
+    "score": "0-2",
+    "stage": "Group C",
+    "location": "Sochi",
+    "stadium": "Fisht Olympic Stadium",
+    "date": "2018-06-26T14:00:00Z"
   },
   {
     "home": "Nigeria",
     "away": "Argentina",
     "score": "1-2",
     "stage": "Group D",
-    "date": "2018-06-26T06:00:00.000Z",
-    "location": "St. Petersburg",
-    "stadium": "Saint Petersburg Stadium"
+    "location": "Saint Petersburg",
+    "stadium": "Krestovsky Stadium",
+    "date": "2018-06-26T18:00:00Z"
   },
   {
     "home": "Iceland",
     "away": "Croatia",
     "score": "1-2",
     "stage": "Group D",
-    "date": "2018-06-26T06:00:00.000Z",
-    "location": "Rostov-On-Don",
-    "stadium": "Rostov Arena"
-  },
-  {
-    "home": "Korea Republic",
-    "away": "Germany",
-    "score": "2-0",
-    "stage": "Group F",
-    "date": "2018-06-27T02:00:00.000Z",
-    "location": "Kazan",
-    "stadium": "Kazan Arena"
+    "location": "Rostov-on-Don",
+    "stadium": "Rostov Arena",
+    "date": "2018-06-26T18:00:00Z"
   },
   {
     "home": "Mexico",
     "away": "Sweden",
     "score": "0-3",
     "stage": "Group F",
-    "date": "2018-06-27T02:00:00.000Z",
-    "location": "Ekaterinburg",
-    "stadium": "Ekaterinburg Arena"
+    "location": "Yekaterinburg",
+    "stadium": "Ekaterinburg Arena",
+    "date": "2018-06-27T14:00:00Z"
   },
   {
-    "home": "Serbia",
-    "away": "Brazil",
-    "score": "0-2",
-    "stage": "Group E",
-    "date": "2018-06-27T06:00:00.000Z",
-    "location": "Moscow",
-    "stadium": "Spartak Stadium"
+    "home": "Korea Republic",
+    "away": "Germany",
+    "score": "2-0",
+    "stage": "Group F",
+    "location": "Kazan",
+    "stadium": "Ak Bars Arena",
+    "date": "2018-06-27T14:00:00Z"
   },
   {
     "home": "Switzerland",
     "away": "Costa Rica",
     "score": "2-2",
     "stage": "Group E",
-    "date": "2018-06-27T06:00:00.000Z",
     "location": "Nizhny Novgorod",
-    "stadium": "Nizhny Novgorod Stadium"
+    "stadium": "Nizhny Novgorod Stadium",
+    "date": "2018-06-27T18:00:00Z"
+  },
+  {
+    "home": "Serbia",
+    "away": "Brazil",
+    "score": "0-2",
+    "stage": "Group E",
+    "location": "Moscow",
+    "stadium": "Otkrytiye Arena",
+    "date": "2018-06-27T18:00:00Z"
   },
   {
     "home": "Japan",
     "away": "Poland",
     "score": "0-1",
     "stage": "Group H",
-    "date": "2018-06-28T02:00:00.000Z",
     "location": "Volgograd",
-    "stadium": "Volgograd Arena"
+    "stadium": "Central Stadium",
+    "date": "2018-06-28T14:00:00Z"
   },
   {
     "home": "Senegal",
     "away": "Colombia",
     "score": "0-1",
     "stage": "Group H",
-    "date": "2018-06-28T02:00:00.000Z",
     "location": "Samara",
-    "stadium": "Samara Arena"
-  },
-  {
-    "home": "Panama",
-    "away": "Tunisia",
-    "score": "1-2",
-    "stage": "Group G",
-    "date": "2018-06-28T06:00:00.000Z",
-    "location": "Saransk",
-    "stadium": "Mordovia Arena"
+    "stadium": "Samara Arena",
+    "date": "2018-06-28T14:00:00Z"
   },
   {
     "home": "England",
     "away": "Belgium",
     "score": "0-1",
     "stage": "Group G",
-    "date": "2018-06-28T06:00:00.000Z",
     "location": "Kaliningrad",
-    "stadium": "Kaliningrad Stadium"
+    "stadium": "Kaliningrad Stadium",
+    "date": "2018-06-28T18:00:00Z"
+  },
+  {
+    "home": "Panama",
+    "away": "Tunisia",
+    "score": "1-2",
+    "stage": "Group G",
+    "location": "Saransk",
+    "stadium": "Mordovia Arena",
+    "date": "2018-06-28T18:00:00Z"
   },
   {
     "home": "France",
     "away": "Argentina",
     "score": "4-3",
     "stage": "Round of 16",
-    "date": "2018-06-30T02:00:00.000Z",
     "location": "Kazan",
-    "stadium": "Kazan Arena"
+    "stadium": "Ak Bars Arena",
+    "date": "2018-06-30T14:00:00Z"
   },
   {
     "home": "Uruguay",
     "away": "Portugal",
     "score": "2-1",
     "stage": "Round of 16",
-    "date": "2018-06-30T06:00:00.000Z",
     "location": "Sochi",
-    "stadium": "Fisht Stadium"
+    "stadium": "Fisht Olympic Stadium",
+    "date": "2018-06-30T18:00:00Z"
   },
   {
     "home": "Spain",
     "away": "Russia",
     "score": "1-1",
-    "reasononwin": "Russia win on penalties (3 - 4)",
     "stage": "Round of 16",
-    "date": "2018-07-01T02:00:00.000Z",
     "location": "Moscow",
-    "stadium": "Luzhniki Stadium"
+    "stadium": "Lenin",
+    "date": "2018-07-01T14:00:00Z",
+    "reasononwin": "Russia win 3-4 on penalties"
   },
   {
     "home": "Croatia",
     "away": "Denmark",
     "score": "1-1",
-    "reasononwin": "Croatia win on penalties (3 - 2)",
     "stage": "Round of 16",
-    "date": "2018-07-01T06:00:00.000Z",
     "location": "Nizhny Novgorod",
-    "stadium": "Nizhny Novgorod Stadium"
+    "stadium": "Nizhny Novgorod Stadium",
+    "date": "2018-07-01T18:00:00Z",
+    "reasononwin": "Croatia win 3-2 on penalties"
   },
   {
     "home": "Brazil",
     "away": "Mexico",
     "score": "2-0",
     "stage": "Round of 16",
-    "date": "2018-07-02T02:00:00.000Z",
     "location": "Samara",
-    "stadium": "Samara Arena"
+    "stadium": "Samara Arena",
+    "date": "2018-07-02T14:00:00Z"
   },
   {
     "home": "Belgium",
     "away": "Japan",
     "score": "3-2",
     "stage": "Round of 16",
-    "date": "2018-07-02T06:00:00.000Z",
-    "location": "Rostov-On-Don",
-    "stadium": "Rostov Arena"
+    "location": "Rostov-on-Don",
+    "stadium": "Rostov Arena",
+    "date": "2018-07-02T18:00:00Z"
   },
   {
     "home": "Sweden",
     "away": "Switzerland",
     "score": "1-0",
     "stage": "Round of 16",
-    "date": "2018-07-03T02:00:00.000Z",
-    "location": "St. Petersburg",
-    "stadium": "Saint Petersburg Stadium"
+    "location": "Saint Petersburg",
+    "stadium": "Krestovsky Stadium",
+    "date": "2018-07-03T14:00:00Z"
   },
   {
     "home": "Colombia",
     "away": "England",
     "score": "1-1",
-    "reasononwin": "England win on penalties (3 - 4)",
     "stage": "Round of 16",
-    "date": "2018-07-03T06:00:00.000Z",
     "location": "Moscow",
-    "stadium": "Spartak Stadium"
+    "stadium": "Otkrytiye Arena",
+    "date": "2018-07-03T18:00:00Z",
+    "reasononwin": "England win 3-4 on penalties"
   },
   {
     "home": "Uruguay",
     "away": "France",
     "score": "0-2",
-    "stage": "Quarter-finals",
-    "date": "2018-07-06T02:00:00.000Z",
+    "stage": "Quarter-final",
     "location": "Nizhny Novgorod",
-    "stadium": "Nizhny Novgorod Stadium"
+    "stadium": "Nizhny Novgorod Stadium",
+    "date": "2018-07-06T14:00:00Z"
   },
   {
     "home": "Brazil",
     "away": "Belgium",
     "score": "1-2",
-    "stage": "Quarter-finals",
-    "date": "2018-07-06T06:00:00.000Z",
+    "stage": "Quarter-final",
     "location": "Kazan",
-    "stadium": "Kazan Arena"
+    "stadium": "Ak Bars Arena",
+    "date": "2018-07-06T18:00:00Z"
   },
   {
     "home": "Sweden",
     "away": "England",
     "score": "0-2",
-    "stage": "Quarter-finals",
-    "date": "2018-07-07T02:00:00.000Z",
+    "stage": "Quarter-final",
     "location": "Samara",
-    "stadium": "Samara Arena"
+    "stadium": "Samara Arena",
+    "date": "2018-07-07T14:00:00Z"
   },
   {
     "home": "Russia",
     "away": "Croatia",
     "score": "2-2",
-    "reasononwin": "Croatia win on penalties (3 - 4)",
-    "stage": "Quarter-finals",
-    "date": "2018-07-07T06:00:00.000Z",
+    "stage": "Quarter-final",
     "location": "Sochi",
-    "stadium": "Fisht Stadium"
+    "stadium": "Fisht Olympic Stadium",
+    "date": "2018-07-07T18:00:00Z",
+    "reasononwin": "Croatia win 3-4 on penalties"
   },
   {
     "home": "France",
     "away": "Belgium",
     "score": "1-0",
-    "stage": "Semi-finals",
-    "date": "2018-07-10T06:00:00.000Z",
-    "location": "St. Petersburg",
-    "stadium": "Saint Petersburg Stadium"
+    "stage": "Semi-final",
+    "location": "Saint Petersburg",
+    "stadium": "Krestovsky Stadium",
+    "date": "2018-07-10T18:00:00Z"
   },
   {
     "home": "Croatia",
     "away": "England",
     "score": "2-1",
-    "reasononwin": "Croatia win after extra time",
-    "stage": "Semi-finals",
-    "date": "2018-07-11T06:00:00.000Z",
+    "stage": "Semi-final",
     "location": "Moscow",
-    "stadium": "Luzhniki Stadium"
+    "stadium": "Lenin",
+    "date": "2018-07-11T18:00:00Z",
+    "reasononwin": "Croatia win after extra time"
   },
   {
     "home": "Belgium",
     "away": "England",
     "score": "2-0",
     "stage": "Play-off for third place",
-    "date": "2018-07-14T02:00:00.000Z",
-    "location": "St. Petersburg",
-    "stadium": "Saint Petersburg Stadium"
+    "location": "Saint Petersburg",
+    "stadium": "Krestovsky Stadium",
+    "date": "2018-07-14T14:00:00Z"
   },
   {
     "home": "France",
     "away": "Croatia",
     "score": "4-2",
     "stage": "Final",
-    "date": "2018-07-15T03:00:00.000Z",
     "location": "Moscow",
-    "stadium": "Luzhniki Stadium"
+    "stadium": "Lenin",
+    "date": "2018-07-15T15:00:00Z"
   }
 ]

@@ -6,7 +6,16 @@
     "stage": "Group A",
     "location": "Seoul",
     "stadium": "Seoul World Cup Stadium",
-    "date": "2002-05-31T18:30:00.000Z"
+    "date": "2002-05-31T11:30:00Z"
+  },
+  {
+    "home": "Republic of Ireland",
+    "away": "Cameroon",
+    "score": "1-1",
+    "stage": "Group E",
+    "location": "Niigata",
+    "stadium": "Niigata Stadium",
+    "date": "2002-06-01T06:30:00Z"
   },
   {
     "home": "Uruguay",
@@ -15,16 +24,7 @@
     "stage": "Group A",
     "location": "Ulsan",
     "stadium": "Munsu Football Stadium",
-    "date": "2002-06-01T16:00:00.000Z"
-  },
-  {
-    "home": "Republic of Ireland",
-    "away": "Cameroon",
-    "score": "1-1",
-    "stage": "Group E",
-    "location": "Niigata",
-    "stadium": "Niigata Stadium Big Swan",
-    "date": "2002-06-01T13:30:00.000Z"
+    "date": "2002-06-01T09:00:00Z"
   },
   {
     "home": "Germany",
@@ -33,16 +33,16 @@
     "stage": "Group E",
     "location": "Sapporo",
     "stadium": "Sapporo Dome",
-    "date": "2002-06-01T18:30:00.000Z"
+    "date": "2002-06-01T11:30:00Z"
   },
   {
     "home": "Argentina",
     "away": "Nigeria",
     "score": "1-0",
     "stage": "Group F",
-    "location": "Ibaraki",
-    "stadium": "Kashima Stadium",
-    "date": "2002-06-02T12:30:00.000Z"
+    "location": "Kashima",
+    "stadium": "Ibaraki Kashima Stadium",
+    "date": "2002-06-02T05:30:00Z"
   },
   {
     "home": "Paraguay",
@@ -51,7 +51,7 @@
     "stage": "Group B",
     "location": "Busan",
     "stadium": "Busan Asiad Main Stadium",
-    "date": "2002-06-02T14:30:00.000Z"
+    "date": "2002-06-02T07:30:00Z"
   },
   {
     "home": "England",
@@ -59,8 +59,8 @@
     "score": "1-1",
     "stage": "Group F",
     "location": "Saitama",
-    "stadium": "Saitama Stadium 2002",
-    "date": "2002-06-02T16:30:00.000Z"
+    "stadium": "Saitama Stadium",
+    "date": "2002-06-02T09:30:00Z"
   },
   {
     "home": "Spain",
@@ -69,7 +69,16 @@
     "stage": "Group B",
     "location": "Gwangju",
     "stadium": "Gwangju World Cup Stadium",
-    "date": "2002-06-02T18:30:00.000Z"
+    "date": "2002-06-02T11:30:00Z"
+  },
+  {
+    "home": "Croatia",
+    "away": "Mexico",
+    "score": "0-1",
+    "stage": "Group G",
+    "location": "Niigata",
+    "stadium": "Niigata Stadium",
+    "date": "2002-06-03T06:30:00Z"
   },
   {
     "home": "Brazil",
@@ -78,7 +87,7 @@
     "stage": "Group C",
     "location": "Ulsan",
     "stadium": "Munsu Football Stadium",
-    "date": "2002-06-03T16:00:00.000Z"
+    "date": "2002-06-03T09:00:00Z"
   },
   {
     "home": "Italy",
@@ -87,16 +96,7 @@
     "stage": "Group G",
     "location": "Sapporo",
     "stadium": "Sapporo Dome",
-    "date": "2002-06-03T18:30:00.000Z"
-  },
-  {
-    "home": "Croatia",
-    "away": "Mexico",
-    "score": "0-1",
-    "stage": "Group G",
-    "location": "Niigata",
-    "stadium": "Denka Big Swan Stadium",
-    "date": "2002-06-03T13:30:00.000Z"
+    "date": "2002-06-03T11:30:00Z"
   },
   {
     "home": "China PR",
@@ -105,7 +105,7 @@
     "stage": "Group C",
     "location": "Gwangju",
     "stadium": "Gwangju World Cup Stadium",
-    "date": "2002-06-04T13:30:00.000Z"
+    "date": "2002-06-04T06:30:00Z"
   },
   {
     "home": "Japan",
@@ -113,8 +113,8 @@
     "score": "2-2",
     "stage": "Group H",
     "location": "Saitama",
-    "stadium": "Saitama Stadium 2002",
-    "date": "2002-06-04T16:00:00.000Z"
+    "stadium": "Saitama Stadium",
+    "date": "2002-06-04T09:00:00Z"
   },
   {
     "home": "Korea Republic",
@@ -123,7 +123,7 @@
     "stage": "Group D",
     "location": "Busan",
     "stadium": "Busan Asiad Main Stadium",
-    "date": "2002-06-04T18:30:00.000Z"
+    "date": "2002-06-04T11:30:00Z"
   },
   {
     "home": "Russia",
@@ -132,25 +132,25 @@
     "stage": "Group H",
     "location": "Kobe",
     "stadium": "Kobe Wing Stadium",
-    "date": "2002-06-05T13:30:00.000Z"
+    "date": "2002-06-05T06:30:00Z"
   },
   {
-    "home": "USA",
+    "home": "United States",
     "away": "Portugal",
     "score": "3-2",
     "stage": "Group D",
-    "location": "Suwon",
+    "location": "Suwon-si",
     "stadium": "Suwon World Cup Stadium",
-    "date": "2002-06-05T16:00:00.000Z"
+    "date": "2002-06-05T09:00:00Z"
   },
   {
     "home": "Germany",
     "away": "Republic of Ireland",
     "score": "1-1",
     "stage": "Group E",
-    "location": "Ibaraki",
-    "stadium": "Kashima Stadium",
-    "date": "2002-06-05T18:30:00.000Z"
+    "location": "Kashima",
+    "stadium": "Ibaraki Kashima Stadium",
+    "date": "2002-06-05T11:30:00Z"
   },
   {
     "home": "Denmark",
@@ -159,7 +159,7 @@
     "stage": "Group A",
     "location": "Daegu",
     "stadium": "Daegu World Cup Stadium",
-    "date": "2002-06-06T13:30:00.000Z"
+    "date": "2002-06-06T06:30:00Z"
   },
   {
     "home": "Cameroon",
@@ -167,8 +167,8 @@
     "score": "1-0",
     "stage": "Group E",
     "location": "Saitama",
-    "stadium": "Saitama Stadium 2002",
-    "date": "2002-06-06T16:00:00.000Z"
+    "stadium": "Saitama Stadium",
+    "date": "2002-06-06T09:00:00Z"
   },
   {
     "home": "France",
@@ -177,7 +177,7 @@
     "stage": "Group A",
     "location": "Busan",
     "stadium": "Busan Asiad Main Stadium",
-    "date": "2002-06-06T18:30:00.000Z"
+    "date": "2002-06-06T11:30:00Z"
   },
   {
     "home": "Sweden",
@@ -186,7 +186,16 @@
     "stage": "Group F",
     "location": "Kobe",
     "stadium": "Kobe Wing Stadium",
-    "date": "2002-06-07T13:30:00.000Z"
+    "date": "2002-06-07T06:30:00Z"
+  },
+  {
+    "home": "Spain",
+    "away": "Paraguay",
+    "score": "3-1",
+    "stage": "Group B",
+    "location": "Jeonju-si",
+    "stadium": "Jeonju World Cup Stadium",
+    "date": "2002-06-07T09:00:00Z"
   },
   {
     "home": "Argentina",
@@ -195,16 +204,7 @@
     "stage": "Group F",
     "location": "Sapporo",
     "stadium": "Sapporo Dome",
-    "date": "2002-06-07T18:30:00.000Z"
-  },
-  {
-    "home": "Spain",
-    "away": "Paraguay",
-    "score": "3-1",
-    "stage": "Group B",
-    "location": "Jeonju",
-    "stadium": "Jeonju World Cup Stadium",
-    "date": "2002-06-07T16:00:00.000Z"
+    "date": "2002-06-07T11:30:00Z"
   },
   {
     "home": "South Africa",
@@ -213,43 +213,25 @@
     "stage": "Group B",
     "location": "Daegu",
     "stadium": "Daegu World Cup Stadium",
-    "date": "2002-06-08T13:30:00.000Z"
-  },
-  {
-    "home": "Brazil",
-    "away": "China PR",
-    "score": "4-0",
-    "stage": "Group C",
-    "location": "Jeju",
-    "stadium": "Jeju World Cup Stadium",
-    "date": "2002-06-08T18:30:00.000Z"
+    "date": "2002-06-08T06:30:00Z"
   },
   {
     "home": "Italy",
     "away": "Croatia",
     "score": "1-2",
     "stage": "Group G",
-    "location": "Ibaraki",
-    "stadium": "Kashima Stadium",
-    "date": "2002-06-08T16:00:00.000Z"
+    "location": "Kashima",
+    "stadium": "Ibaraki Kashima Stadium",
+    "date": "2002-06-08T09:00:00Z"
   },
   {
-    "home": "Costa Rica",
-    "away": "Turkey",
-    "score": "1-1",
+    "home": "Brazil",
+    "away": "China PR",
+    "score": "4-0",
     "stage": "Group C",
-    "location": "Incheon",
-    "stadium": "Incheon Football Stadium",
-    "date": "2002-06-09T16:00:00.000Z"
-  },
-  {
-    "home": "Japan",
-    "away": "Russia",
-    "score": "1-0",
-    "stage": "Group H",
-    "location": "Yokohama",
-    "stadium": "International Stadium Yokohama",
-    "date": "2002-06-09T18:30:00.000Z"
+    "location": "Seogwipo-si",
+    "stadium": "Jeju World Cup Stadium",
+    "date": "2002-06-08T11:30:00Z"
   },
   {
     "home": "Mexico",
@@ -258,25 +240,34 @@
     "stage": "Group G",
     "location": "Rifu",
     "stadium": "Miyagi Stadium",
-    "date": "2002-06-09T13:30:00.000Z"
+    "date": "2002-06-09T06:30:00Z"
+  },
+  {
+    "home": "Costa Rica",
+    "away": "Turkey",
+    "score": "1-1",
+    "stage": "Group C",
+    "location": "Incheon",
+    "stadium": "Incheon Munhak Stadium",
+    "date": "2002-06-09T09:00:00Z"
+  },
+  {
+    "home": "Japan",
+    "away": "Russia",
+    "score": "1-0",
+    "stage": "Group H",
+    "location": "Yokohama",
+    "stadium": "International Stadium Yokohama",
+    "date": "2002-06-09T11:30:00Z"
   },
   {
     "home": "Korea Republic",
-    "away": "USA",
+    "away": "United States",
     "score": "1-1",
     "stage": "Group D",
     "location": "Daegu",
     "stadium": "Daegu World Cup Stadium",
-    "date": "2002-06-10T13:30:00.000Z"
-  },
-  {
-    "home": "Portugal",
-    "away": "Poland",
-    "score": "4-0",
-    "stage": "Group D",
-    "location": "Jeonju",
-    "stadium": "Jeonju World Cup Stadium",
-    "date": "2002-06-10T18:30:00.000Z"
+    "date": "2002-06-10T06:30:00Z"
   },
   {
     "home": "Tunisia",
@@ -285,7 +276,16 @@
     "stage": "Group H",
     "location": "Oita",
     "stadium": "Oita Stadium Big Eye",
-    "date": "2002-06-10T16:00:00.000Z"
+    "date": "2002-06-10T09:00:00Z"
+  },
+  {
+    "home": "Portugal",
+    "away": "Poland",
+    "score": "4-0",
+    "stage": "Group D",
+    "location": "Jeonju-si",
+    "stadium": "Jeonju World Cup Stadium",
+    "date": "2002-06-10T11:30:00Z"
   },
   {
     "home": "Denmark",
@@ -293,17 +293,17 @@
     "score": "2-0",
     "stage": "Group A",
     "location": "Incheon",
-    "stadium": "Incheon Football Stadium",
-    "date": "2002-06-11T13:30:00.000Z"
+    "stadium": "Incheon Munhak Stadium",
+    "date": "2002-06-11T06:30:00Z"
   },
   {
     "home": "Senegal",
     "away": "Uruguay",
     "score": "3-3",
     "stage": "Group A",
-    "location": "Suwon",
+    "location": "Suwon-si",
     "stadium": "Suwon World Cup Stadium",
-    "date": "2002-06-11T13:30:00.000Z"
+    "date": "2002-06-11T06:30:00Z"
   },
   {
     "home": "Saudi Arabia",
@@ -312,7 +312,7 @@
     "stage": "Group E",
     "location": "Yokohama",
     "stadium": "International Stadium Yokohama",
-    "date": "2002-06-11T18:30:00.000Z"
+    "date": "2002-06-11T11:30:00Z"
   },
   {
     "home": "Cameroon",
@@ -321,7 +321,7 @@
     "stage": "Group E",
     "location": "Shizuoka",
     "stadium": "Shizuoka Stadium Ecopa",
-    "date": "2002-06-11T18:30:00.000Z"
+    "date": "2002-06-11T11:30:00Z"
   },
   {
     "home": "Sweden",
@@ -330,7 +330,7 @@
     "stage": "Group F",
     "location": "Rifu",
     "stadium": "Miyagi Stadium",
-    "date": "2002-06-12T13:30:00.000Z"
+    "date": "2002-06-12T06:30:00Z"
   },
   {
     "home": "Nigeria",
@@ -338,17 +338,17 @@
     "score": "0-0",
     "stage": "Group F",
     "location": "Osaka",
-    "stadium": "Osaka Nagai Stadium",
-    "date": "2002-06-12T13:30:00.000Z"
+    "stadium": "Yanmar Stadium Nagai",
+    "date": "2002-06-12T06:30:00Z"
   },
   {
     "home": "Slovenia",
     "away": "Paraguay",
     "score": "1-3",
     "stage": "Group B",
-    "location": "Jeju",
+    "location": "Seogwipo-si",
     "stadium": "Jeju World Cup Stadium",
-    "date": "2002-06-12T18:30:00.000Z"
+    "date": "2002-06-12T11:30:00Z"
   },
   {
     "home": "South Africa",
@@ -357,16 +357,16 @@
     "stage": "Group B",
     "location": "Daejeon",
     "stadium": "Daejeon World Cup Stadium",
-    "date": "2002-06-12T18:30:00.000Z"
+    "date": "2002-06-12T11:30:00Z"
   },
   {
     "home": "Costa Rica",
     "away": "Brazil",
     "score": "2-5",
     "stage": "Group C",
-    "location": "Suwon",
+    "location": "Suwon-si",
     "stadium": "Suwon World Cup Stadium",
-    "date": "2002-06-13T13:30:00.000Z"
+    "date": "2002-06-13T06:30:00Z"
   },
   {
     "home": "Turkey",
@@ -375,7 +375,16 @@
     "stage": "Group C",
     "location": "Seoul",
     "stadium": "Seoul World Cup Stadium",
-    "date": "2002-06-13T13:30:00.000Z"
+    "date": "2002-06-13T06:30:00Z"
+  },
+  {
+    "home": "Mexico",
+    "away": "Italy",
+    "score": "1-1",
+    "stage": "Group G",
+    "location": "Oita",
+    "stadium": "Oita Stadium Big Eye",
+    "date": "2002-06-13T11:30:00Z"
   },
   {
     "home": "Ecuador",
@@ -384,43 +393,7 @@
     "stage": "Group G",
     "location": "Yokohama",
     "stadium": "International Stadium Yokohama",
-    "date": "2002-06-13T18:30:00.000Z"
-  },
-  {
-    "home": "Mexico",
-    "away": "Italy",
-    "score": "1-1",
-    "stage": "Group G",
-    "location": "Oita",
-    "stadium": "Oita Stadium Big Eye",
-    "date": "2002-06-13T18:30:00.000Z"
-  },
-  {
-    "home": "Tunisia",
-    "away": "Japan",
-    "score": "0-2",
-    "stage": "Group H",
-    "location": "Osaka",
-    "stadium": "Osaka Nagai Stadium",
-    "date": "2002-06-14T13:30:00.000Z"
-  },
-  {
-    "home": "Portugal",
-    "away": "Korea Republic",
-    "score": "0-1",
-    "stage": "Group D",
-    "location": "Incheon",
-    "stadium": "Incheon Football Stadium",
-    "date": "2002-06-14T18:30:00.000Z"
-  },
-  {
-    "home": "Poland",
-    "away": "USA",
-    "score": "3-1",
-    "stage": "Group D",
-    "location": "Daejeon",
-    "stadium": "Daejeon World Cup Stadium",
-    "date": "2002-06-14T18:30:00.000Z"
+    "date": "2002-06-13T11:30:00Z"
   },
   {
     "home": "Belgium",
@@ -429,7 +402,43 @@
     "stage": "Group H",
     "location": "Shizuoka",
     "stadium": "Shizuoka Stadium Ecopa",
-    "date": "2002-06-14T13:30:00.000Z"
+    "date": "2002-06-14T06:30:00Z"
+  },
+  {
+    "home": "Tunisia",
+    "away": "Japan",
+    "score": "0-2",
+    "stage": "Group H",
+    "location": "Osaka",
+    "stadium": "Yanmar Stadium Nagai",
+    "date": "2002-06-14T06:30:00Z"
+  },
+  {
+    "home": "Poland",
+    "away": "United States",
+    "score": "3-1",
+    "stage": "Group D",
+    "location": "Daejeon",
+    "stadium": "Daejeon World Cup Stadium",
+    "date": "2002-06-14T11:30:00Z"
+  },
+  {
+    "home": "Portugal",
+    "away": "Korea Republic",
+    "score": "0-1",
+    "stage": "Group D",
+    "location": "Incheon",
+    "stadium": "Incheon Munhak Stadium",
+    "date": "2002-06-14T11:30:00Z"
+  },
+  {
+    "home": "Germany",
+    "away": "Paraguay",
+    "score": "1-0",
+    "stage": "Round of 16",
+    "location": "Seogwipo-si",
+    "stadium": "Jeju World Cup Stadium",
+    "date": "2002-06-15T06:30:00Z"
   },
   {
     "home": "Denmark",
@@ -437,37 +446,37 @@
     "score": "0-3",
     "stage": "Round of 16",
     "location": "Niigata",
-    "stadium": "Niigata Stadium Big Swan",
-    "date": "2002-06-15T18:30:00.000Z"
-  },
-  {
-    "home": "Germany",
-    "away": "Paraguay",
-    "score": "1-0",
-    "stage": "Round of 16",
-    "location": "Jeju",
-    "stadium": "Jeju World Cup Stadium",
-    "date": "2002-06-15T13:30:00.000Z"
-  },
-  {
-    "home": "Spain",
-    "away": "Republic of Ireland",
-    "score": "1-1",
-    "reasononwin": "Spain win on penalties (3 - 2)",
-    "stage": "Round of 16",
-    "location": "Suwon",
-    "stadium": "Suwon World Cup Stadium",
-    "date": "2002-06-16T18:30:00.000Z"
+    "stadium": "Niigata Stadium",
+    "date": "2002-06-15T11:30:00Z"
   },
   {
     "home": "Sweden",
     "away": "Senegal",
     "score": "1-2",
-    "reasononwin": "Win on Golden Goal",
     "stage": "Round of 16",
     "location": "Oita",
     "stadium": "Oita Stadium Big Eye",
-    "date": "2002-06-16T13:30:00.000Z"
+    "date": "2002-06-16T06:30:00Z",
+    "reasononwin": "Win on Golden Goal"
+  },
+  {
+    "home": "Spain",
+    "away": "Republic of Ireland",
+    "score": "1-1",
+    "stage": "Round of 16",
+    "location": "Suwon-si",
+    "stadium": "Suwon World Cup Stadium",
+    "date": "2002-06-16T11:30:00Z",
+    "reasononwin": "Spain win 3-2 on penalties"
+  },
+  {
+    "home": "Mexico",
+    "away": "United States",
+    "score": "0-2",
+    "stage": "Round of 16",
+    "location": "Jeonju-si",
+    "stadium": "Jeonju World Cup Stadium",
+    "date": "2002-06-17T06:30:00Z"
   },
   {
     "home": "Brazil",
@@ -476,16 +485,7 @@
     "stage": "Round of 16",
     "location": "Kobe",
     "stadium": "Kobe Wing Stadium",
-    "date": "2002-06-17T18:30:00.000Z"
-  },
-  {
-    "home": "Mexico",
-    "away": "USA",
-    "score": "0-2",
-    "stage": "Round of 16",
-    "location": "Jeonju",
-    "stadium": "Jeonju World Cup Stadium",
-    "date": "2002-06-17T13:30:00.000Z"
+    "date": "2002-06-17T11:30:00Z"
   },
   {
     "home": "Japan",
@@ -494,82 +494,82 @@
     "stage": "Round of 16",
     "location": "Rifu",
     "stadium": "Miyagi Stadium",
-    "date": "2002-06-18T13:30:00.000Z"
+    "date": "2002-06-18T06:30:00Z"
   },
   {
     "home": "Korea Republic",
     "away": "Italy",
     "score": "2-1",
-    "reasononwin": "Win on Golden Goal",
     "stage": "Round of 16",
     "location": "Daejeon",
     "stadium": "Daejeon World Cup Stadium",
-    "date": "2002-06-18T18:30:00.000Z"
+    "date": "2002-06-18T11:30:00Z",
+    "reasononwin": "Win on Golden Goal"
   },
   {
     "home": "England",
     "away": "Brazil",
     "score": "1-2",
-    "stage": "Quarter-finals",
+    "stage": "Quarter-final",
     "location": "Shizuoka",
     "stadium": "Shizuoka Stadium Ecopa",
-    "date": "2002-06-21T13:30:00.000Z"
+    "date": "2002-06-21T06:30:00Z"
   },
   {
     "home": "Germany",
-    "away": "USA",
+    "away": "United States",
     "score": "1-0",
-    "stage": "Quarter-finals",
+    "stage": "Quarter-final",
     "location": "Ulsan",
     "stadium": "Munsu Football Stadium",
-    "date": "2002-06-21T18:30:00.000Z"
-  },
-  {
-    "home": "Senegal",
-    "away": "Turkey",
-    "score": "0-1",
-    "reasononwin": "Win on Golden Goal",
-    "stage": "Quarter-finals",
-    "location": "Osaka",
-    "stadium": "Osaka Nagai Stadium",
-    "date": "2002-06-22T18:30:00.000Z"
+    "date": "2002-06-21T11:30:00Z"
   },
   {
     "home": "Spain",
     "away": "Korea Republic",
     "score": "0-0",
-    "reasononwin": "Korea Republic win on penalties (3 - 5)",
-    "stage": "Quarter-finals",
+    "stage": "Quarter-final",
     "location": "Gwangju",
     "stadium": "Gwangju World Cup Stadium",
-    "date": "2002-06-22T13:30:00.000Z"
+    "date": "2002-06-22T06:30:00Z",
+    "reasononwin": "Korea Republic win 3-5 on penalties"
+  },
+  {
+    "home": "Senegal",
+    "away": "Turkey",
+    "score": "0-1",
+    "stage": "Quarter-final",
+    "location": "Osaka",
+    "stadium": "Yanmar Stadium Nagai",
+    "date": "2002-06-22T11:30:00Z",
+    "reasononwin": "Win on Golden Goal"
   },
   {
     "home": "Germany",
     "away": "Korea Republic",
     "score": "1-0",
-    "stage": "Semi-finals",
+    "stage": "Semi-final",
     "location": "Seoul",
     "stadium": "Seoul World Cup Stadium",
-    "date": "2002-06-25T18:30:00.000Z"
+    "date": "2002-06-25T11:30:00Z"
   },
   {
     "home": "Brazil",
     "away": "Turkey",
     "score": "1-0",
-    "stage": "Semi-finals",
+    "stage": "Semi-final",
     "location": "Saitama",
-    "stadium": "Saitama Stadium 2002",
-    "date": "2002-06-26T18:30:00.000Z"
+    "stadium": "Saitama Stadium",
+    "date": "2002-06-26T11:30:00Z"
   },
   {
     "home": "Korea Republic",
     "away": "Turkey",
     "score": "2-3",
-    "stage": "Third place",
+    "stage": "Match for third place",
     "location": "Daegu",
     "stadium": "Daegu World Cup Stadium",
-    "date": "2002-06-29T18:00:00.000Z"
+    "date": "2002-06-29T11:00:00Z"
   },
   {
     "home": "Germany",
@@ -578,6 +578,6 @@
     "stage": "Final",
     "location": "Yokohama",
     "stadium": "International Stadium Yokohama",
-    "date": "2002-06-30T18:00:00.000Z"
+    "date": "2002-06-30T11:00:00Z"
   }
 ]
