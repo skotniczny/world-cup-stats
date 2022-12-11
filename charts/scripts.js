@@ -8,7 +8,6 @@ import {
   Legend,
   Tooltip
 } from 'chart.js'
-import { fontString } from 'chart.js/helpers'
 import { makeData, makeTable, makeTabs } from './utils.js'
 
 const BarChartLabels = {
@@ -25,7 +24,7 @@ const BarChartLabels = {
           const fontSize = 16
           const fontStyle = 'normal'
           const fontFamily = 'Segoe UI, Helvetica Neue, Arial, sans-serif'
-          ctx.font = fontString(fontSize, fontStyle, fontFamily)
+          ctx.font = `${fontStyle} ${fontSize}px ${fontFamily}`
           // Just naively convert to string for now
           const dataString = dataset.data[index].toString()
           // Make sure alignment settings are correct
