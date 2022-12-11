@@ -52,6 +52,19 @@ function makeData (tournament) {
           if (result.stage === 'First stage' || result.stage === 'Group Stage' || result.stage === 'Group Matches') {
             result.stage = element.GroupName[0].Description
           }
+          if (element.ResultType === 2 || element.ResultType === 3 || element.ResultType === 8) {
+            const team = (element.Winner === element.Home.IdTeam) ? result.home : result.away
+            if (element.ResultType === 2) {
+              const score = `${element.HomeTeamPenaltyScore}-${element.AwayTeamPenaltyScore}`
+              result.reasononwin = `${team} win ${score} on penalties`
+            }
+            if (element.ResultType === 3) {
+              result.reasononwin = `${team} win after extra time`
+            }
+            if (element.ResultType === 8) {
+              result.reasononwin = 'Win on Golden Goal'
+            }
+          }
           results.push(result)
         }
       })
