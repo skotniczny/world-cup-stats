@@ -542,5 +542,23 @@
     "location": "Al Khor",
     "stadium": "Al Bayt Stadium",
     "date": "2022-12-10T19:00:00Z"
+  },
+  {
+    "home": "Argentina",
+    "away": "Croatia",
+    "score": "3-0",
+    "stage": "Semi-final",
+    "location": "Al Daayen",
+    "stadium": "Lusail Stadium",
+    "date": "2022-12-13T19:00:00Z"
+  },
+  {
+    "home": "France",
+    "away": "Morocco",
+    "score": "2-0",
+    "stage": "Semi-final",
+    "location": "Al Khor",
+    "stadium": "Al Bayt Stadium",
+    "date": "2022-12-14T19:00:00Z"
   }
 ]
