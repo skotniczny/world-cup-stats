@@ -67,11 +67,11 @@ Chart.defaults.plugins.tooltip.callbacks.label = (tooltipItem) => {
   return precentage
 }
 
-const ctxQuatar = document.getElementById('quatar').getContext('2d')
+const ctxQatar = document.getElementById('qatar').getContext('2d')
 // eslint-disable-next-line no-unused-vars
-const quatarChart = new Chart(ctxQuatar, {
+const qatarChart = new Chart(ctxQatar, {
   type: 'bar',
-  data: makeData(DATA.quatar.mostFrequentScores),
+  data: makeData(DATA.qatar.mostFrequentScores),
   options: {
     title: {
       display: true,
@@ -227,9 +227,9 @@ const diffChart = new Chart(ctxDiff, {
 })
 
 const scoresHeadings = ['Scoreline', 'Number Of Games', 'Percent']
-makeTable(document.querySelector('#scores-quatar'), scoresHeadings, DATA.quatar.mostFrequentScores)
-makeTable(document.querySelector('#scores-quatar-group'), scoresHeadings, DATA.quatar.mostFrequentScoresGroupStage)
-makeTable(document.querySelector('#scores-quatar-playoff'), scoresHeadings, DATA.quatar.mostFrequentScoresPlayOffStage)
+makeTable(document.querySelector('#scores-qatar'), scoresHeadings, DATA.qatar.mostFrequentScores)
+makeTable(document.querySelector('#scores-qatar-group'), scoresHeadings, DATA.qatar.mostFrequentScoresGroupStage)
+makeTable(document.querySelector('#scores-qatar-playoff'), scoresHeadings, DATA.qatar.mostFrequentScoresPlayOffStage)
 
 makeTable(document.querySelector('#scores-russia'), scoresHeadings, DATA.russia.mostFrequentScores)
 makeTable(document.querySelector('#scores-russia-group'), scoresHeadings, DATA.russia.mostFrequentScoresGroupStage)
@@ -256,7 +256,7 @@ makeTable(document.querySelector('#scores-france-group'), scoresHeadings, DATA.f
 makeTable(document.querySelector('#scores-france-playoff'), scoresHeadings, DATA.france.mostFrequentScoresPlayOffStage)
 
 const diffHeadings = ['Goals Difference', 'Number', 'Percent']
-makeTable(document.querySelector('#diff-quatar'), diffHeadings, DATA.quatar.goalsDiff)
+makeTable(document.querySelector('#diff-qatar'), diffHeadings, DATA.qatar.goalsDiff)
 makeTable(document.querySelector('#diff-russia'), diffHeadings, DATA.russia.goalsDiff)
 makeTable(document.querySelector('#diff-brazil'), diffHeadings, DATA.brazil.goalsDiff)
 makeTable(document.querySelector('#diff-south_africa'), diffHeadings, DATA.south_africa.goalsDiff)
@@ -265,7 +265,7 @@ makeTable(document.querySelector('#diff-korea_japan'), diffHeadings, DATA.korea_
 makeTable(document.querySelector('#diff-france'), diffHeadings, DATA.france.goalsDiff)
 
 const avgData = [
-  ['Quatar 2022', DATA.quatar.goalsScored, DATA.quatar.goalsAvg],
+  ['Qatar 2022', DATA.qatar.goalsScored, DATA.qatar.goalsAvg],
   ['Russia 2018', DATA.russia.goalsScored, DATA.russia.goalsAvg],
   ['Brazil 2014', DATA.brazil.goalsScored, DATA.brazil.goalsAvg],
   ['South Africa 2010', DATA.south_africa.goalsScored, DATA.south_africa.goalsAvg],
@@ -277,7 +277,7 @@ const avgData = [
 makeTable(document.querySelector('#scored-goals'), ['World Cup', 'Goals Scored', 'Goals Per Match'], avgData)
 
 const goalsByHeadings = ['Goals Scored', 'Occurrences', 'Percent']
-makeTable(document.querySelector('#goals-by-winner-quatar'), goalsByHeadings, DATA.quatar.goalsScoredByWinners)
+makeTable(document.querySelector('#goals-by-winner-qatar'), goalsByHeadings, DATA.qatar.goalsScoredByWinners)
 makeTable(document.querySelector('#goals-by-winner-russia'), goalsByHeadings, DATA.russia.goalsScoredByWinners)
 makeTable(document.querySelector('#goals-by-winner-brazil'), goalsByHeadings, DATA.brazil.goalsScoredByWinners)
 makeTable(document.querySelector('#goals-by-winner-south_africa'), goalsByHeadings, DATA.south_africa.goalsScoredByWinners)
@@ -286,7 +286,7 @@ makeTable(document.querySelector('#goals-by-winner-korea_japan'), goalsByHeading
 makeTable(document.querySelector('#goals-by-winner-france'), goalsByHeadings, DATA.france.goalsScoredByWinners)
 makeTable(document.querySelector('#goals-by-winner-last_6'), goalsByHeadings, DATA.last_6_world_cups.goalsScoredByWinners)
 
-makeTable(document.querySelector('#goals-by-losers-quatar'), goalsByHeadings, DATA.quatar.goalsScoredByLosers)
+makeTable(document.querySelector('#goals-by-losers-qatar'), goalsByHeadings, DATA.qatar.goalsScoredByLosers)
 makeTable(document.querySelector('#goals-by-losers-russia'), goalsByHeadings, DATA.russia.goalsScoredByLosers)
 makeTable(document.querySelector('#goals-by-losers-brazil'), goalsByHeadings, DATA.brazil.goalsScoredByLosers)
 makeTable(document.querySelector('#goals-by-losers-south_africa'), goalsByHeadings, DATA.south_africa.goalsScoredByLosers)

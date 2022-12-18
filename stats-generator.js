@@ -7,11 +7,11 @@ const GERMANY = require('./json/Germany_2006.json')
 const SOUTH_AFRICA = require('./json/South_Africa_2010.json')
 const BRAZIL = require('./json/Brazil_2014.json')
 const RUSSIA = require('./json/Russia_2018.json')
-const QUATAR = require('./json/Quatar_2022.json')
+const QATAR = require('./json/Qatar_2022.json')
 
-const allResults = [...FRANCE, ...KOREA_JAPAN, ...GERMANY, ...SOUTH_AFRICA, ...BRAZIL, ...RUSSIA, ...QUATAR]
-const groupStageResults = [...FRANCE.slice(0, 48), ...KOREA_JAPAN.slice(0, 48), ...GERMANY.slice(0, 48), ...SOUTH_AFRICA.slice(0, 48), ...BRAZIL.slice(0, 48), ...RUSSIA.slice(0, 48), ...QUATAR.slice(0, 48)]
-const playOffStageResults = [...FRANCE.slice(48), ...KOREA_JAPAN.slice(48), ...GERMANY.slice(48), ...SOUTH_AFRICA.slice(48), ...BRAZIL.slice(48), ...RUSSIA.slice(48), ...QUATAR.slice(48)]
+const allResults = [...FRANCE, ...KOREA_JAPAN, ...GERMANY, ...SOUTH_AFRICA, ...BRAZIL, ...RUSSIA, ...QATAR]
+const groupStageResults = [...FRANCE.slice(0, 48), ...KOREA_JAPAN.slice(0, 48), ...GERMANY.slice(0, 48), ...SOUTH_AFRICA.slice(0, 48), ...BRAZIL.slice(0, 48), ...RUSSIA.slice(0, 48), ...QATAR.slice(0, 48)]
+const playOffStageResults = [...FRANCE.slice(48), ...KOREA_JAPAN.slice(48), ...GERMANY.slice(48), ...SOUTH_AFRICA.slice(48), ...BRAZIL.slice(48), ...RUSSIA.slice(48), ...QATAR.slice(48)]
 
 function statsGenerator (data) {
   return {
@@ -27,7 +27,7 @@ function statsGenerator (data) {
 }
 
 const data = {
-  quatar: statsGenerator(QUATAR),
+  qatar: statsGenerator(QATAR),
   russia: statsGenerator(RUSSIA),
   brazil: statsGenerator(BRAZIL),
   south_africa: statsGenerator(SOUTH_AFRICA),

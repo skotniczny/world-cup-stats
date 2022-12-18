@@ -2,7 +2,7 @@ const { writeFile } = require('fs')
 
 const urls = [
   {
-    name: 'Quatar 2022',
+    name: 'Qatar 2022',
     url: 'https://api.fifa.com/api/v3/calendar/matches?idSeason=255711&count=100&language=en'
   },
   {

@@ -560,5 +560,24 @@
     "location": "Al Khor",
     "stadium": "Al Bayt Stadium",
     "date": "2022-12-14T19:00:00Z"
+  },
+  {
+    "home": "Croatia",
+    "away": "Morocco",
+    "score": "2-1",
+    "stage": "Play-off for third place",
+    "location": "Ar-Rayyan",
+    "stadium": "Khalifa International Stadium",
+    "date": "2022-12-17T15:00:00Z"
+  },
+  {
+    "home": "Argentina",
+    "away": "France",
+    "score": "3-3",
+    "stage": "Final",
+    "location": "Al Daayen",
+    "stadium": "Lusail Stadium",
+    "date": "2022-12-18T15:00:00Z",
+    "reasononwin": "Argentina win 4-2 on penalties"
   }
 ]
