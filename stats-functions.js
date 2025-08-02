@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   normalizeScores: function (results) {
     return results
       .filter(match => match.score)

@@ -1,13 +1,14 @@
-const { writeFile } = require('fs')
-const { normalizeScores, scoresByFreq, byGoalsDiff, goalsScored, goalsAvg, goalsScoredBy } = require('./stats-functions')
+import { writeFile } from 'node:fs/promises'
+import statsFunctions from './stats-functions.js'
+import FRANCE from './json/France_1998.json' with { type: 'json' }
+import KOREA_JAPAN from './json/Korea-Japan_2002.json' with { type: 'json' }
+import GERMANY from './json/Germany_2006.json' with { type: 'json' }
+import SOUTH_AFRICA from './json/South_Africa_2010.json' with { type: 'json' }
+import BRAZIL from './json/Brazil_2014.json' with { type: 'json' }
+import RUSSIA from './json/Russia_2018.json' with { type: 'json' }
+import QATAR from './json/Qatar_2022.json' with { type: 'json' }
 
-const FRANCE = require('./json/France_1998.json')
-const KOREA_JAPAN = require('./json/Korea-Japan_2002.json')
-const GERMANY = require('./json/Germany_2006.json')
-const SOUTH_AFRICA = require('./json/South_Africa_2010.json')
-const BRAZIL = require('./json/Brazil_2014.json')
-const RUSSIA = require('./json/Russia_2018.json')
-const QATAR = require('./json/Qatar_2022.json')
+const { normalizeScores, scoresByFreq, byGoalsDiff, goalsScored, goalsAvg, goalsScoredBy } = statsFunctions
 
 const allResults = [...FRANCE, ...KOREA_JAPAN, ...GERMANY, ...SOUTH_AFRICA, ...BRAZIL, ...RUSSIA, ...QATAR]
 const groupStageResults = [...FRANCE.slice(0, 48), ...KOREA_JAPAN.slice(0, 48), ...GERMANY.slice(0, 48), ...SOUTH_AFRICA.slice(0, 48), ...BRAZIL.slice(0, 48), ...RUSSIA.slice(0, 48), ...QATAR.slice(0, 48)]

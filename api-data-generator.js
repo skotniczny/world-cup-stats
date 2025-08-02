@@ -1,4 +1,4 @@
-const { writeFile } = require('fs')
+import { writeFile } from 'node:fs/promises'
 
 const urls = [
   {
