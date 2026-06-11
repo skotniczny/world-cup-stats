@@ -12,6 +12,15 @@
     <div class="container">
       <h1>Most Common Full-time World Cup Scores</h1>
       <div class="subsection">
+        <h2>Canada/Mexico/USA 2026</h2>
+        <canvas id="canada_mexico_usa" width="960" height="400"></canvas>
+        <div class="tab-panel">
+          <div data-tabname="All" id="scores-canada_mexico_usa" class="table-container"></div>
+          <div id="scores-canada_mexico_usa-group" class="table-container" data-tabname="Only Group Stage"></div>
+          <div id="scores-canada_mexico_usa-playoff" class="table-container" data-tabname="Only PlayOff"></div>
+        </div>
+      </div>
+      <div class="subsection">
         <h2>Qatar 2022</h2>
         <canvas id="qatar" width="960" height="400"></canvas>
         <div class="tab-panel">
@@ -75,7 +84,7 @@
         </div>
       </div>
       <div class="subsection">
-        <h2>Last 7 World Cups</h2>
+        <h2>Last 8 World Cups</h2>
         <canvas id="last_6" width="960" height="400"></canvas>
         <h3>Only Group Stage</h3>
         <canvas id="last_6_group" width="960" height="400"></canvas>
@@ -88,6 +97,8 @@
     <div class="container">
       <h1>Goals Difference</h1>
       <div class="subsection">
+        <h2>Canada/Mexico/USA 2026</h2>
+        <div id="diff-canada_mexico_usa" class="table-container"></div>
         <h2>Qatar 2022</h2>
         <div id="diff-qatar" class="table-container"></div>
         <h2>Russia 2018</h2>
@@ -102,7 +113,7 @@
         <div id="diff-korea_japan" class="table-container"></div>
         <h2>France 1998</h2>
         <div id="diff-france" class="table-container"></div>
-        <h2>Last 7 World Cups</h2>
+        <h2>Last 8 World Cups</h2>
         <canvas id="diff" width="960" height="400"></canvas>
       </div>
     </div>
@@ -115,6 +126,8 @@
       </div>
       <h1>Goals Scored by Winners</h1>
       <div class="subsection">
+        <h2>Canada/Mexico/USA 2026</h2>
+        <div id="goals-by-winner-canada_mexico_usa" class="table-container"></div>
         <h2>Qatar 2022</h2>
         <div id="goals-by-winner-qatar" class="table-container"></div>
         <h2>Russia 2018</h2>
@@ -129,11 +142,13 @@
         <div id="goals-by-winner-korea_japan" class="table-container"></div>
         <h2>France 1998</h2>
         <div id="goals-by-winner-france" class="table-container"></div>
-        <h2>Last 7 World Cups</h2>
+        <h2>Last 8 World Cups</h2>
         <div id="goals-by-winner-last_6" class="table-container"></div>
       </div>
       <h1>Goals Scored by Losers</h1>
       <div class="subsection">
+        <h2>Canada/Mexico/USA 2026</h2>
+        <div id="goals-by-losers-canada_mexico_usa" class="table-container"></div>
         <h2>Qatar 2022</h2>
         <div id="goals-by-losers-qatar" class="table-container"></div>
         <h2>Russia 2018</h2>
@@ -148,7 +163,7 @@
         <div id="goals-by-losers-korea_japan" class="table-container"></div>
         <h2>France 1998</h2>
         <div id="goals-by-losers-france" class="table-container"></div>
-        <h2>Last 7 World Cups</h2>
+        <h2>Last 8 World Cups</h2>
         <div id="goals-by-losers-last_6" class="table-container"></div>
       </div>
     </div>

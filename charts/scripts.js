@@ -67,6 +67,27 @@ Chart.defaults.plugins.tooltip.callbacks.label = (tooltipItem) => {
   return precentage
 }
 
+const ctxWorldCup2026 = document.getElementById('canada_mexico_usa').getContext('2d')
+// eslint-disable-next-line no-unused-vars
+const worldCup2026Chart = new Chart(ctxWorldCup2026, {
+  type: 'bar',
+  data: makeData(DATA.canada_mexico_usa.mostFrequentScores),
+  options: {
+    title: {
+      display: true,
+      text: 'Most Common Scores'
+    },
+    scales: {
+      y: {
+        ticks: {
+          beginAtZero: true,
+          callback: (value) => { if (value % 1 === 0) { return value } }
+        }
+      }
+    }
+  }
+})
+
 const ctxQatar = document.getElementById('qatar').getContext('2d')
 // eslint-disable-next-line no-unused-vars
 const qatarChart = new Chart(ctxQatar, {
@@ -227,6 +248,10 @@ const diffChart = new Chart(ctxDiff, {
 })
 
 const scoresHeadings = ['Scoreline', 'Number Of Games', 'Percent']
+makeTable(document.querySelector('#scores-canada_mexico_usa'), scoresHeadings, DATA.canada_mexico_usa.mostFrequentScores)
+makeTable(document.querySelector('#scores-canada_mexico_usa-group'), scoresHeadings, DATA.canada_mexico_usa.mostFrequentScoresGroupStage)
+makeTable(document.querySelector('#scores-canada_mexico_usa-playoff'), scoresHeadings, DATA.canada_mexico_usa.mostFrequentScoresPlayOffStage)
+
 makeTable(document.querySelector('#scores-qatar'), scoresHeadings, DATA.qatar.mostFrequentScores)
 makeTable(document.querySelector('#scores-qatar-group'), scoresHeadings, DATA.qatar.mostFrequentScoresGroupStage)
 makeTable(document.querySelector('#scores-qatar-playoff'), scoresHeadings, DATA.qatar.mostFrequentScoresPlayOffStage)
@@ -256,6 +281,7 @@ makeTable(document.querySelector('#scores-france-group'), scoresHeadings, DATA.f
 makeTable(document.querySelector('#scores-france-playoff'), scoresHeadings, DATA.france.mostFrequentScoresPlayOffStage)
 
 const diffHeadings = ['Goals Difference', 'Number', 'Percent']
+makeTable(document.querySelector('#diff-canada_mexico_usa'), diffHeadings, DATA.canada_mexico_usa.goalsDiff)
 makeTable(document.querySelector('#diff-qatar'), diffHeadings, DATA.qatar.goalsDiff)
 makeTable(document.querySelector('#diff-russia'), diffHeadings, DATA.russia.goalsDiff)
 makeTable(document.querySelector('#diff-brazil'), diffHeadings, DATA.brazil.goalsDiff)
@@ -265,6 +291,7 @@ makeTable(document.querySelector('#diff-korea_japan'), diffHeadings, DATA.korea_
 makeTable(document.querySelector('#diff-france'), diffHeadings, DATA.france.goalsDiff)
 
 const avgData = [
+  ['Canada/Mexico/USA 2026', DATA.canada_mexico_usa.goalsScored, DATA.canada_mexico_usa.goalsAvg],
   ['Qatar 2022', DATA.qatar.goalsScored, DATA.qatar.goalsAvg],
   ['Russia 2018', DATA.russia.goalsScored, DATA.russia.goalsAvg],
   ['Brazil 2014', DATA.brazil.goalsScored, DATA.brazil.goalsAvg],
@@ -277,6 +304,7 @@ const avgData = [
 makeTable(document.querySelector('#scored-goals'), ['World Cup', 'Goals Scored', 'Goals Per Match'], avgData)
 
 const goalsByHeadings = ['Goals Scored', 'Occurrences', 'Percent']
+makeTable(document.querySelector('#goals-by-winner-canada_mexico_usa'), goalsByHeadings, DATA.canada_mexico_usa.goalsScoredByWinners)
 makeTable(document.querySelector('#goals-by-winner-qatar'), goalsByHeadings, DATA.qatar.goalsScoredByWinners)
 makeTable(document.querySelector('#goals-by-winner-russia'), goalsByHeadings, DATA.russia.goalsScoredByWinners)
 makeTable(document.querySelector('#goals-by-winner-brazil'), goalsByHeadings, DATA.brazil.goalsScoredByWinners)
@@ -286,6 +314,7 @@ makeTable(document.querySelector('#goals-by-winner-korea_japan'), goalsByHeading
 makeTable(document.querySelector('#goals-by-winner-france'), goalsByHeadings, DATA.france.goalsScoredByWinners)
 makeTable(document.querySelector('#goals-by-winner-last_6'), goalsByHeadings, DATA.last_6_world_cups.goalsScoredByWinners)
 
+makeTable(document.querySelector('#goals-by-losers-canada_mexico_usa'), goalsByHeadings, DATA.canada_mexico_usa.goalsScoredByLosers)
 makeTable(document.querySelector('#goals-by-losers-qatar'), goalsByHeadings, DATA.qatar.goalsScoredByLosers)
 makeTable(document.querySelector('#goals-by-losers-russia'), goalsByHeadings, DATA.russia.goalsScoredByLosers)
 makeTable(document.querySelector('#goals-by-losers-brazil'), goalsByHeadings, DATA.brazil.goalsScoredByLosers)
