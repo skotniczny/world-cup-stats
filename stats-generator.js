@@ -7,12 +7,13 @@ import SOUTH_AFRICA from './json/South_Africa_2010.json' with { type: 'json' }
 import BRAZIL from './json/Brazil_2014.json' with { type: 'json' }
 import RUSSIA from './json/Russia_2018.json' with { type: 'json' }
 import QATAR from './json/Qatar_2022.json' with { type: 'json' }
+import CANADA_MEXICO_USA from './json/Canada-Mexico-USA_2026.json' with { type: 'json' }
 
 const { normalizeScores, scoresByFreq, byGoalsDiff, goalsScored, goalsAvg, goalsScoredBy } = statsFunctions
 
-const allResults = [...FRANCE, ...KOREA_JAPAN, ...GERMANY, ...SOUTH_AFRICA, ...BRAZIL, ...RUSSIA, ...QATAR]
-const groupStageResults = [...FRANCE.slice(0, 48), ...KOREA_JAPAN.slice(0, 48), ...GERMANY.slice(0, 48), ...SOUTH_AFRICA.slice(0, 48), ...BRAZIL.slice(0, 48), ...RUSSIA.slice(0, 48), ...QATAR.slice(0, 48)]
-const playOffStageResults = [...FRANCE.slice(48), ...KOREA_JAPAN.slice(48), ...GERMANY.slice(48), ...SOUTH_AFRICA.slice(48), ...BRAZIL.slice(48), ...RUSSIA.slice(48), ...QATAR.slice(48)]
+const allResults = [...FRANCE, ...KOREA_JAPAN, ...GERMANY, ...SOUTH_AFRICA, ...BRAZIL, ...RUSSIA, ...QATAR, ...CANADA_MEXICO_USA]
+const groupStageResults = [...FRANCE.slice(0, 48), ...KOREA_JAPAN.slice(0, 48), ...GERMANY.slice(0, 48), ...SOUTH_AFRICA.slice(0, 48), ...BRAZIL.slice(0, 48), ...RUSSIA.slice(0, 48), ...QATAR.slice(0, 48), ...CANADA_MEXICO_USA.slice(0, 72)]
+const playOffStageResults = [...FRANCE.slice(48), ...KOREA_JAPAN.slice(48), ...GERMANY.slice(48), ...SOUTH_AFRICA.slice(48), ...BRAZIL.slice(48), ...RUSSIA.slice(48), ...QATAR.slice(48), ...CANADA_MEXICO_USA.slice(72)]
 
 function statsGenerator (data) {
   return {
@@ -28,6 +29,7 @@ function statsGenerator (data) {
 }
 
 const data = {
+  canada_mexico_usa: statsGenerator(CANADA_MEXICO_USA),
   qatar: statsGenerator(QATAR),
   russia: statsGenerator(RUSSIA),
   brazil: statsGenerator(BRAZIL),
@@ -47,7 +49,7 @@ const data = {
   }
 }
 
-writeFile('./json/data.json', JSON.stringify(data), err => {
+writeFile('./json/data.json', JSON.stringify(data, null, 2), err => {
   if (err) {
     console.log(`Failed to write file: ${err}`)
   } else {

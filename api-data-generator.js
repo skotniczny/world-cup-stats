@@ -2,6 +2,10 @@ import { writeFile } from 'node:fs/promises'
 
 const urls = [
   {
+    name: 'Canada-Mexico-USA 2026',
+    url: 'https://api.fifa.com/api/v3/calendar/matches?idSeason=285023&count=500&language=en'
+  },
+  {
     name: 'Qatar 2022',
     url: 'https://api.fifa.com/api/v3/calendar/matches?idSeason=255711&count=100&language=en'
   },
@@ -70,7 +74,7 @@ function makeData (tournament) {
       })
 
       const filename = tournament.name.replace(/ /g, '_')
-      writeFile('./json/' + filename + '.json', JSON.stringify(results), err => {
+      writeFile('./json/' + filename + '.json', JSON.stringify(results, null, 2), err => {
         if (err) {
           console.log(`Failed to write file: ${err}`)
         } else {
