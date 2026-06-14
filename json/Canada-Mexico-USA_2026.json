@@ -43,5 +43,32 @@
     "location": "San Francisco Bay Area",
     "stadium": "San Francisco Bay Area Stadium",
     "date": "2026-06-13T19:00:00Z"
+  },
+  {
+    "home": "Brazil",
+    "away": "Morocco",
+    "score": "1-1",
+    "stage": "First Stage",
+    "location": "New Jersey",
+    "stadium": "New York/New Jersey Stadium",
+    "date": "2026-06-13T22:00:00Z"
+  },
+  {
+    "home": "Haiti",
+    "away": "Scotland",
+    "score": "0-1",
+    "stage": "First Stage",
+    "location": "Boston",
+    "stadium": "Boston Stadium",
+    "date": "2026-06-14T01:00:00Z"
+  },
+  {
+    "home": "Australia",
+    "away": "Türkiye",
+    "score": "2-0",
+    "stage": "First Stage",
+    "location": "Vancouver",
+    "stadium": "BC Place Vancouver",
+    "date": "2026-06-14T04:00:00Z"
   }
 ]
