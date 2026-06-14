@@ -26,6 +26,33 @@ h3 {
   font-size: 1.75rem;
 }
 
+.nav {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 0.5rem;
+}
+
+.nav-scrolltop {
+  display: block;
+  appearance: none;
+  border: transparent;
+  background-color: #fff;
+  box-shadow: 0 1px 5px rgba(155, 152, 129, 0.2);
+  border-radius: 4px;
+  font-size: 1.5rem;
+  line-height: 1;
+  text-align: center;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 2rem;
+  height: 2rem;
+  opacity: 0;
+  transition: opacity 250ms;
+}
+
 .container {
   max-width: 960px;
   margin-left: auto;
@@ -87,4 +114,8 @@ h3 {
   background-color: #fff;
   border-bottom-color: #fff;
   color: #f00;
+}
+
+.show {
+  opacity: 1;
 }

@@ -325,3 +325,15 @@ makeTable(document.querySelector('#goals-by-losers-france'), goalsByHeadings, DA
 makeTable(document.querySelector('#goals-by-losers-last_6'), goalsByHeadings, DATA.last_6_world_cups.goalsScoredByLosers)
 
 makeTabs(document.querySelectorAll('.tab-panel'))
+
+const scrolltop = document.querySelector('#scrolltop')
+window.addEventListener('scroll', function () {
+  if (window.scrollY > 300) {
+    scrolltop.classList.add('show')
+  } else {
+    scrolltop.classList.remove('show')
+  }
+})
+scrolltop.addEventListener('click', function() {
+  window.scrollTo({ top: 0, behavior: 'smooth' })
+})
