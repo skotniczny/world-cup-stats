@@ -70,5 +70,41 @@
     "location": "Vancouver",
     "stadium": "BC Place Vancouver",
     "date": "2026-06-14T04:00:00Z"
+  },
+  {
+    "home": "Germany",
+    "away": "Curaçao",
+    "score": "7-1",
+    "stage": "First Stage",
+    "location": "Houston",
+    "stadium": "Houston Stadium",
+    "date": "2026-06-14T17:00:00Z"
+  },
+  {
+    "home": "Netherlands",
+    "away": "Japan",
+    "score": "2-2",
+    "stage": "First Stage",
+    "location": "Dallas",
+    "stadium": "Dallas Stadium",
+    "date": "2026-06-14T20:00:00Z"
+  },
+  {
+    "home": "Côte d'Ivoire",
+    "away": "Ecuador",
+    "score": "1-0",
+    "stage": "First Stage",
+    "location": "Philadelphia",
+    "stadium": "Philadelphia Stadium",
+    "date": "2026-06-14T23:00:00Z"
+  },
+  {
+    "home": "Sweden",
+    "away": "Tunisia",
+    "score": "5-1",
+    "stage": "First Stage",
+    "location": "Monterrey",
+    "stadium": "Monterrey Stadium",
+    "date": "2026-06-15T02:00:00Z"
   }
 ]
