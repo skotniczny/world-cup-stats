@@ -250,5 +250,41 @@
     "location": "Guadalajara",
     "stadium": "Guadalajara Stadium",
     "date": "2026-06-19T01:00:00Z"
+  },
+  {
+    "home": "USA",
+    "away": "Australia",
+    "score": "2-0",
+    "stage": "First Stage",
+    "location": "Seattle",
+    "stadium": "Seattle Stadium",
+    "date": "2026-06-19T19:00:00Z"
+  },
+  {
+    "home": "Scotland",
+    "away": "Morocco",
+    "score": "0-1",
+    "stage": "First Stage",
+    "location": "Boston",
+    "stadium": "Boston Stadium",
+    "date": "2026-06-19T22:00:00Z"
+  },
+  {
+    "home": "Brazil",
+    "away": "Haiti",
+    "score": "3-0",
+    "stage": "First Stage",
+    "location": "Philadelphia",
+    "stadium": "Philadelphia Stadium",
+    "date": "2026-06-20T00:30:00Z"
+  },
+  {
+    "home": "Türkiye",
+    "away": "Paraguay",
+    "score": "0-1",
+    "stage": "First Stage",
+    "location": "San Francisco Bay Area",
+    "stadium": "San Francisco Bay Area Stadium",
+    "date": "2026-06-20T03:00:00Z"
   }
 ]
