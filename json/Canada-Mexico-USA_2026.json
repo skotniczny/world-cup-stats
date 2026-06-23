@@ -358,5 +358,41 @@
     "location": "Vancouver",
     "stadium": "BC Place Vancouver",
     "date": "2026-06-22T01:00:00Z"
+  },
+  {
+    "home": "Argentina",
+    "away": "Austria",
+    "score": "2-0",
+    "stage": "First Stage",
+    "location": "Dallas",
+    "stadium": "Dallas Stadium",
+    "date": "2026-06-22T17:00:00Z"
+  },
+  {
+    "home": "France",
+    "away": "Iraq",
+    "score": "3-0",
+    "stage": "First Stage",
+    "location": "Philadelphia",
+    "stadium": "Philadelphia Stadium",
+    "date": "2026-06-22T21:00:00Z"
+  },
+  {
+    "home": "Norway",
+    "away": "Senegal",
+    "score": "3-2",
+    "stage": "First Stage",
+    "location": "New Jersey",
+    "stadium": "New York/New Jersey Stadium",
+    "date": "2026-06-23T00:00:00Z"
+  },
+  {
+    "home": "Jordan",
+    "away": "Algeria",
+    "score": "1-2",
+    "stage": "First Stage",
+    "location": "San Francisco Bay Area",
+    "stadium": "San Francisco Bay Area Stadium",
+    "date": "2026-06-23T03:00:00Z"
   }
 ]
