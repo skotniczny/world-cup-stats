@@ -430,5 +430,59 @@
     "location": "Guadalajara",
     "stadium": "Guadalajara Stadium",
     "date": "2026-06-24T02:00:00Z"
+  },
+  {
+    "home": "Bosnia and Herzegovina",
+    "away": "Qatar",
+    "score": "3-1",
+    "stage": "First Stage",
+    "location": "Seattle",
+    "stadium": "Seattle Stadium",
+    "date": "2026-06-24T19:00:00Z"
+  },
+  {
+    "home": "Switzerland",
+    "away": "Canada",
+    "score": "2-1",
+    "stage": "First Stage",
+    "location": "Vancouver",
+    "stadium": "BC Place Vancouver",
+    "date": "2026-06-24T19:00:00Z"
+  },
+  {
+    "home": "Morocco",
+    "away": "Haiti",
+    "score": "4-2",
+    "stage": "First Stage",
+    "location": "Atlanta",
+    "stadium": "Atlanta Stadium",
+    "date": "2026-06-24T22:00:00Z"
+  },
+  {
+    "home": "Scotland",
+    "away": "Brazil",
+    "score": "0-3",
+    "stage": "First Stage",
+    "location": "Miami",
+    "stadium": "Miami Stadium",
+    "date": "2026-06-24T22:00:00Z"
+  },
+  {
+    "home": "South Africa",
+    "away": "Korea Republic",
+    "score": "1-0",
+    "stage": "First Stage",
+    "location": "Monterrey",
+    "stadium": "Monterrey Stadium",
+    "date": "2026-06-25T01:00:00Z"
+  },
+  {
+    "home": "Czechia",
+    "away": "Mexico",
+    "score": "0-3",
+    "stage": "First Stage",
+    "location": "Mexico City",
+    "stadium": "Mexico City Stadium",
+    "date": "2026-06-25T01:00:00Z"
   }
 ]
