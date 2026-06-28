@@ -592,5 +592,59 @@
     "location": "Seattle",
     "stadium": "Seattle Stadium",
     "date": "2026-06-27T03:00:00Z"
+  },
+  {
+    "home": "Panama",
+    "away": "England",
+    "score": "0-2",
+    "stage": "First Stage",
+    "location": "New Jersey",
+    "stadium": "New York/New Jersey Stadium",
+    "date": "2026-06-27T21:00:00Z"
+  },
+  {
+    "home": "Croatia",
+    "away": "Ghana",
+    "score": "2-1",
+    "stage": "First Stage",
+    "location": "Philadelphia",
+    "stadium": "Philadelphia Stadium",
+    "date": "2026-06-27T21:00:00Z"
+  },
+  {
+    "home": "Congo DR",
+    "away": "Uzbekistan",
+    "score": "3-1",
+    "stage": "First Stage",
+    "location": "Atlanta",
+    "stadium": "Atlanta Stadium",
+    "date": "2026-06-27T23:30:00Z"
+  },
+  {
+    "home": "Colombia",
+    "away": "Portugal",
+    "score": "0-0",
+    "stage": "First Stage",
+    "location": "Miami",
+    "stadium": "Miami Stadium",
+    "date": "2026-06-27T23:30:00Z"
+  },
+  {
+    "home": "Algeria",
+    "away": "Austria",
+    "score": "3-3",
+    "stage": "First Stage",
+    "location": "Kansas City",
+    "stadium": "Kansas City Stadium",
+    "date": "2026-06-28T02:00:00Z"
+  },
+  {
+    "home": "Jordan",
+    "away": "Argentina",
+    "score": "1-3",
+    "stage": "First Stage",
+    "location": "Dallas",
+    "stadium": "Dallas Stadium",
+    "date": "2026-06-28T02:00:00Z"
   }
 ]
