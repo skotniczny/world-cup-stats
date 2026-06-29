@@ -646,5 +646,23 @@
     "location": "Dallas",
     "stadium": "Dallas Stadium",
     "date": "2026-06-28T02:00:00Z"
+  },
+  {
+    "home": "South Africa",
+    "away": "Canada",
+    "score": "0-1",
+    "stage": "Round of 32",
+    "location": "Los Angeles",
+    "stadium": "Los Angeles Stadium",
+    "date": "2026-06-28T19:00:00Z"
+  },
+  {
+    "home": "Brazil",
+    "away": "Japan",
+    "score": "2-1",
+    "stage": "Round of 32",
+    "location": "Houston",
+    "stadium": "Houston Stadium",
+    "date": "2026-06-29T17:00:00Z"
   }
 ]
