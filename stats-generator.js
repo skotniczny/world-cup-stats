@@ -15,11 +15,11 @@ const allResults = [...FRANCE, ...KOREA_JAPAN, ...GERMANY, ...SOUTH_AFRICA, ...B
 const groupStageResults = [...FRANCE.slice(0, 48), ...KOREA_JAPAN.slice(0, 48), ...GERMANY.slice(0, 48), ...SOUTH_AFRICA.slice(0, 48), ...BRAZIL.slice(0, 48), ...RUSSIA.slice(0, 48), ...QATAR.slice(0, 48), ...CANADA_MEXICO_USA.slice(0, 72)]
 const playOffStageResults = [...FRANCE.slice(48), ...KOREA_JAPAN.slice(48), ...GERMANY.slice(48), ...SOUTH_AFRICA.slice(48), ...BRAZIL.slice(48), ...RUSSIA.slice(48), ...QATAR.slice(48), ...CANADA_MEXICO_USA.slice(72)]
 
-function statsGenerator (data) {
+function statsGenerator (data, teams = 32) {
   return {
     mostFrequentScores: scoresByFreq(normalizeScores(data)),
-    mostFrequentScoresGroupStage: scoresByFreq(normalizeScores(data), 'group'),
-    mostFrequentScoresPlayOffStage: scoresByFreq(normalizeScores(data), 'playoff'),
+    mostFrequentScoresGroupStage: scoresByFreq(normalizeScores(teams === 32 ? data.slice(0, 48) : data.slice(0, 72))),
+    mostFrequentScoresPlayOffStage: scoresByFreq(normalizeScores(teams === 32 ? data.slice(48) : data.slice(72))),
     goalsDiff: byGoalsDiff(normalizeScores(data)),
     goalsScored: goalsScored(normalizeScores(data)),
     goalsAvg: goalsAvg(normalizeScores(data)),
@@ -29,7 +29,7 @@ function statsGenerator (data) {
 }
 
 const data = {
-  canada_mexico_usa: statsGenerator(CANADA_MEXICO_USA),
+  canada_mexico_usa: statsGenerator(CANADA_MEXICO_USA, 48),
   qatar: statsGenerator(QATAR),
   russia: statsGenerator(RUSSIA),
   brazil: statsGenerator(BRAZIL),

@@ -10,14 +10,8 @@ export default {
         return match.score
       })
   },
-  scoresByFreq: function (scoresArray, opt) {
-    if (opt === 'group') {
-      scoresArray = scoresArray.slice(0, 48)
-    }
-    if (opt === 'playoff') {
-      scoresArray = scoresArray.slice(48)
-    }
-    const scoresFreq = scoresArray.reduce((sums, score) => {
+  scoresByFreq: function (results) {
+    const scoresFreq = results.reduce((sums, score) => {
       sums[score] = (sums[score] || 0) + 1
       return sums
     }, {})
@@ -25,7 +19,7 @@ export default {
     Object.keys(scoresFreq)
       .sort((a, b) => { return scoresFreq[b] - scoresFreq[a] })
       .forEach(element => {
-        result.push([element, scoresFreq[element], percentage(scoresFreq[element], scoresArray.length)])
+        result.push([element, scoresFreq[element], percentage(scoresFreq[element], results.length)])
       })
     return result
   },
