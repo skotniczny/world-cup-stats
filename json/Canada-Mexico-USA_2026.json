@@ -711,5 +711,42 @@
     "location": "Mexico City",
     "stadium": "Mexico City Stadium",
     "date": "2026-07-01T02:00:00Z"
+  },
+  {
+    "home": "England",
+    "away": "Congo DR",
+    "score": "2-1",
+    "stage": "Round of 32",
+    "location": "Atlanta",
+    "stadium": "Atlanta Stadium",
+    "date": "2026-07-01T16:00:00Z"
+  },
+  {
+    "home": "Belgium",
+    "away": "Senegal",
+    "score": "3-2",
+    "stage": "Round of 32",
+    "location": "Seattle",
+    "stadium": "Seattle Stadium",
+    "date": "2026-07-01T20:00:00Z",
+    "reasononwin": "Belgium win after extra time"
+  },
+  {
+    "home": "USA",
+    "away": "Bosnia and Herzegovina",
+    "score": "2-0",
+    "stage": "Round of 32",
+    "location": "San Francisco Bay Area",
+    "stadium": "San Francisco Bay Area Stadium",
+    "date": "2026-07-02T00:00:00Z"
+  },
+  {
+    "home": "Spain",
+    "away": "Austria",
+    "score": "3-0",
+    "stage": "Round of 32",
+    "location": "Los Angeles",
+    "stadium": "Los Angeles Stadium",
+    "date": "2026-07-02T19:00:00Z"
   }
 ]
