@@ -822,5 +822,14 @@
     "location": "New Jersey",
     "stadium": "New York/New Jersey Stadium",
     "date": "2026-07-05T20:00:00Z"
+  },
+  {
+    "home": "Mexico",
+    "away": "England",
+    "score": "2-3",
+    "stage": "Round of 16",
+    "location": "Mexico City",
+    "stadium": "Mexico City Stadium",
+    "date": "2026-07-06T01:00:00Z"
   }
 ]
