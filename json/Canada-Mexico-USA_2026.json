@@ -831,5 +831,23 @@
     "location": "Mexico City",
     "stadium": "Mexico City Stadium",
     "date": "2026-07-06T01:00:00Z"
+  },
+  {
+    "home": "Portugal",
+    "away": "Spain",
+    "score": "0-1",
+    "stage": "Round of 16",
+    "location": "Dallas",
+    "stadium": "Dallas Stadium",
+    "date": "2026-07-06T19:00:00Z"
+  },
+  {
+    "home": "USA",
+    "away": "Belgium",
+    "score": "1-4",
+    "stage": "Round of 16",
+    "location": "Seattle",
+    "stadium": "Seattle Stadium",
+    "date": "2026-07-07T00:00:00Z"
   }
 ]
