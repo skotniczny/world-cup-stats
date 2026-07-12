@@ -849,5 +849,62 @@
     "location": "Seattle",
     "stadium": "Seattle Stadium",
     "date": "2026-07-07T00:00:00Z"
+  },
+  {
+    "home": "Argentina",
+    "away": "Egypt",
+    "score": "3-2",
+    "stage": "Round of 16",
+    "location": "Atlanta",
+    "stadium": "Atlanta Stadium",
+    "date": "2026-07-07T16:00:00Z"
+  },
+  {
+    "home": "Switzerland",
+    "away": "Colombia",
+    "score": "0-0",
+    "stage": "Round of 16",
+    "location": "Vancouver",
+    "stadium": "BC Place Vancouver",
+    "date": "2026-07-07T20:00:00Z",
+    "reasononwin": "Switzerland win 4-3 on penalties"
+  },
+  {
+    "home": "France",
+    "away": "Morocco",
+    "score": "2-0",
+    "stage": "Quarter-final",
+    "location": "Boston",
+    "stadium": "Boston Stadium",
+    "date": "2026-07-09T20:00:00Z"
+  },
+  {
+    "home": "Spain",
+    "away": "Belgium",
+    "score": "2-1",
+    "stage": "Quarter-final",
+    "location": "Los Angeles",
+    "stadium": "Los Angeles Stadium",
+    "date": "2026-07-10T19:00:00Z"
+  },
+  {
+    "home": "Norway",
+    "away": "England",
+    "score": "1-2",
+    "stage": "Quarter-final",
+    "location": "Miami",
+    "stadium": "Miami Stadium",
+    "date": "2026-07-11T21:00:00Z",
+    "reasononwin": "England win after extra time"
+  },
+  {
+    "home": "Argentina",
+    "away": "Switzerland",
+    "score": "3-1",
+    "stage": "Quarter-final",
+    "location": "Kansas City",
+    "stadium": "Kansas City Stadium",
+    "date": "2026-07-12T01:00:00Z",
+    "reasononwin": "Argentina win after extra time"
   }
 ]
