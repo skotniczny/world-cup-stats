@@ -915,5 +915,14 @@
     "location": "Dallas",
     "stadium": "Dallas Stadium",
     "date": "2026-07-14T19:00:00Z"
+  },
+  {
+    "home": "England",
+    "away": "Argentina",
+    "score": "1-2",
+    "stage": "Semi-final",
+    "location": "Atlanta",
+    "stadium": "Atlanta Stadium",
+    "date": "2026-07-15T19:00:00Z"
   }
 ]
