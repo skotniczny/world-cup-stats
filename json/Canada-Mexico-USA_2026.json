@@ -924,5 +924,24 @@
     "location": "Atlanta",
     "stadium": "Atlanta Stadium",
     "date": "2026-07-15T19:00:00Z"
+  },
+  {
+    "home": "France",
+    "away": "England",
+    "score": "4-6",
+    "stage": "Bronze final",
+    "location": "Miami",
+    "stadium": "Miami Stadium",
+    "date": "2026-07-18T21:00:00Z"
+  },
+  {
+    "home": "Spain",
+    "away": "Argentina",
+    "score": "1-0",
+    "stage": "Final",
+    "location": "New Jersey",
+    "stadium": "New York/New Jersey Stadium",
+    "date": "2026-07-19T19:00:00Z",
+    "reasononwin": "Spain win after extra time"
   }
 ]
